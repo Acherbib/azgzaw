@@ -1,0 +1,35 @@
+version: '2'
+services:
+  azgzaw-app:
+    image: azgzaw
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+      - SPRING_PROFILES_ACTIVE=prod,swagger
+      - MANAGEMENT_METRICS_EXPORT_PROMETHEUS_ENABLED=true
+      - SPRING_DATA_MONGODB_URI=mongodb://azgzaw-mongodb:27017
+      - SPRING_DATA_MONGODB_DATABASE=azgzaw
+      - JHIPSTER_SLEEP=30 # gives time for other services to boot before the application
+      - SPRING_DATA_JEST_URI=http://azgzaw-elasticsearch:9200
+      - SPRING_ELASTICSEARCH_REST_URIS=http://azgzaw-elasticsearch:9200
+      - KAFKA_BOOTSTRAPSERVERS=kafka:9092
+    ports:
+      - 8080:8080
+  azgzaw-mongodb:
+    extends:
+      file: mongodb.yml
+      service: azgzaw-mongodb
+  azgzaw-elasticsearch:
+    extends:
+      file: elasticsearch.yml
+      service: azgzaw-elasticsearch
+  kafka:
+    extends:
+      file: kafka.yml
+      service: kafka
+    environment:
+      - KAFKA_ADVERTISED_HOST_NAME=kafka
+      - KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092
+  zookeeper:
+    extends:
+      file: kafka.yml
+      service: zookeeper

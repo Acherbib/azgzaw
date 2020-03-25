@@ -1,0 +1,30 @@
+{
+  "health": {
+    "title": "Status controle",
+    "refresh.button": "Ververs",
+    "stacktrace": "Stacktrace",
+    "details": {
+      "details": "Details",
+      "properties": "Eigenschappen",
+      "name": "Naam",
+      "value": "Waarde",
+      "error": "Fout"
+    },
+    "indicator": {
+      "binders": "Message broker",
+      "diskSpace": "Schijfruimte",
+      "mail": "Email",
+      "elasticsearch": "Elasticsearch",
+      "mongo": "MongoDB"
+    },
+    "table": {
+      "service": "Dienstnaam",
+      "status": "Status"
+    },
+    "status": {
+      "UNKNOWN": "UNKNOWN",
+      "UP": "UP",
+      "DOWN": "DOWN"
+    }
+  }
+}
