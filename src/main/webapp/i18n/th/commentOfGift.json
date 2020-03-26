@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gifts",
+        "createLabel": "สร้าง Comment Of Gift",
+        "createOrEditLabel": "สร้างหรือแก้ไข Comment Of Gift",
+        "search": "ค้นหา Comment Of Gift",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "Comment Of Gift ถูกสร้างด้วย {{ param }}",
+      "updated": "Comment Of Gift ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Comment Of Gift ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Comment Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

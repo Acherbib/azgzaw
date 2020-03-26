@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "สร้าง Like Of Status",
+        "createOrEditLabel": "สร้างหรือแก้ไข Like Of Status",
+        "search": "ค้นหา Like Of Status",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "Like Of Status ถูกสร้างด้วย {{ param }}",
+      "updated": "Like Of Status ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Like Of Status ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Like Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

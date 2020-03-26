@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "Δημιουργήστε ένα νέο Status",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Status",
+        "search": "Αναζήτηση για Status",
+        "notFound": "No Statuses found"
+      },
+      "created": "Ένα νέο Status έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Status έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Status έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Status {{ id }};"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

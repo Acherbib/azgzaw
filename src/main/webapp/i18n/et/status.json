@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "Lisa uus Status",
+        "createOrEditLabel": "Lisa või muuda Status",
+        "search": "Otsi Status",
+        "notFound": "No Statuses found"
+      },
+      "created": "Uus Status on loodud identifikaatoriga {{ param }}",
+      "updated": "Status identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Status identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "azgzawApp": {
+    "gift": {
+      "home": {
+        "title": "Gifts",
+        "createLabel": "Maak een nieuwe Gift",
+        "createOrEditLabel": "Maak of wijzig een Gift",
+        "search": "Search for Gift",
+        "notFound": "No Gifts found"
+      },
+      "created": "A new Gift is created with identifier {{ param }}",
+      "updated": "A Gift is updated with identifier {{ param }}",
+      "deleted": "A Gift is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Gift {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Gift"
+      },
+      "title": "Title",
+      "description": "Description",
+      "isAGift": "Is A Gift",
+      "reserved": "Reserved",
+      "city": "City",
+      "country": "Country",
+      "isAuction": "Is Auction",
+      "startPrice": "Start Price",
+      "backgroundColor": "Background Color",
+      "numberLikesOfGifts": "Number Likes Of Gifts",
+      "numberSeenOfGifts": "Number Seen Of Gifts",
+      "dateOfCreation": "Date Of Creation",
+      "image": "Image",
+      "authorOfGift": "Author Of Gift"
+    }
+  }
+}

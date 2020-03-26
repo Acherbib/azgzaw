@@ -1,6 +1,7 @@
 @import '~bootstrap/scss/functions';
 @import '~bootswatch/dist/sketchy/variables';
 @import '~bootstrap/scss/variables';
+@import "https://fonts.googleapis.com/css?family=Righteous&display=swap";
 
 /* ==========================================================================
 Navbar
@@ -51,4 +52,16 @@ Logo styles
   vertical-align: middle;
   background: url('../../../content/images/logo-jhipster.png') no-repeat center center;
   background-size: contain;
+}
+
+.bg-green {
+  background: #409b6e;
+}
+
+.navbar-title{
+  font-size: 27px;
+  font-family: 'Righteous', cursive;
+  &:hover {
+    text-decoration: none;
+  }
 }

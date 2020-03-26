@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "Thêm mới một Like Of Status",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Like Of Status",
+        "search": "Tìm Like Of Status",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "Một Like Of Status mới được tạo với định danh {{ param }}",
+      "updated": "Một Like Of Status cập nhật với định danh {{ param }}",
+      "deleted": "Một Like Of Status đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Like Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

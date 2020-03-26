@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "Янги Spam қўшиш",
+        "createOrEditLabel": "Spamни таҳрирлаш",
+        "search": "Spamни излаш",
+        "notFound": "No Spams found"
+      },
+      "created": "Spam {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Spam сақланди.",
+      "deleted": "{{ param }}- Spam ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Spamни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

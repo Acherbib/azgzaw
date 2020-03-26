@@ -1,0 +1,99 @@
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-md-3">
+        </div>
+
+        <div class="col-md-5">
+            <div>
+                <h2 id="page-heading">
+                    <span jhiTranslate="azgzawApp.citation.home.title">Citations</span>
+                    <button id="jh-create-entity" class="btn btn-primary jh-create-entity create-citation" [routerLink]="['/citation/new']">
+                        <fa-icon [icon]="'plus'"></fa-icon>
+                        <span class="hidden-sm-down"  jhiTranslate="azgzawApp.citation.home.createLabel">
+            Create a new Citation
+            </span>
+                    </button>
+                </h2>
+
+                <jhi-alert-error></jhi-alert-error>
+                <jhi-alert></jhi-alert>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <form name="searchForm" class="form-inline">
+                            <div class="input-group w-100 mt-3">
+                                <input type="text" class="form-control col-10 mr-2" [(ngModel)]="currentSearch" id="currentSearch" name="currentSearch" placeholder="{{ 'azgzawApp.citation.home.search' | translate }}">
+                                <button class="input-group-append btn btn-info" (click)="search(currentSearch)">
+                                    <fa-icon [icon]="'search'"></fa-icon>
+                                </button>
+                                <button class="input-group-append btn btn-danger" (click)="search('')" *ngIf="currentSearch">
+                                    <fa-icon [icon]="'trash-alt'"></fa-icon>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <br/>
+
+                <div  *ngIf="citations?.length > 0" >
+                    <div class="row container mb-3" *ngFor="let citation of citations ;trackBy: trackId">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row mb-3">
+                                    <ngx-avatar facebookId="100001873174933">&nbsp;</ngx-avatar>
+                                    &nbsp;&nbsp;<strong class="font-weight-bold text-success card-title mt-3">{{citation.authorOfCitation?.login }}&nbsp;</strong>
+                                    &nbsp;&nbsp;<time class="mt-3">{{citation.dateOfCreation.fromNow()}}</time>&nbsp;&nbsp;
+
+                                    <fa-icon class="mt-3"  *ngIf="citation.greenCitationPrivacy==='PUBLIC'" [icon]="'globe-africa'"></fa-icon>
+                                    <fa-icon class="mt-3" *ngIf="citation.greenCitationPrivacy==='ONLYME'" [icon]="'user-shield'"></fa-icon>
+                                    <fa-icon  class="mt-3" *ngIf="citation.greenCitationPrivacy==='FOLLOWS'" [icon]="'users'"></fa-icon>
+                                </div>
+
+                                <p class="card-text font-weight-bold">{{citation.description}}</p>
+
+                                <img class="card-img-top mb-4 justify-around-ns img-thumbnail" *ngIf="citation.greenCitationMedia  && ['image/tiff','image/gif', 'image/png','image/jpeg'].includes(citation.greenCitationMediaContentType)" height="auto"  [src]="'data:' + citation.greenCitationMediaContentType + ';base64,' + citation.greenCitationMedia" style="max-width: 100%;" alt="article image"/>
+
+                                <div class="center btn-group">
+                                    <button type="submit"
+                                            [routerLink]="['/citation', citation.id, 'view' ]"
+                                            class="btn btn-danger btn-sm">
+                                        <fa-icon [icon]="'heart'"></fa-icon>
+                                        <span class="d-none d-md-inline" >Like</span>
+                                    </button>
+
+                                    <button type="submit"
+                                            [routerLink]="['/citation', citation.id, 'view' ]"
+                                            class="btn btn-info btn-sm">
+                                        <fa-icon [icon]="'comment'"></fa-icon>
+                                        <span class="d-none d-md-inline" >Comment</span>
+                                    </button>
+
+                                    <button type="submit" *ngIf="login === citation.authorOfCitation.login"
+                                            [routerLink]="['/citation', citation.id, 'edit']"
+                                            class="btn btn-primary btn-sm">
+                                        <fa-icon [icon]="'pencil-alt'"></fa-icon>
+                                        <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                                    </button>
+                                    <button type="submit" (click)="delete(citation)" *ngIf="login === citation.authorOfCitation.login"
+                                            class="btn btn-danger btn-sm">
+                                        <fa-icon [icon]="'times'"></fa-icon>
+                                        <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alert alert-warning" *ngIf="citations?.length === 0">
+                    <span jhiTranslate="azgzawApp.citation.home.notFound">No citations found</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-4">
+        </div>
+    </div>
+</div>
+

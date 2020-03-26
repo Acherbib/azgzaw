@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "Ստեղծել նոր Comment Of Status",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Comment Of Status",
+        "search": "Գտնել Comment Of Status",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "Նոր Comment Of Status ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Comment Of Status թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Comment Of Status հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Comment Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

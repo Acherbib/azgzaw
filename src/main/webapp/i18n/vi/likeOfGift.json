@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "Thêm mới một Like Of Gift",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Like Of Gift",
+        "search": "Tìm Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "Một Like Of Gift mới được tạo với định danh {{ param }}",
+      "updated": "Một Like Of Gift cập nhật với định danh {{ param }}",
+      "deleted": "Một Like Of Gift đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Like Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

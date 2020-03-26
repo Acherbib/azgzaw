@@ -1,0 +1,36 @@
+{
+  "azgzawApp": {
+    "gift": {
+      "home": {
+        "title": "Gifts",
+        "createLabel": "Создать новый Gift",
+        "createOrEditLabel": "Создать или отредактировать Gift",
+        "search": "Найти Gift",
+        "notFound": "No Gifts found"
+      },
+      "created": "Новый Gift создан с идентификатором {{ param }}",
+      "updated": "Gift обновлен с идентификатором {{ param }}",
+      "deleted": "Gift удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Gift"
+      },
+      "title": "Title",
+      "description": "Description",
+      "isAGift": "Is A Gift",
+      "reserved": "Reserved",
+      "city": "City",
+      "country": "Country",
+      "isAuction": "Is Auction",
+      "startPrice": "Start Price",
+      "backgroundColor": "Background Color",
+      "numberLikesOfGifts": "Number Likes Of Gifts",
+      "numberSeenOfGifts": "Number Seen Of Gifts",
+      "dateOfCreation": "Date Of Creation",
+      "image": "Image",
+      "authorOfGift": "Author Of Gift"
+    }
+  }
+}

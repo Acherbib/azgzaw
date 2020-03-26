@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "LikeOfGifts",
+        "createLabel": "Like Of Gift を追加",
+        "createOrEditLabel": "Like Of Giftを追加または編集",
+        "search": "Search for Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "A new Like Of Gift is created with identifier {{ param }}",
+      "updated": "A Like Of Gift is updated with identifier {{ param }}",
+      "deleted": "A Like Of Gift is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Like Of Gift {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

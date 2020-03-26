@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "Maak een nieuwe Status",
+        "createOrEditLabel": "Maak of wijzig een Status",
+        "search": "Search for Status",
+        "notFound": "No Statuses found"
+      },
+      "created": "A new Status is created with identifier {{ param }}",
+      "updated": "A Status is updated with identifier {{ param }}",
+      "deleted": "A Status is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Status {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

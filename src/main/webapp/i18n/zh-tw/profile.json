@@ -1,0 +1,38 @@
+{
+  "azgzawApp": {
+    "profile": {
+      "home": {
+        "title": "Profiles",
+        "createLabel": "建立一筆新的 Profile",
+        "createOrEditLabel": "建立或編輯 Profile",
+        "search": "搜尋 Profile",
+        "notFound": "No Profiles found"
+      },
+      "created": "新的 Profile 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Profile 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Profile 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Profile {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Profile"
+      },
+      "numberOfMinutesConnected": "Number Of Minutes Connected",
+      "verified": "Verified",
+      "joinedDate": "Joined Date",
+      "dateOfBirth": "Date Of Birth",
+      "dateOfBirthVisible": "Date Of Birth Visible",
+      "phoneNumber": "Phone Number",
+      "phoneNumberVisible": "Phone Number Visible",
+      "aboutMe": "About Me",
+      "aboutMeVisible": "About Me Visible",
+      "gender": "Gender",
+      "genderVisible": "Gender Visible",
+      "maritalStatus": "Marital Status",
+      "maritalStatusVisible": "Marital Status Visible",
+      "profilePrivacy": "Profile Privacy",
+      "location": "Location",
+      "user": "User"
+    }
+  }
+}

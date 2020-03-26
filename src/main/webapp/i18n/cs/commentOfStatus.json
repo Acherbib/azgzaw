@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "Vytvořit Comment Of Status",
+        "createOrEditLabel": "Vytvořit nebo upravit Comment Of Status",
+        "search": "Vyhledat Comment Of Status",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "Byl vytvořen potomek entity Comment Of Status s identifikátorem {{ param }}",
+      "updated": "Potomek entity Comment Of Status s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Comment Of Status s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Comment Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

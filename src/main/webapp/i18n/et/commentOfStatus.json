@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "Lisa uus Comment Of Status",
+        "createOrEditLabel": "Lisa või muuda Comment Of Status",
+        "search": "Otsi Comment Of Status",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "Uus Comment Of Status on loodud identifikaatoriga {{ param }}",
+      "updated": "Comment Of Status identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Comment Of Status identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Comment Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

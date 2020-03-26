@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "message": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Kreiraj novi Message",
+        "createOrEditLabel": "Kreirajte ili izmenite Message",
+        "search": "Potražite Message",
+        "notFound": "No Messages found"
+      },
+      "created": "Kreiran je novi Message pod nazivom {{ param }}",
+      "updated": "Message pod nazivom {{ param }} je ažuriran",
+      "deleted": "Message pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Message pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "content": "Content",
+      "dateOfSend": "Date Of Send",
+      "media": "Media",
+      "seen": "Seen",
+      "authorOfMessage": "Author Of Message",
+      "receiverOfMessage": "Receiver Of Message"
+    }
+  }
+}

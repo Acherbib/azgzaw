@@ -1,0 +1,88 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="azgzawApp.auction.home.title">Auctions</span>
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-auction" [routerLink]="['/auction/new']">
+            <fa-icon [icon]="'plus'"></fa-icon>
+            <span class="hidden-sm-down"  jhiTranslate="azgzawApp.auction.home.createLabel">
+            Create a new Auction
+            </span>
+        </button>
+    </h2>
+    <jhi-alert-error></jhi-alert-error>
+    <jhi-alert></jhi-alert>
+    <div class="row">
+        <div class="col-sm-12">
+            <form name="searchForm" class="form-inline">
+                <div class="input-group w-100 mt-3">
+                    <input type="text" class="form-control" [(ngModel)]="currentSearch" id="currentSearch" name="currentSearch" placeholder="{{ 'azgzawApp.auction.home.search' | translate }}">
+                    <button class="input-group-append btn btn-info" (click)="search(currentSearch)">
+                        <fa-icon [icon]="'search'"></fa-icon>
+                    </button>
+                    <button class="input-group-append btn btn-danger" (click)="search('')" *ngIf="currentSearch">
+                        <fa-icon [icon]="'trash-alt'"></fa-icon>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br/>
+    <div class="alert alert-warning" *ngIf="auctions?.length === 0">
+        <span jhiTranslate="azgzawApp.auction.home.notFound">No auctions found</span>
+    </div>
+    <div class="table-responsive" *ngIf="auctions?.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+            <tr>
+            <th scope="col" ><span jhiTranslate="global.field.id">ID</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.auction.cardType">Card Type</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.auction.cardNumber">Card Number</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.auction.endDate">End Date</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.auction.cvc">Cvc</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.auction.priceOffer">Price Offer</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.auction.gift">Gift</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.auction.author">Author</span></th>
+            <th scope="col"></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let auction of auctions ;trackBy: trackId">
+                <td><a [routerLink]="['/auction', auction.id, 'view' ]">{{auction.id}}</a></td>
+                <td jhiTranslate="{{'azgzawApp.CardType.' + auction.cardType}}">{{auction.cardType}}</td>
+                <td>{{auction.cardNumber}}</td>
+                <td>{{auction.endDate | date:'mediumDate'}}</td>
+                <td>{{auction.cvc}}</td>
+                <td>{{auction.priceOffer}}</td>
+                <td>
+                    <div *ngIf="auction.gift">
+                        <a [routerLink]="['/gift', auction.gift?.id, 'view' ]" >{{auction.gift?.id}}</a>
+                    </div>
+                </td>
+                <td>
+                    {{auction.author?.id}}
+                </td>
+                <td class="text-right">
+                    <div class="btn-group">
+                        <button type="submit"
+                                [routerLink]="['/auction', auction.id, 'view' ]"
+                                class="btn btn-info btn-sm">
+                            <fa-icon [icon]="'eye'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/auction', auction.id, 'edit']"
+                                class="btn btn-primary btn-sm">
+                            <fa-icon [icon]="'pencil-alt'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit" (click)="delete(auction)"
+                                class="btn btn-danger btn-sm">
+                            <fa-icon [icon]="'times'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

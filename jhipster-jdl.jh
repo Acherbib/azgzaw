@@ -1,0 +1,240 @@
+
+enum LikeType {
+     LIKE, LOVE, SAD, HAHA , ANGRY
+}
+
+enum MaritalStatus {
+     SINGLE, MARRIED, DIVORCED
+}
+
+enum Gender {
+     MALE, FEMALE, UKNNOWN
+}
+
+enum Privacy {
+     PUBLIC, ONLYME, FOLLOWS
+}
+
+enum CardType {
+     VISA, MASTERCARD, MAESTRO
+}
+
+entity Auction {
+      cardType CardType,
+      cardNumber Long,
+      endDate LocalDate,
+      cvc Integer,
+      priceOffer Long min(0)
+}
+
+
+
+entity Gift {
+
+    title String required,
+    description String,
+    isAGift Boolean,
+    reserved Boolean,
+    city String,
+    country String,
+    isAuction Boolean,
+    startPrice Double min(0),
+    backgroundColor String,
+    numberLikesOfGifts Long,
+    numberSeenOfGifts Long,
+    dateOfCreation ZonedDateTime,
+    image ImageBlob
+}
+
+entity Profile {
+    numberOfMinutesConnected Long,
+    verified Boolean,
+    joinedDate  ZonedDateTime,
+    dateOfBirth LocalDate,
+    dateOfBirthVisible Boolean,
+    phoneNumber Long,
+    phoneNumberVisible Boolean,
+    aboutMe String,
+    aboutMeVisible Boolean,
+    gender Gender,
+    genderVisible Boolean,
+    maritalStatus MaritalStatus,
+    maritalStatusVisible Boolean,
+    profilePrivacy Privacy required
+}
+
+
+entity Status {
+    description String required,
+    statusMedia Blob,
+    numberSeenOfStatus Long,
+    statusPrivacy Privacy required
+}
+
+entity  Citation {
+     description String required,
+     greenCitationMedia ImageBlob,
+     dateOfCreation ZonedDateTime required,
+     backgroundColor String,
+     greenCitationPrivacy Privacy required
+}
+
+entity Spam {
+    cause String required,
+    dateOfCreation ZonedDateTime required
+}
+
+entity Follows {
+    followingStartDate Instant,
+    accepted Boolean,
+    blocked Boolean
+}
+
+entity Message {
+      content String required,
+      dateOfSend Instant required,
+      media Blob,
+      seen Boolean
+}
+
+
+
+entity CommentOfCitation {
+      bodyComment String required,
+      commentOfCitationImage ImageBlob,
+      dateOfCreation ZonedDateTime
+}
+
+entity CommentOfGift {
+      bodyComment String required,
+      commentOfGiftImage ImageBlob,
+      dateOfCreation ZonedDateTime,
+}
+
+entity CommentOfStatus {
+      bodyComment String required,
+      commentOfStatusImage ImageBlob,
+      mediaType String,
+      dateOfCreation ZonedDateTime
+}
+
+entity Country {
+  countryName String
+}
+
+// an ignored comment
+/** not an ignored comment */
+entity Location {
+  streetAddress String,
+  postCode String,
+  city String,
+  stateProvince String
+}
+
+entity LikeOfCitation {
+     typeOfLike LikeType required
+}
+entity LikeOfStatus {
+     typeOfLike LikeType required
+}
+entity LikeOfGift {
+     typeOfLike LikeType required
+}
+
+relationship OneToOne {
+  LikeOfCitation{citation} to Citation
+}
+
+relationship OneToOne {
+  LikeOfStatus{status} to Status
+}
+
+relationship OneToOne {
+  LikeOfGift {gift} to Gift
+}
+
+relationship OneToOne {
+  LikeOfCitation{authorOfLike} to User
+}
+
+relationship OneToOne {
+  LikeOfStatus{authorOfLike} to User
+}
+
+relationship OneToOne {
+  LikeOfGift {authorOfLike} to User
+}
+
+relationship OneToOne {
+  Auction{gift} to Gift
+}
+
+relationship OneToOne {
+  Auction{author} to User
+}
+
+relationship OneToOne {
+  Profile{location} to Location
+}
+
+relationship OneToOne {
+  Profile{user} to User
+}
+
+
+relationship OneToOne {
+  Follows{profile} to Profile
+}
+
+relationship OneToOne {
+  Follows{friend} to User
+}
+
+relationship OneToOne { 
+   CommentOfCitation{Citation} to Citation
+}
+
+relationship OneToOne {
+    CommentOfGift{gift} to Gift
+}
+
+relationship OneToOne {
+    CommentOfStatus{status} to Status
+}
+
+relationship OneToOne {
+  CommentOfStatus{author} to User
+}
+relationship OneToOne {
+  CommentOfGift{author} to User
+}
+relationship OneToOne {
+  CommentOfStatus{author} to User
+}
+
+relationship OneToOne {
+  Location{country} to Country
+}
+
+// defining multiple OneToMany relationships with comments
+relationship ManyToOne {
+    Citation{authorOfCitation} to User, 
+    Spam{Citation} to Citation,
+    Status{authorOfStatus} to  User,
+    Gift{authorOfGift} to User,
+    Message{authorOfMessage} to User,
+    Message{receiverOfMessage} to User,
+}
+
+// Set pagination options
+paginate Message, Follows, Gift, Citation with infinite-scroll
+
+paginate Status with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix

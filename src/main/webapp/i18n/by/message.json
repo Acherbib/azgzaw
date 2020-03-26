@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "message": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Стварыць новы Message",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Message",
+        "search": "Знайсці Message",
+        "notFound": "No Messages found"
+      },
+      "created": "Новы Message створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Message абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Message выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "content": "Content",
+      "dateOfSend": "Date Of Send",
+      "media": "Media",
+      "seen": "Seen",
+      "authorOfMessage": "Author Of Message",
+      "receiverOfMessage": "Receiver Of Message"
+    }
+  }
+}

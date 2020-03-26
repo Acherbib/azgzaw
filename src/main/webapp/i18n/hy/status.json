@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "Ստեղծել նոր Status",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Status",
+        "search": "Գտնել Status",
+        "notFound": "No Statuses found"
+      },
+      "created": "Նոր Status ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Status թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Status հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

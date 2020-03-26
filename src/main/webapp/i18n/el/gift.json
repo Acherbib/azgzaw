@@ -1,0 +1,36 @@
+{
+  "azgzawApp": {
+    "gift": {
+      "home": {
+        "title": "Gifts",
+        "createLabel": "Δημιουργήστε ένα νέο Gift",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Gift",
+        "search": "Αναζήτηση για Gift",
+        "notFound": "No Gifts found"
+      },
+      "created": "Ένα νέο Gift έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Gift έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Gift έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Gift {{ id }};"
+      },
+      "detail": {
+        "title": "Gift"
+      },
+      "title": "Title",
+      "description": "Description",
+      "isAGift": "Is A Gift",
+      "reserved": "Reserved",
+      "city": "City",
+      "country": "Country",
+      "isAuction": "Is Auction",
+      "startPrice": "Start Price",
+      "backgroundColor": "Background Color",
+      "numberLikesOfGifts": "Number Likes Of Gifts",
+      "numberSeenOfGifts": "Number Seen Of Gifts",
+      "dateOfCreation": "Date Of Creation",
+      "image": "Image",
+      "authorOfGift": "Author Of Gift"
+    }
+  }
+}

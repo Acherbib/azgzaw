@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "Δημιουργήστε ένα νέο Comment Of Status",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Comment Of Status",
+        "search": "Αναζήτηση για Comment Of Status",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "Ένα νέο Comment Of Status έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Comment Of Status έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Comment Of Status έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Comment Of Status {{ id }};"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

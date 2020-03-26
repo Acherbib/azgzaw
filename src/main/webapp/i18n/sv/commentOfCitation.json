@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "Skapa en ny Comment Of Citation",
+        "createOrEditLabel": "Skapa eller ändra en Comment Of Citation",
+        "search": "Sök efter Comment Of Citation",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "En ny Comment Of Citation är skapad med id {{ param }}",
+      "updated": "En Comment Of Citation är uppdaterad med id  {{ param }}",
+      "deleted": "En Comment Of Citation är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Comment Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

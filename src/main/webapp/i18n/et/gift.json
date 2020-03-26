@@ -1,0 +1,36 @@
+{
+  "azgzawApp": {
+    "gift": {
+      "home": {
+        "title": "Gifts",
+        "createLabel": "Lisa uus Gift",
+        "createOrEditLabel": "Lisa või muuda Gift",
+        "search": "Otsi Gift",
+        "notFound": "No Gifts found"
+      },
+      "created": "Uus Gift on loodud identifikaatoriga {{ param }}",
+      "updated": "Gift identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Gift identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Gift"
+      },
+      "title": "Title",
+      "description": "Description",
+      "isAGift": "Is A Gift",
+      "reserved": "Reserved",
+      "city": "City",
+      "country": "Country",
+      "isAuction": "Is Auction",
+      "startPrice": "Start Price",
+      "backgroundColor": "Background Color",
+      "numberLikesOfGifts": "Number Likes Of Gifts",
+      "numberSeenOfGifts": "Number Seen Of Gifts",
+      "dateOfCreation": "Date Of Creation",
+      "image": "Image",
+      "authorOfGift": "Author Of Gift"
+    }
+  }
+}

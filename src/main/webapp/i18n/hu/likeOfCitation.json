@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "LikeOfCitations",
+        "createLabel": "Egy új Like Of Citation létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Like Of Citationt",
+        "search": "Like Of Citation keresése",
+        "notFound": "No Like Of Citations found"
+      },
+      "created": "Egy új Like Of Citation lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Like Of Citation módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Like Of Citation törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Like Of Citationt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

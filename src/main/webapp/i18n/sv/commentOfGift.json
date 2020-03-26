@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gifts",
+        "createLabel": "Skapa en ny Comment Of Gift",
+        "createOrEditLabel": "Skapa eller ändra en Comment Of Gift",
+        "search": "Sök efter Comment Of Gift",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "En ny Comment Of Gift är skapad med id {{ param }}",
+      "updated": "En Comment Of Gift är uppdaterad med id  {{ param }}",
+      "deleted": "En Comment Of Gift är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Comment Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

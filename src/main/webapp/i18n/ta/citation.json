@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "Citation-ஐ உருவாக்கு",
+        "createOrEditLabel": "Citation -ஐ மாற்று (அ) உருவாக்கு",
+        "search": "Search for Citation",
+        "notFound": "No Citations found"
+      },
+      "created": "Citation புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Citation மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Citation நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

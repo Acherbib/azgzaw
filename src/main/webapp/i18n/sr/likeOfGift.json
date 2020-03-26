@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "Kreiraj novi Like Of Gift",
+        "createOrEditLabel": "Kreirajte ili izmenite Like Of Gift",
+        "search": "Potražite Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "Kreiran je novi Like Of Gift pod nazivom {{ param }}",
+      "updated": "Like Of Gift pod nazivom {{ param }} je ažuriran",
+      "deleted": "Like Of Gift pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Like Of Gift pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "message": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Message-ஐ உருவாக்கு",
+        "createOrEditLabel": "Message -ஐ மாற்று (அ) உருவாக்கு",
+        "search": "Search for Message",
+        "notFound": "No Messages found"
+      },
+      "created": "Message புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Message மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Message நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "content": "Content",
+      "dateOfSend": "Date Of Send",
+      "media": "Media",
+      "seen": "Seen",
+      "authorOfMessage": "Author Of Message",
+      "receiverOfMessage": "Receiver Of Message"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "azgzawApp": {
+    "profile": {
+      "home": {
+        "title": "Profiles",
+        "createLabel": "नवीन Profile तयार करा",
+        "createOrEditLabel": "Profile तयार किंवा संपादित करा",
+        "search": "Profile शोधा",
+        "notFound": "No Profiles found"
+      },
+      "created": "Profile [identifier: {{ param }}] तयार आहे",
+      "updated": "Profile [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Profile [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Profile [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Profile"
+      },
+      "numberOfMinutesConnected": "Number Of Minutes Connected",
+      "verified": "Verified",
+      "joinedDate": "Joined Date",
+      "dateOfBirth": "Date Of Birth",
+      "dateOfBirthVisible": "Date Of Birth Visible",
+      "phoneNumber": "Phone Number",
+      "phoneNumberVisible": "Phone Number Visible",
+      "aboutMe": "About Me",
+      "aboutMeVisible": "About Me Visible",
+      "gender": "Gender",
+      "genderVisible": "Gender Visible",
+      "maritalStatus": "Marital Status",
+      "maritalStatusVisible": "Marital Status Visible",
+      "profilePrivacy": "Profile Privacy",
+      "location": "Location",
+      "user": "User"
+    }
+  }
+}

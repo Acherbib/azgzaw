@@ -1,0 +1,23 @@
+{
+  "azgzawApp": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "createLabel": "Янги Country қўшиш",
+        "createOrEditLabel": "Countryни таҳрирлаш",
+        "search": "Countryни излаш",
+        "notFound": "No Countries found"
+      },
+      "created": "Country {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Country сақланди.",
+      "deleted": "{{ param }}- Country ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Countryни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "countryName": "Country Name"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="gift">
+            <h2><span jhiTranslate="azgzawApp.gift.detail.title">Gift</span> {{gift.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="azgzawApp.gift.title">Title</span></dt>
+                <dd>
+                    <span>{{gift.title}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.gift.description">Description</span></dt>
+                <dd>
+                    <span>{{gift.description}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.gift.isAGift">Is A Gift</span></dt>
+                <dd>
+                    <span>{{gift.isAGift}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.gift.reserved">Reserved</span></dt>
+                <dd>
+                    <span>{{gift.reserved}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.gift.city">City</span></dt>
+                <dd>
+                    <span>{{gift.city}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.gift.country">Country</span></dt>
+                <dd>
+                    <span>{{gift.country}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.gift.isAuction">Is Auction</span></dt>
+                <dd>
+                    <span>{{gift.isAuction}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.gift.startPrice">Start Price</span></dt>
+                <dd>
+                    <span>{{gift.startPrice}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.gift.backgroundColor">Background Color</span></dt>
+                <dd>
+                    <span>{{gift.backgroundColor}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.gift.numberLikesOfGifts">Number Likes Of Gifts</span></dt>
+                <dd>
+                    <span>{{gift.numberLikesOfGifts}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.gift.numberSeenOfGifts">Number Seen Of Gifts</span></dt>
+                <dd>
+                    <span>{{gift.numberSeenOfGifts}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.gift.dateOfCreation">Date Of Creation</span></dt>
+                <dd>
+                    <span>{{gift.dateOfCreation}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.gift.image">Image</span></dt>
+                <dd>
+                    <div *ngIf="gift.image">
+                        <a (click)="openFile(gift.imageContentType!, gift.image)">
+                            <img [src]="'data:' + gift.imageContentType + ';base64,' + gift.image" style="max-width: 100%;" alt="gift image"/>
+                        </a>
+                        {{gift.imageContentType}}, {{byteSize(gift.image)}}
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.gift.authorOfGift">Author Of Gift</span></dt>
+                <dd>
+                    {{gift.authorOfGift?.id}}
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/gift', gift.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "Стварыць новы Follows",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Follows",
+        "search": "Знайсці Follows",
+        "notFound": "No Follows found"
+      },
+      "created": "Новы Follows створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Follows абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Follows выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Follows {{ id }}?"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

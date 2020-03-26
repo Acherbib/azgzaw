@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "Kreiraj novi Auction",
+        "createOrEditLabel": "Kreirajte ili izmenite Auction",
+        "search": "Potražite Auction",
+        "notFound": "No Auctions found"
+      },
+      "created": "Kreiran je novi Auction pod nazivom {{ param }}",
+      "updated": "Auction pod nazivom {{ param }} je ažuriran",
+      "deleted": "Auction pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Auction pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

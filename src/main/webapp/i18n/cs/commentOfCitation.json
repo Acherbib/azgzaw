@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "Vytvořit Comment Of Citation",
+        "createOrEditLabel": "Vytvořit nebo upravit Comment Of Citation",
+        "search": "Vyhledat Comment Of Citation",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "Byl vytvořen potomek entity Comment Of Citation s identifikátorem {{ param }}",
+      "updated": "Potomek entity Comment Of Citation s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Comment Of Citation s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Comment Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

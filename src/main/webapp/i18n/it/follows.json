@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "Genera un nuovo Follows",
+        "createOrEditLabel": "Genera o modifica un Follows",
+        "search": "Cerca Follows",
+        "notFound": "No Follows found"
+      },
+      "created": "&Egrave; stato generato un nuovo Follows con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Follows identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Follows con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Follows {{ id }}?"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "Створити новий Citation",
+        "createOrEditLabel": "Створити чи редагувати Citation",
+        "search": "Знайти Citation",
+        "notFound": "No Citations found"
+      },
+      "created": "Новий Citation створений з ідентифікатором {{ param }}",
+      "updated": "Citation оновлений з ідентифікатором {{ param }}",
+      "deleted": "Citation видалений з ідентифікатором {{ param }}",
+      "delete": {
+        "question": "Ви впевнені, що хочете видалити Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

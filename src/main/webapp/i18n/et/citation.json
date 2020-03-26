@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "Lisa uus Citation",
+        "createOrEditLabel": "Lisa või muuda Citation",
+        "search": "Otsi Citation",
+        "notFound": "No Citations found"
+      },
+      "created": "Uus Citation on loodud identifikaatoriga {{ param }}",
+      "updated": "Citation identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Citation identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

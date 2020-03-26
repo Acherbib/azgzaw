@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "Spam を追加",
+        "createOrEditLabel": "Spamを追加または編集",
+        "search": "Search for Spam",
+        "notFound": "No Spams found"
+      },
+      "created": "A new Spam is created with identifier {{ param }}",
+      "updated": "A Spam is updated with identifier {{ param }}",
+      "deleted": "A Spam is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Spam {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

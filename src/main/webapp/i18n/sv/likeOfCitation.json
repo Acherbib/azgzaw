@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "Like Of Citations",
+        "createLabel": "Skapa en ny Like Of Citation",
+        "createOrEditLabel": "Skapa eller ändra en Like Of Citation",
+        "search": "Sök efter Like Of Citation",
+        "notFound": "No Like Of Citations found"
+      },
+      "created": "En ny Like Of Citation är skapad med id {{ param }}",
+      "updated": "En Like Of Citation är uppdaterad med id  {{ param }}",
+      "deleted": "En Like Of Citation är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Like Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

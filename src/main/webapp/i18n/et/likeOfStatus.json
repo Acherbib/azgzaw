@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "Lisa uus Like Of Status",
+        "createOrEditLabel": "Lisa või muuda Like Of Status",
+        "search": "Otsi Like Of Status",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "Uus Like Of Status on loodud identifikaatoriga {{ param }}",
+      "updated": "Like Of Status identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Like Of Status identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Like Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

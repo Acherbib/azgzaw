@@ -1,0 +1,23 @@
+{
+  "azgzawApp": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "createLabel": "Country အသစ်ထည့်မည်",
+        "createOrEditLabel": "Country အသစ်ထည့်ခြင်း (သို့) ပြုပြင်ခြင်း",
+        "search": "ရှာဖွေရန် Country",
+        "notFound": "No Countries found"
+      },
+      "created": "{{ param }} အိုင်ဒီဖြင့် Country အသစ်တစ်ခုအား ထည့်ပြီးပါပြီ။",
+      "updated": "{{ param }} အိုင်ဒီဖြင့် Country တစ်ခုအား ပြုပြင်ပြီးပါပြီ။",
+      "deleted": "{{ param }} အိုင်ဒီဖြင့် Country တစ်ခုအား ဖျက်ပြီးပါပြီ။",
+      "delete": {
+        "question": "Country {{ id }} အား ဖျက်ပါမည်။ သေချာပါသလား?"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "countryName": "Country Name"
+    }
+  }
+}

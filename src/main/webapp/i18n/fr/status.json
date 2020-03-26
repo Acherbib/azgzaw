@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "Créer un nouveau Status",
+        "createOrEditLabel": "Créer ou éditer un Status",
+        "search": "Recherche pour Status",
+        "notFound": "Aucun Status trouvé"
+      },
+      "created": "Un nouveau Status a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Status avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Status avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Status {{ id }} ?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gifts",
+        "createLabel": "Yangi Comment Of Gift qo`shish",
+        "createOrEditLabel": "Comment Of Giftni tahrirlash",
+        "search": "Comment Of Giftni izlash",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "Comment Of Gift {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Comment Of Gift saqlandi",
+      "deleted": "{{ param }}- Comment Of Gift o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Comment Of Giftni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "Δημιουργήστε ένα νέο Follows",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Follows",
+        "search": "Αναζήτηση για Follows",
+        "notFound": "No Follows found"
+      },
+      "created": "Ένα νέο Follows έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Follows έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Follows έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Follows {{ id }};"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

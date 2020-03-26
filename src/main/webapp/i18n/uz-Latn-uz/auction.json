@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "Yangi Auction qo`shish",
+        "createOrEditLabel": "Auctionni tahrirlash",
+        "search": "Auctionni izlash",
+        "notFound": "No Auctions found"
+      },
+      "created": "Auction {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Auction saqlandi",
+      "deleted": "{{ param }}- Auction o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Auctionni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

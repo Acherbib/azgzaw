@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "Thêm mới một Comment Of Status",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Comment Of Status",
+        "search": "Tìm Comment Of Status",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "Một Comment Of Status mới được tạo với định danh {{ param }}",
+      "updated": "Một Comment Of Status cập nhật với định danh {{ param }}",
+      "deleted": "Một Comment Of Status đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Comment Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

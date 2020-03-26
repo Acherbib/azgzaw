@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "建立一筆新的 Status",
+        "createOrEditLabel": "建立或編輯 Status",
+        "search": "搜尋 Status",
+        "notFound": "No Statuses found"
+      },
+      "created": "新的 Status 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Status 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Status 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Status {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

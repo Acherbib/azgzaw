@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "建立一筆新的 Like Of Gift",
+        "createOrEditLabel": "建立或編輯 Like Of Gift",
+        "search": "搜尋 Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "新的 Like Of Gift 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Like Of Gift 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Like Of Gift 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Like Of Gift {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

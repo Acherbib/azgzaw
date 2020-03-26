@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "Like Of Citations",
+        "createLabel": "Criar novo(a) Like Of Citation",
+        "createOrEditLabel": "Criar ou editar Like Of Citation",
+        "search": "Procurar por Like Of Citation",
+        "notFound": "Nenhum Like Of Citations encontrado"
+      },
+      "created": "Um novo Like Of Citation foi criado com o identificador {{ param }}",
+      "updated": "Like Of Citation com identificador {{ param }} foi actualizado",
+      "deleted": "Like Of Citation com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Like Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

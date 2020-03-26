@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "Buat Status baru",
+        "createOrEditLabel": "Buat atau edit Status",
+        "search": "Cari Status",
+        "notFound": "No Statuses found"
+      },
+      "created": "Status dengan id {{ param }} telah dibuat",
+      "updated": "Status dengan id {{ param }} telah diperbaharui",
+      "deleted": "Status dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

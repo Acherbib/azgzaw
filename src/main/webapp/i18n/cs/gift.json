@@ -1,0 +1,36 @@
+{
+  "azgzawApp": {
+    "gift": {
+      "home": {
+        "title": "Gifts",
+        "createLabel": "Vytvořit Gift",
+        "createOrEditLabel": "Vytvořit nebo upravit Gift",
+        "search": "Vyhledat Gift",
+        "notFound": "No Gifts found"
+      },
+      "created": "Byl vytvořen potomek entity Gift s identifikátorem {{ param }}",
+      "updated": "Potomek entity Gift s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Gift s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Gift"
+      },
+      "title": "Title",
+      "description": "Description",
+      "isAGift": "Is A Gift",
+      "reserved": "Reserved",
+      "city": "City",
+      "country": "Country",
+      "isAuction": "Is Auction",
+      "startPrice": "Start Price",
+      "backgroundColor": "Background Color",
+      "numberLikesOfGifts": "Number Likes Of Gifts",
+      "numberSeenOfGifts": "Number Seen Of Gifts",
+      "dateOfCreation": "Date Of Creation",
+      "image": "Image",
+      "authorOfGift": "Author Of Gift"
+    }
+  }
+}

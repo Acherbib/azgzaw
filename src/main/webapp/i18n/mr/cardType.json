@@ -1,0 +1,10 @@
+{
+  "azgzawApp": {
+    "CardType": {
+      "null": "",
+      "VISA": "VISA",
+      "MASTERCARD": "MASTERCARD",
+      "MAESTRO": "MAESTRO"
+    }
+  }
+}

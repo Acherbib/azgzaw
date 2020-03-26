@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "Янги Follows қўшиш",
+        "createOrEditLabel": "Followsни таҳрирлаш",
+        "search": "Followsни излаш",
+        "notFound": "No Follows found"
+      },
+      "created": "Follows {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Follows сақланди.",
+      "deleted": "{{ param }}- Follows ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Followsни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

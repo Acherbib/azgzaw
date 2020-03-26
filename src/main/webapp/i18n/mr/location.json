@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "createLabel": "नवीन Location तयार करा",
+        "createOrEditLabel": "Location तयार किंवा संपादित करा",
+        "search": "Location शोधा",
+        "notFound": "No Locations found"
+      },
+      "created": "Location [identifier: {{ param }}] तयार आहे",
+      "updated": "Location [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Location [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Location [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "streetAddress": "Street Address",
+      "postCode": "Post Code",
+      "city": "City",
+      "stateProvince": "State Province",
+      "country": "Country"
+    }
+  }
+}

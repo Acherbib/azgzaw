@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "Yangi Like Of Status qo`shish",
+        "createOrEditLabel": "Like Of Statusni tahrirlash",
+        "search": "Like Of Statusni izlash",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "Like Of Status {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Like Of Status saqlandi",
+      "deleted": "{{ param }}- Like Of Status o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Like Of Statusni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

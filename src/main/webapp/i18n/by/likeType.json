@@ -1,0 +1,12 @@
+{
+  "azgzawApp": {
+    "LikeType": {
+      "null": "",
+      "LIKE": "LIKE",
+      "LOVE": "LOVE",
+      "SAD": "SAD",
+      "HAHA": "HAHA",
+      "ANGRY": "ANGRY"
+    }
+  }
+}

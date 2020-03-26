@@ -1,0 +1,53 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="auction">
+            <h2><span jhiTranslate="azgzawApp.auction.detail.title">Auction</span> {{auction.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="azgzawApp.auction.cardType">Card Type</span></dt>
+                <dd>
+                    <span jhiTranslate="{{'azgzawApp.CardType.' + auction.cardType}}">{{auction.cardType}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.auction.cardNumber">Card Number</span></dt>
+                <dd>
+                    <span>{{auction.cardNumber}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.auction.endDate">End Date</span></dt>
+                <dd>
+                    <span>{{auction.endDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.auction.cvc">Cvc</span></dt>
+                <dd>
+                    <span>{{auction.cvc}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.auction.priceOffer">Price Offer</span></dt>
+                <dd>
+                    <span>{{auction.priceOffer}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.auction.gift">Gift</span></dt>
+                <dd>
+                    <div *ngIf="auction.gift">
+                        <a [routerLink]="['/gift', auction.gift?.id, 'view']">{{auction.gift?.id}}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.auction.author">Author</span></dt>
+                <dd>
+                    {{auction.author?.id}}
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/auction', auction.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

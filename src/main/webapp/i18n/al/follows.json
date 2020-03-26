@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "Krijo një të ri Follows",
+        "createOrEditLabel": "Krijo ose përpuno një Follows",
+        "search": "Kërko për Follows",
+        "notFound": "No Follows found"
+      },
+      "created": "Një Follows i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Follows u përpunua me identifikues {{ param }}",
+      "deleted": "Një Follows u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Follows {{ id }}?"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

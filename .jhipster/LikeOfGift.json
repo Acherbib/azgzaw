@@ -1,0 +1,41 @@
+{
+    "name": "LikeOfGift",
+    "fields": [
+        {
+            "fieldName": "typeOfLike",
+            "fieldType": "LikeType",
+            "fieldValues": "LIKE,LOVE,SAD,HAHA,ANGRY",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "gift",
+            "otherEntityRelationshipName": "likeOfGift",
+            "relationshipName": "gift",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "likeOfGift",
+            "relationshipName": "authorOfLike",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20200325221015",
+    "entityTableName": "like_of_gift",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

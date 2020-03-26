@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "नया Citation बनाएँ",
+        "createOrEditLabel": "Citation बनाएँ या संपादित करें",
+        "search": "Citation खोजें",
+        "notFound": "No Citations found"
+      },
+      "created": "एक नया Citation [identifier: {{ param }}] तैयार है",
+      "updated": "एक Citation [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Citation [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Citation [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

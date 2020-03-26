@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "Creeare o nouă entitate Comment Of Citation",
+        "createOrEditLabel": "Creeare sau editare Comment Of Citation",
+        "search": "Căutare după Comment Of Citation",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "A fost creată o nouă entitate Comment Of Citation cu identificatorul {{ param }}",
+      "updated": "Comment Of Citation cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Comment Of Citation cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Comment Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

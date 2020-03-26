@@ -1,0 +1,38 @@
+{
+  "azgzawApp": {
+    "profile": {
+      "home": {
+        "title": "Profiles",
+        "createLabel": "Creeare o nouă entitate Profile",
+        "createOrEditLabel": "Creeare sau editare Profile",
+        "search": "Căutare după Profile",
+        "notFound": "No Profiles found"
+      },
+      "created": "A fost creată o nouă entitate Profile cu identificatorul {{ param }}",
+      "updated": "Profile cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Profile cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Profile {{ id }}?"
+      },
+      "detail": {
+        "title": "Profile"
+      },
+      "numberOfMinutesConnected": "Number Of Minutes Connected",
+      "verified": "Verified",
+      "joinedDate": "Joined Date",
+      "dateOfBirth": "Date Of Birth",
+      "dateOfBirthVisible": "Date Of Birth Visible",
+      "phoneNumber": "Phone Number",
+      "phoneNumberVisible": "Phone Number Visible",
+      "aboutMe": "About Me",
+      "aboutMeVisible": "About Me Visible",
+      "gender": "Gender",
+      "genderVisible": "Gender Visible",
+      "maritalStatus": "Marital Status",
+      "maritalStatusVisible": "Marital Status Visible",
+      "profilePrivacy": "Profile Privacy",
+      "location": "Location",
+      "user": "User"
+    }
+  }
+}

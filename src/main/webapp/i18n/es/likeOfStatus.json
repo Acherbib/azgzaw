@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "Crear nuevo Like Of Status",
+        "createOrEditLabel": "Crear o editar Like Of Status",
+        "search": "Buscar Like Of Status",
+        "notFound": "Ningún Like Of Statuses encontrado"
+      },
+      "created": "Un nuevo Like Of Status ha sido creado con el identificador {{ param }}",
+      "updated": "Un Like Of Status ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Like Of Status ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Like Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "Thêm mới một Auction",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Auction",
+        "search": "Tìm Auction",
+        "notFound": "No Auctions found"
+      },
+      "created": "Một Auction mới được tạo với định danh {{ param }}",
+      "updated": "Một Auction cập nhật với định danh {{ param }}",
+      "deleted": "Một Auction đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Auction {{ id }}?"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

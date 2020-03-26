@@ -1,0 +1,54 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="commentOfStatus">
+            <h2><span jhiTranslate="azgzawApp.commentOfStatus.detail.title">Comment Of Status</span> {{commentOfStatus.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="azgzawApp.commentOfStatus.bodyComment">Body Comment</span></dt>
+                <dd>
+                    <span>{{commentOfStatus.bodyComment}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.commentOfStatus.commentOfStatusImage">Comment Of Status Image</span></dt>
+                <dd>
+                    <div *ngIf="commentOfStatus.commentOfStatusImage">
+                        <a (click)="openFile(commentOfStatus.commentOfStatusImageContentType!, commentOfStatus.commentOfStatusImage)">
+                            <img [src]="'data:' + commentOfStatus.commentOfStatusImageContentType + ';base64,' + commentOfStatus.commentOfStatusImage" style="max-width: 100%;" alt="commentOfStatus image"/>
+                        </a>
+                        {{commentOfStatus.commentOfStatusImageContentType}}, {{byteSize(commentOfStatus.commentOfStatusImage)}}
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.commentOfStatus.mediaType">Media Type</span></dt>
+                <dd>
+                    <span>{{commentOfStatus.mediaType}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.commentOfStatus.dateOfCreation">Date Of Creation</span></dt>
+                <dd>
+                    <span>{{commentOfStatus.dateOfCreation}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.commentOfStatus.status">Status</span></dt>
+                <dd>
+                    <div *ngIf="commentOfStatus.status">
+                        <a [routerLink]="['/status', commentOfStatus.status?.id, 'view']">{{commentOfStatus.status?.id}}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.commentOfStatus.author">Author</span></dt>
+                <dd>
+                    {{commentOfStatus.author?.id}}
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/comment-of-status', commentOfStatus.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

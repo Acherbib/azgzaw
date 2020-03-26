@@ -1,0 +1,38 @@
+{
+  "azgzawApp": {
+    "profile": {
+      "home": {
+        "title": "Profiles",
+        "createLabel": "Crear nuevo Profile",
+        "createOrEditLabel": "Crear o editar Profile",
+        "search": "Buscar Profile",
+        "notFound": "Ningún Profiles encontrado"
+      },
+      "created": "Un nuevo Profile ha sido creado con el identificador {{ param }}",
+      "updated": "Un Profile ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Profile ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Profile {{ id }}?"
+      },
+      "detail": {
+        "title": "Profile"
+      },
+      "numberOfMinutesConnected": "Number Of Minutes Connected",
+      "verified": "Verified",
+      "joinedDate": "Joined Date",
+      "dateOfBirth": "Date Of Birth",
+      "dateOfBirthVisible": "Date Of Birth Visible",
+      "phoneNumber": "Phone Number",
+      "phoneNumberVisible": "Phone Number Visible",
+      "aboutMe": "About Me",
+      "aboutMeVisible": "About Me Visible",
+      "gender": "Gender",
+      "genderVisible": "Gender Visible",
+      "maritalStatus": "Marital Status",
+      "maritalStatusVisible": "Marital Status Visible",
+      "profilePrivacy": "Profile Privacy",
+      "location": "Location",
+      "user": "User"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "Like Of Citations",
+        "createLabel": "建立一筆新的 Like Of Citation",
+        "createOrEditLabel": "建立或編輯 Like Of Citation",
+        "search": "搜尋 Like Of Citation",
+        "notFound": "No Like Of Citations found"
+      },
+      "created": "新的 Like Of Citation 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Like Of Citation 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Like Of Citation 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Like Of Citation {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

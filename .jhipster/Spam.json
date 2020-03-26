@@ -1,0 +1,38 @@
+{
+    "name": "Spam",
+    "fields": [
+        {
+            "fieldName": "cause",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "dateOfCreation",
+            "fieldType": "ZonedDateTime",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "citation",
+            "otherEntityRelationshipName": "spam",
+            "relationshipName": "citation",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200325221005",
+    "entityTableName": "spam",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

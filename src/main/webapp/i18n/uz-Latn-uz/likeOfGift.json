@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "Yangi Like Of Gift qo`shish",
+        "createOrEditLabel": "Like Of Giftni tahrirlash",
+        "search": "Like Of Giftni izlash",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "Like Of Gift {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Like Of Gift saqlandi",
+      "deleted": "{{ param }}- Like Of Gift o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Like Of Giftni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "Skapa en ny Auction",
+        "createOrEditLabel": "Skapa eller ändra en Auction",
+        "search": "Sök efter Auction",
+        "notFound": "No Auctions found"
+      },
+      "created": "En ny Auction är skapad med id {{ param }}",
+      "updated": "En Auction är uppdaterad med id  {{ param }}",
+      "deleted": "En Auction är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Auction {{ id }}?"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

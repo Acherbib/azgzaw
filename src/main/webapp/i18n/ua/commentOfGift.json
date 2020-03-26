@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gifts",
+        "createLabel": "Створити новий Comment Of Gift",
+        "createOrEditLabel": "Створити чи редагувати Comment Of Gift",
+        "search": "Знайти Comment Of Gift",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "Новий Comment Of Gift створений з ідентифікатором {{ param }}",
+      "updated": "Comment Of Gift оновлений з ідентифікатором {{ param }}",
+      "deleted": "Comment Of Gift видалений з ідентифікатором {{ param }}",
+      "delete": {
+        "question": "Ви впевнені, що хочете видалити Comment Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

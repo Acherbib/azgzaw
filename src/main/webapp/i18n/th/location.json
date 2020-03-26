@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "createLabel": "สร้าง Location",
+        "createOrEditLabel": "สร้างหรือแก้ไข Location",
+        "search": "ค้นหา Location",
+        "notFound": "No Locations found"
+      },
+      "created": "Location ถูกสร้างด้วย {{ param }}",
+      "updated": "Location ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Location ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Location {{ id }}?"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "streetAddress": "Street Address",
+      "postCode": "Post Code",
+      "city": "City",
+      "stateProvince": "State Province",
+      "country": "Country"
+    }
+  }
+}

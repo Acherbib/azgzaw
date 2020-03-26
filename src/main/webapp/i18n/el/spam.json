@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "Δημιουργήστε ένα νέο Spam",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Spam",
+        "search": "Αναζήτηση για Spam",
+        "notFound": "No Spams found"
+      },
+      "created": "Ένα νέο Spam έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Spam έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Spam έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Spam {{ id }};"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

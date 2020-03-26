@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "Skapa en ny Status",
+        "createOrEditLabel": "Skapa eller ändra en Status",
+        "search": "Sök efter Status",
+        "notFound": "No Statuses found"
+      },
+      "created": "En ny Status är skapad med id {{ param }}",
+      "updated": "En Status är uppdaterad med id  {{ param }}",
+      "deleted": "En Status är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

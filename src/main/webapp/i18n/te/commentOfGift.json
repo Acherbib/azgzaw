@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gifts",
+        "createLabel": "కొత్త Comment Of Gift  సృష్టించండి",
+        "createOrEditLabel": "Comment Of Gift సృష్టించండి లేదా సవరించండి",
+        "search": "Comment Of Gift కొరకు శోధించండి",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Comment Of Gift సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Comment Of Gift సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Comment Of Gift తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Comment Of Gift {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

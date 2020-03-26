@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "Lisa uus Spam",
+        "createOrEditLabel": "Lisa või muuda Spam",
+        "search": "Otsi Spam",
+        "notFound": "No Spams found"
+      },
+      "created": "Uus Spam on loodud identifikaatoriga {{ param }}",
+      "updated": "Spam identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Spam identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Spam {{ id }}?"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

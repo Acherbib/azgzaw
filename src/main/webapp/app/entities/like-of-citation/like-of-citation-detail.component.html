@@ -1,0 +1,37 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="likeOfCitation">
+            <h2><span jhiTranslate="azgzawApp.likeOfCitation.detail.title">Like Of Citation</span> {{likeOfCitation.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="azgzawApp.likeOfCitation.typeOfLike">Type Of Like</span></dt>
+                <dd>
+                    <span jhiTranslate="{{'azgzawApp.LikeType.' + likeOfCitation.typeOfLike}}">{{likeOfCitation.typeOfLike}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.likeOfCitation.citation">Citation</span></dt>
+                <dd>
+                    <div *ngIf="likeOfCitation.citation">
+                        <a [routerLink]="['/citation', likeOfCitation.citation?.id, 'view']">{{likeOfCitation.citation?.id}}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.likeOfCitation.authorOfLike">Author Of Like</span></dt>
+                <dd>
+                    {{likeOfCitation.authorOfLike?.id}}
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/like-of-citation', likeOfCitation.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

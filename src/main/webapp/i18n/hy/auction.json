@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "Ստեղծել նոր Auction",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Auction",
+        "search": "Գտնել Auction",
+        "notFound": "No Auctions found"
+      },
+      "created": "Նոր Auction ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Auction թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Auction հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Auction {{ id }}?"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

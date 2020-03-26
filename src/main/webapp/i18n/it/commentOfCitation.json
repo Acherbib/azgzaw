@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "CommentOfCitations",
+        "createLabel": "Genera un nuovo Comment Of Citation",
+        "createOrEditLabel": "Genera o modifica un Comment Of Citation",
+        "search": "Cerca Comment Of Citation",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "&Egrave; stato generato un nuovo Comment Of Citation con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Comment Of Citation identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Comment Of Citation con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Comment Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

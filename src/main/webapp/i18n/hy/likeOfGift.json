@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "Ստեղծել նոր Like Of Gift",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Like Of Gift",
+        "search": "Գտնել Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "Նոր Like Of Gift ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Like Of Gift թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Like Of Gift հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Like Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

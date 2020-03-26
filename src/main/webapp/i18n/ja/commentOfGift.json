@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "CommentOfGifts",
+        "createLabel": "Comment Of Gift を追加",
+        "createOrEditLabel": "Comment Of Giftを追加または編集",
+        "search": "Search for Comment Of Gift",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "A new Comment Of Gift is created with identifier {{ param }}",
+      "updated": "A Comment Of Gift is updated with identifier {{ param }}",
+      "deleted": "A Comment Of Gift is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Comment Of Gift {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

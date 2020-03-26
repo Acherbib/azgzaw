@@ -1,0 +1,55 @@
+{
+    "name": "Citation",
+    "fields": [
+        {
+            "fieldName": "description",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "greenCitationMedia",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "image"
+        },
+        {
+            "fieldName": "dateOfCreation",
+            "fieldType": "ZonedDateTime",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "backgroundColor",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "greenCitationPrivacy",
+            "fieldType": "Privacy",
+            "fieldValues": "PUBLIC,ONLYME,FOLLOWS",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "citation",
+            "relationshipName": "authorOfCitation",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200325221004",
+    "entityTableName": "citation",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

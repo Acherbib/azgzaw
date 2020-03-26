@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "Luo Follows",
+        "createOrEditLabel": "Luo tai muokkaa Follows",
+        "search": "Etsi Follows",
+        "notFound": "Follows ei löytynyt"
+      },
+      "created": "Uusi Follows on luotu, id: {{ param }}",
+      "updated": "Follows on päivitetty, id: {{ param }}",
+      "deleted": "Follows on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Follows {{ id }}?"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

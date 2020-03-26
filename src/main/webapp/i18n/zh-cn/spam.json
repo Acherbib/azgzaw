@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "创建新 Spam",
+        "createOrEditLabel": "创建或编辑 Spam",
+        "search": "查找 Spam",
+        "notFound": "No Spams found"
+      },
+      "created": "Spam {{ param }} 创建成功",
+      "updated": "Spam {{ param }} 更新成功",
+      "deleted": "Spam {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Spam {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "Like Of Citations",
+        "createLabel": "Buat Like Of Citation baru",
+        "createOrEditLabel": "Buat atau edit Like Of Citation",
+        "search": "Cari Like Of Citation",
+        "notFound": "No Like Of Citations found"
+      },
+      "created": "Like Of Citation dengan id {{ param }} telah dibuat",
+      "updated": "Like Of Citation dengan id {{ param }} telah diperbaharui",
+      "deleted": "Like Of Citation dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Like Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auction",
+        "createLabel": "Dodaj Auction",
+        "createOrEditLabel": "Dodaj lub edytuj: Auction",
+        "search": "Szukaj Auction",
+        "notFound": "No Auctions found"
+      },
+      "created": "Utworzono nowy obiekt typu Auction z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Auction z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Auction z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Auction {{ id }}?"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

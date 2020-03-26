@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "Like Of Citations",
+        "createLabel": "Янги Like Of Citation қўшиш",
+        "createOrEditLabel": "Like Of Citationни таҳрирлаш",
+        "search": "Like Of Citationни излаш",
+        "notFound": "No Like Of Citations found"
+      },
+      "created": "Like Of Citation {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Like Of Citation сақланди.",
+      "deleted": "{{ param }}- Like Of Citation ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Like Of Citationни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

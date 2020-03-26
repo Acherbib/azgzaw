@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gifts",
+        "createLabel": "Pridať Comment Of Gift",
+        "createOrEditLabel": "Pridať alebo upraviť Comment Of Gift",
+        "search": "Vyhľadať Comment Of Gift",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "Bol vytvorený potomok entity Comment Of Gift s identifikátorom {{ param }}",
+      "updated": "Potomok entity Comment Of Gift s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Comment Of Gift s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Comment Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

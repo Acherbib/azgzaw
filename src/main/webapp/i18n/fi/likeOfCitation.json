@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "Like Of Citations",
+        "createLabel": "Luo Like Of Citation",
+        "createOrEditLabel": "Luo tai muokkaa Like Of Citation",
+        "search": "Etsi Like Of Citation",
+        "notFound": "Like Of Citation ei löytynyt"
+      },
+      "created": "Uusi Like Of Citation on luotu, id: {{ param }}",
+      "updated": "Like Of Citation on päivitetty, id: {{ param }}",
+      "deleted": "Like Of Citation on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Like Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

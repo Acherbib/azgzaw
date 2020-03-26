@@ -1,0 +1,10 @@
+{
+  "azgzawApp": {
+    "Gender": {
+      "null": "",
+      "MALE": "MALE",
+      "FEMALE": "FEMALE",
+      "UKNNOWN": "UKNNOWN"
+    }
+  }
+}

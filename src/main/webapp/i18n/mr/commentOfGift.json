@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gifts",
+        "createLabel": "नवीन Comment Of Gift तयार करा",
+        "createOrEditLabel": "Comment Of Gift तयार किंवा संपादित करा",
+        "search": "Comment Of Gift शोधा",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "Comment Of Gift [identifier: {{ param }}] तयार आहे",
+      "updated": "Comment Of Gift [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Comment Of Gift [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Comment Of Gift [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "Стварыць новы Like Of Gift",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Like Of Gift",
+        "search": "Знайсці Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "Новы Like Of Gift створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Like Of Gift абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Like Of Gift выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Like Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

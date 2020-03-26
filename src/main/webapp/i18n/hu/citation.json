@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "Egy új Citation létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Citationt",
+        "search": "Citation keresése",
+        "notFound": "No Citations found"
+      },
+      "created": "Egy új Citation lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Citation módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Citation törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Citationt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

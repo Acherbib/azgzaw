@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "Krijo një të ri Like Of Status",
+        "createOrEditLabel": "Krijo ose përpuno një Like Of Status",
+        "search": "Kërko për Like Of Status",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "Një Like Of Status i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Like Of Status u përpunua me identifikues {{ param }}",
+      "deleted": "Një Like Of Status u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Like Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

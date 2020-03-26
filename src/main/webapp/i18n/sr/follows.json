@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "Kreiraj novi Follows",
+        "createOrEditLabel": "Kreirajte ili izmenite Follows",
+        "search": "Potražite Follows",
+        "notFound": "No Follows found"
+      },
+      "created": "Kreiran je novi Follows pod nazivom {{ param }}",
+      "updated": "Follows pod nazivom {{ param }} je ažuriran",
+      "deleted": "Follows pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Follows pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

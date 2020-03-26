@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "สร้าง Comment Of Citation",
+        "createOrEditLabel": "สร้างหรือแก้ไข Comment Of Citation",
+        "search": "ค้นหา Comment Of Citation",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "Comment Of Citation ถูกสร้างด้วย {{ param }}",
+      "updated": "Comment Of Citation ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Comment Of Citation ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Comment Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

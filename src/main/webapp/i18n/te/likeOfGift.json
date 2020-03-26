@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "కొత్త Like Of Gift  సృష్టించండి",
+        "createOrEditLabel": "Like Of Gift సృష్టించండి లేదా సవరించండి",
+        "search": "Like Of Gift కొరకు శోధించండి",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Like Of Gift సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Like Of Gift సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Like Of Gift తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Like Of Gift {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

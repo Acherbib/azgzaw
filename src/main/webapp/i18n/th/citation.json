@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "สร้าง Citation",
+        "createOrEditLabel": "สร้างหรือแก้ไข Citation",
+        "search": "ค้นหา Citation",
+        "notFound": "No Citations found"
+      },
+      "created": "Citation ถูกสร้างด้วย {{ param }}",
+      "updated": "Citation ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Citation ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

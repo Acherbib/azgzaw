@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "Kreiraj novi Comment Of Citation",
+        "createOrEditLabel": "Kreirajte ili izmenite Comment Of Citation",
+        "search": "Potražite Comment Of Citation",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "Kreiran je novi Comment Of Citation pod nazivom {{ param }}",
+      "updated": "Comment Of Citation pod nazivom {{ param }} je ažuriran",
+      "deleted": "Comment Of Citation pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Comment Of Citation pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

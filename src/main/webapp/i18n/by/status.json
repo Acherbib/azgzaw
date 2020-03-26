@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "Стварыць новы Status",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Status",
+        "search": "Знайсці Status",
+        "notFound": "No Statuses found"
+      },
+      "created": "Новы Status створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Status абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Status выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

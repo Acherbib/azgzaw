@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "Like Of Status-ஐ உருவாக்கு",
+        "createOrEditLabel": "Like Of Status -ஐ மாற்று (அ) உருவாக்கு",
+        "search": "Search for Like Of Status",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "Like Of Status புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Like Of Status மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Like Of Status நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Like Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

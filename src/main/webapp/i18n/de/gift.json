@@ -1,0 +1,36 @@
+{
+  "azgzawApp": {
+    "gift": {
+      "home": {
+        "title": "Gifts",
+        "createLabel": "Gift erstellen",
+        "createOrEditLabel": "Gift erstellen oder bearbeiten",
+        "search": "Suche nach Gift",
+        "notFound": "No Gifts found"
+      },
+      "created": "Gift erstellt mit ID {{ param }}",
+      "updated": "Gift aktualisiert mit ID {{ param }}",
+      "deleted": "Gift gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Gift {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Gift"
+      },
+      "title": "Title",
+      "description": "Description",
+      "isAGift": "Is A Gift",
+      "reserved": "Reserved",
+      "city": "City",
+      "country": "Country",
+      "isAuction": "Is Auction",
+      "startPrice": "Start Price",
+      "backgroundColor": "Background Color",
+      "numberLikesOfGifts": "Number Likes Of Gifts",
+      "numberSeenOfGifts": "Number Seen Of Gifts",
+      "dateOfCreation": "Date Of Creation",
+      "image": "Image",
+      "authorOfGift": "Author Of Gift"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gifts",
+        "createLabel": "创建新 Comment Of Gift",
+        "createOrEditLabel": "创建或编辑 Comment Of Gift",
+        "search": "查找 Comment Of Gift",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "Comment Of Gift {{ param }} 创建成功",
+      "updated": "Comment Of Gift {{ param }} 更新成功",
+      "deleted": "Comment Of Gift {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Comment Of Gift {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

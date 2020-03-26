@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "Thêm mới một Spam",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Spam",
+        "search": "Tìm Spam",
+        "notFound": "No Spams found"
+      },
+      "created": "Một Spam mới được tạo với định danh {{ param }}",
+      "updated": "Một Spam cập nhật với định danh {{ param }}",
+      "deleted": "Một Spam đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Spam {{ id }}?"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

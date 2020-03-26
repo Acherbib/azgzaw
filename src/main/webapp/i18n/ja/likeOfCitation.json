@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "LikeOfCitations",
+        "createLabel": "Like Of Citation を追加",
+        "createOrEditLabel": "Like Of Citationを追加または編集",
+        "search": "Search for Like Of Citation",
+        "notFound": "No Like Of Citations found"
+      },
+      "created": "A new Like Of Citation is created with identifier {{ param }}",
+      "updated": "A Like Of Citation is updated with identifier {{ param }}",
+      "deleted": "A Like Of Citation is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Like Of Citation {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

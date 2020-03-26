@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "Luo Status",
+        "createOrEditLabel": "Luo tai muokkaa Status",
+        "search": "Etsi Status",
+        "notFound": "Status ei löytynyt"
+      },
+      "created": "Uusi Status on luotu, id: {{ param }}",
+      "updated": "Status on päivitetty, id: {{ param }}",
+      "deleted": "Status on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

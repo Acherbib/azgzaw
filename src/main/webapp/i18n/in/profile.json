@@ -1,0 +1,38 @@
+{
+  "azgzawApp": {
+    "profile": {
+      "home": {
+        "title": "Profiles",
+        "createLabel": "Buat Profile baru",
+        "createOrEditLabel": "Buat atau edit Profile",
+        "search": "Cari Profile",
+        "notFound": "No Profiles found"
+      },
+      "created": "Profile dengan id {{ param }} telah dibuat",
+      "updated": "Profile dengan id {{ param }} telah diperbaharui",
+      "deleted": "Profile dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Profile {{ id }}?"
+      },
+      "detail": {
+        "title": "Profile"
+      },
+      "numberOfMinutesConnected": "Number Of Minutes Connected",
+      "verified": "Verified",
+      "joinedDate": "Joined Date",
+      "dateOfBirth": "Date Of Birth",
+      "dateOfBirthVisible": "Date Of Birth Visible",
+      "phoneNumber": "Phone Number",
+      "phoneNumberVisible": "Phone Number Visible",
+      "aboutMe": "About Me",
+      "aboutMeVisible": "About Me Visible",
+      "gender": "Gender",
+      "genderVisible": "Gender Visible",
+      "maritalStatus": "Marital Status",
+      "maritalStatusVisible": "Marital Status Visible",
+      "profilePrivacy": "Profile Privacy",
+      "location": "Location",
+      "user": "User"
+    }
+  }
+}

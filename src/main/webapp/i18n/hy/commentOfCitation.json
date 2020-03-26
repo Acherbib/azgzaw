@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "Ստեղծել նոր Comment Of Citation",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Comment Of Citation",
+        "search": "Գտնել Comment Of Citation",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "Նոր Comment Of Citation ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Comment Of Citation թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Comment Of Citation հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Comment Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

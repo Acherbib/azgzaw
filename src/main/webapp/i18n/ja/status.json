@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "Status を追加",
+        "createOrEditLabel": "Statusを追加または編集",
+        "search": "Search for Status",
+        "notFound": "No Statuses found"
+      },
+      "created": "A new Status is created with identifier {{ param }}",
+      "updated": "A Status is updated with identifier {{ param }}",
+      "deleted": "A Status is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Status {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

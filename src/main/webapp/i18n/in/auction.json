@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "Buat Auction baru",
+        "createOrEditLabel": "Buat atau edit Auction",
+        "search": "Cari Auction",
+        "notFound": "No Auctions found"
+      },
+      "created": "Auction dengan id {{ param }} telah dibuat",
+      "updated": "Auction dengan id {{ param }} telah diperbaharui",
+      "deleted": "Auction dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Auction {{ id }}?"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

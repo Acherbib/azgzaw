@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "Like Of Citations",
+        "createLabel": "สร้าง Like Of Citation",
+        "createOrEditLabel": "สร้างหรือแก้ไข Like Of Citation",
+        "search": "ค้นหา Like Of Citation",
+        "notFound": "No Like Of Citations found"
+      },
+      "created": "Like Of Citation ถูกสร้างด้วย {{ param }}",
+      "updated": "Like Of Citation ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Like Of Citation ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Like Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

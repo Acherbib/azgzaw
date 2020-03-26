@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "Vytvořit Like Of Status",
+        "createOrEditLabel": "Vytvořit nebo upravit Like Of Status",
+        "search": "Vyhledat Like Of Status",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "Byl vytvořen potomek entity Like Of Status s identifikátorem {{ param }}",
+      "updated": "Potomek entity Like Of Status s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Like Of Status s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Like Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

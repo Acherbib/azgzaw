@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Status",
+        "createLabel": "Dodaj Comment Of Status",
+        "createOrEditLabel": "Dodaj lub edytuj: Comment Of Status",
+        "search": "Szukaj Comment Of Status",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "Utworzono nowy obiekt typu Comment Of Status z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Comment Of Status z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Comment Of Status z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Comment Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

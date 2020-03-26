@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "Luo Comment Of Status",
+        "createOrEditLabel": "Luo tai muokkaa Comment Of Status",
+        "search": "Etsi Comment Of Status",
+        "notFound": "Comment Of Status ei löytynyt"
+      },
+      "created": "Uusi Comment Of Status on luotu, id: {{ param }}",
+      "updated": "Comment Of Status on päivitetty, id: {{ param }}",
+      "deleted": "Comment Of Status on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Comment Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

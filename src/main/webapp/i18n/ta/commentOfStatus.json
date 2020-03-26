@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "Comment Of Status-ஐ உருவாக்கு",
+        "createOrEditLabel": "Comment Of Status -ஐ மாற்று (அ) உருவாக்கு",
+        "search": "Search for Comment Of Status",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "Comment Of Status புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Comment Of Status மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Comment Of Status நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Comment Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

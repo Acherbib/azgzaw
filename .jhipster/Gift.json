@@ -1,0 +1,84 @@
+{
+    "name": "Gift",
+    "fields": [
+        {
+            "fieldName": "title",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isAGift",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "reserved",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "city",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "country",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isAuction",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "startPrice",
+            "fieldType": "Double",
+            "fieldValidateRules": [
+                "min"
+            ],
+            "fieldValidateRulesMin": 0
+        },
+        {
+            "fieldName": "backgroundColor",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "numberLikesOfGifts",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "numberSeenOfGifts",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "dateOfCreation",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "image",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "image"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "gift",
+            "relationshipName": "authorOfGift",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200325221001",
+    "entityTableName": "gift",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "Krijo një të ri Comment Of Status",
+        "createOrEditLabel": "Krijo ose përpuno një Comment Of Status",
+        "search": "Kërko për Comment Of Status",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "Një Comment Of Status i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Comment Of Status u përpunua me identifikues {{ param }}",
+      "deleted": "Një Comment Of Status u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Comment Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

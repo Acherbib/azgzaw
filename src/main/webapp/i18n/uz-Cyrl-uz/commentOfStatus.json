@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "Янги Comment Of Status қўшиш",
+        "createOrEditLabel": "Comment Of Statusни таҳрирлаш",
+        "search": "Comment Of Statusни излаш",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "Comment Of Status {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Comment Of Status сақланди.",
+      "deleted": "{{ param }}- Comment Of Status ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Comment Of Statusни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

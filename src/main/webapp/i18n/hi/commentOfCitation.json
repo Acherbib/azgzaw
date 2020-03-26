@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "CommentOfCitations",
+        "createLabel": "नया Comment Of Citation बनाएँ",
+        "createOrEditLabel": "Comment Of Citation बनाएँ या संपादित करें",
+        "search": "Comment Of Citation खोजें",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "एक नया Comment Of Citation [identifier: {{ param }}] तैयार है",
+      "updated": "एक Comment Of Citation [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Comment Of Citation [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Comment Of Citation [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

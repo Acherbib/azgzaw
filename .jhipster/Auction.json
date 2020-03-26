@@ -1,0 +1,58 @@
+{
+    "name": "Auction",
+    "fields": [
+        {
+            "fieldName": "cardType",
+            "fieldType": "CardType",
+            "fieldValues": "VISA,MASTERCARD,MAESTRO"
+        },
+        {
+            "fieldName": "cardNumber",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "endDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "cvc",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "priceOffer",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "min"
+            ],
+            "fieldValidateRulesMin": 0
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "gift",
+            "otherEntityRelationshipName": "auction",
+            "relationshipName": "gift",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "auction",
+            "relationshipName": "author",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20200325221000",
+    "entityTableName": "auction",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

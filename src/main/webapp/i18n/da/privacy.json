@@ -1,0 +1,10 @@
+{
+  "azgzawApp": {
+    "Privacy": {
+      "null": "",
+      "PUBLIC": "PUBLIC",
+      "ONLYME": "ONLYME",
+      "FOLLOWS": "FOLLOWS"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="likeOfGift">
+            <h2><span jhiTranslate="azgzawApp.likeOfGift.detail.title">Like Of Gift</span> {{likeOfGift.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="azgzawApp.likeOfGift.typeOfLike">Type Of Like</span></dt>
+                <dd>
+                    <span jhiTranslate="{{'azgzawApp.LikeType.' + likeOfGift.typeOfLike}}">{{likeOfGift.typeOfLike}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.likeOfGift.gift">Gift</span></dt>
+                <dd>
+                    <div *ngIf="likeOfGift.gift">
+                        <a [routerLink]="['/gift', likeOfGift.gift?.id, 'view']">{{likeOfGift.gift?.id}}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.likeOfGift.authorOfLike">Author Of Like</span></dt>
+                <dd>
+                    {{likeOfGift.authorOfLike?.id}}
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/like-of-gift', likeOfGift.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

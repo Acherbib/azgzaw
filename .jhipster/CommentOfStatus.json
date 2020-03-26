@@ -1,0 +1,53 @@
+{
+    "name": "CommentOfStatus",
+    "fields": [
+        {
+            "fieldName": "bodyComment",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "commentOfStatusImage",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "image"
+        },
+        {
+            "fieldName": "mediaType",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateOfCreation",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "status",
+            "otherEntityRelationshipName": "commentOfStatus",
+            "relationshipName": "status",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "commentOfStatus",
+            "relationshipName": "author",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20200325221010",
+    "entityTableName": "comment_of_status",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

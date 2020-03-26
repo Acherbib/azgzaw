@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spam",
+        "createLabel": "Dodaj Spam",
+        "createOrEditLabel": "Dodaj lub edytuj: Spam",
+        "search": "Szukaj Spam",
+        "notFound": "No Spams found"
+      },
+      "created": "Utworzono nowy obiekt typu Spam z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Spam z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Spam z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Spam {{ id }}?"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

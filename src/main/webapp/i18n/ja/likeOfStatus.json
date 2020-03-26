@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "LikeOfStatuses",
+        "createLabel": "Like Of Status を追加",
+        "createOrEditLabel": "Like Of Statusを追加または編集",
+        "search": "Search for Like Of Status",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "A new Like Of Status is created with identifier {{ param }}",
+      "updated": "A Like Of Status is updated with identifier {{ param }}",
+      "deleted": "A Like Of Status is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Like Of Status {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

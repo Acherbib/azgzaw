@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gifts",
+        "createLabel": "Lisa uus Comment Of Gift",
+        "createOrEditLabel": "Lisa või muuda Comment Of Gift",
+        "search": "Otsi Comment Of Gift",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "Uus Comment Of Gift on loodud identifikaatoriga {{ param }}",
+      "updated": "Comment Of Gift identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Comment Of Gift identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Comment Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "Skapa en ny Comment Of Status",
+        "createOrEditLabel": "Skapa eller ändra en Comment Of Status",
+        "search": "Sök efter Comment Of Status",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "En ny Comment Of Status är skapad med id {{ param }}",
+      "updated": "En Comment Of Status är uppdaterad med id  {{ param }}",
+      "deleted": "En Comment Of Status är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Comment Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

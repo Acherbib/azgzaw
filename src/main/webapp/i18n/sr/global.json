@@ -7,6 +7,22 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entiteti",
+        "auction": "Auction",
+        "gift": "Gift",
+        "profile": "Profile",
+        "status": "Status",
+        "citation": "Citation",
+        "spam": "Spam",
+        "follows": "Follows",
+        "message": "Message",
+        "commentOfCitation": "Comment Of Citation",
+        "commentOfGift": "Comment Of Gift",
+        "commentOfStatus": "Comment Of Status",
+        "country": "Country",
+        "location": "Location",
+        "likeOfCitation": "Like Of Citation",
+        "likeOfStatus": "Like Of Status",
+        "likeOfGift": "Like Of Gift",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

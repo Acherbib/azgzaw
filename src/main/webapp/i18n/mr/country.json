@@ -1,0 +1,23 @@
+{
+  "azgzawApp": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "createLabel": "नवीन Country तयार करा",
+        "createOrEditLabel": "Country तयार किंवा संपादित करा",
+        "search": "Country शोधा",
+        "notFound": "No Countries found"
+      },
+      "created": "Country [identifier: {{ param }}] तयार आहे",
+      "updated": "Country [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Country [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Country [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "countryName": "Country Name"
+    }
+  }
+}

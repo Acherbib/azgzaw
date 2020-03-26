@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "Creeare o nouă entitate Comment Of Status",
+        "createOrEditLabel": "Creeare sau editare Comment Of Status",
+        "search": "Căutare după Comment Of Status",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "A fost creată o nouă entitate Comment Of Status cu identificatorul {{ param }}",
+      "updated": "Comment Of Status cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Comment Of Status cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Comment Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

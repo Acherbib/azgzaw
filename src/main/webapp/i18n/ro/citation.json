@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "Creeare o nouă entitate Citation",
+        "createOrEditLabel": "Creeare sau editare Citation",
+        "search": "Căutare după Citation",
+        "notFound": "No Citations found"
+      },
+      "created": "A fost creată o nouă entitate Citation cu identificatorul {{ param }}",
+      "updated": "Citation cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Citation cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "Pridať Spam",
+        "createOrEditLabel": "Pridať alebo upraviť Spam",
+        "search": "Vyhľadať Spam",
+        "notFound": "No Spams found"
+      },
+      "created": "Bol vytvorený potomok entity Spam s identifikátorom {{ param }}",
+      "updated": "Potomok entity Spam s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Spam s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Spam {{ id }}?"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

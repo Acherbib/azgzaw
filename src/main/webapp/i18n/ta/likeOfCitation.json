@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "Like Of Citations",
+        "createLabel": "Like Of Citation-ஐ உருவாக்கு",
+        "createOrEditLabel": "Like Of Citation -ஐ மாற்று (அ) உருவாக்கு",
+        "search": "Search for Like Of Citation",
+        "notFound": "No Like Of Citations found"
+      },
+      "created": "Like Of Citation புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Like Of Citation மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Like Of Citation நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Like Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

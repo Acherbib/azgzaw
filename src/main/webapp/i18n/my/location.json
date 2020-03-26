@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "createLabel": "Location အသစ်ထည့်မည်",
+        "createOrEditLabel": "Location အသစ်ထည့်ခြင်း (သို့) ပြုပြင်ခြင်း",
+        "search": "ရှာဖွေရန် Location",
+        "notFound": "No Locations found"
+      },
+      "created": "{{ param }} အိုင်ဒီဖြင့် Location အသစ်တစ်ခုအား ထည့်ပြီးပါပြီ။",
+      "updated": "{{ param }} အိုင်ဒီဖြင့် Location တစ်ခုအား ပြုပြင်ပြီးပါပြီ။",
+      "deleted": "{{ param }} အိုင်ဒီဖြင့် Location တစ်ခုအား ဖျက်ပြီးပါပြီ။",
+      "delete": {
+        "question": "Location {{ id }} အား ဖျက်ပါမည်။ သေချာပါသလား?"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "streetAddress": "Street Address",
+      "postCode": "Post Code",
+      "city": "City",
+      "stateProvince": "State Province",
+      "country": "Country"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "Creeare o nouă entitate Auction",
+        "createOrEditLabel": "Creeare sau editare Auction",
+        "search": "Căutare după Auction",
+        "notFound": "No Auctions found"
+      },
+      "created": "A fost creată o nouă entitate Auction cu identificatorul {{ param }}",
+      "updated": "Auction cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Auction cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Auction {{ id }}?"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

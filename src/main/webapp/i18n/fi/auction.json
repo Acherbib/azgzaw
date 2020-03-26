@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "Luo Auction",
+        "createOrEditLabel": "Luo tai muokkaa Auction",
+        "search": "Etsi Auction",
+        "notFound": "Auction ei löytynyt"
+      },
+      "created": "Uusi Auction on luotu, id: {{ param }}",
+      "updated": "Auction on päivitetty, id: {{ param }}",
+      "deleted": "Auction on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Auction {{ id }}?"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

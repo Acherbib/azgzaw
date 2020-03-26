@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "కొత్త Comment Of Citation  సృష్టించండి",
+        "createOrEditLabel": "Comment Of Citation సృష్టించండి లేదా సవరించండి",
+        "search": "Comment Of Citation కొరకు శోధించండి",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Comment Of Citation సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Comment Of Citation సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Comment Of Citation తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Comment Of Citation {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "azgzawApp": {
+    "profile": {
+      "home": {
+        "title": "Profiles",
+        "createLabel": "Yangi Profile qo`shish",
+        "createOrEditLabel": "Profileni tahrirlash",
+        "search": "Profileni izlash",
+        "notFound": "No Profiles found"
+      },
+      "created": "Profile {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Profile saqlandi",
+      "deleted": "{{ param }}- Profile o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Profileni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Profile"
+      },
+      "numberOfMinutesConnected": "Number Of Minutes Connected",
+      "verified": "Verified",
+      "joinedDate": "Joined Date",
+      "dateOfBirth": "Date Of Birth",
+      "dateOfBirthVisible": "Date Of Birth Visible",
+      "phoneNumber": "Phone Number",
+      "phoneNumberVisible": "Phone Number Visible",
+      "aboutMe": "About Me",
+      "aboutMeVisible": "About Me Visible",
+      "gender": "Gender",
+      "genderVisible": "Gender Visible",
+      "maritalStatus": "Marital Status",
+      "maritalStatusVisible": "Marital Status Visible",
+      "profilePrivacy": "Profile Privacy",
+      "location": "Location",
+      "user": "User"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "Skapa en ny Like Of Gift",
+        "createOrEditLabel": "Skapa eller ändra en Like Of Gift",
+        "search": "Sök efter Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "En ny Like Of Gift är skapad med id {{ param }}",
+      "updated": "En Like Of Gift är uppdaterad med id  {{ param }}",
+      "deleted": "En Like Of Gift är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Like Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

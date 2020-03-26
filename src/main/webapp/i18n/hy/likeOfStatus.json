@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "Ստեղծել նոր Like Of Status",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Like Of Status",
+        "search": "Գտնել Like Of Status",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "Նոր Like Of Status ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Like Of Status թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Like Of Status հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Like Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

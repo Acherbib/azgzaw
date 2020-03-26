@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "Янги Status қўшиш",
+        "createOrEditLabel": "Statusни таҳрирлаш",
+        "search": "Statusни излаш",
+        "notFound": "No Statuses found"
+      },
+      "created": "Status {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Status сақланди.",
+      "deleted": "{{ param }}- Status ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Statusни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

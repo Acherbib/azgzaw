@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "Buat Spam baru",
+        "createOrEditLabel": "Buat atau edit Spam",
+        "search": "Cari Spam",
+        "notFound": "No Spams found"
+      },
+      "created": "Spam dengan id {{ param }} telah dibuat",
+      "updated": "Spam dengan id {{ param }} telah diperbaharui",
+      "deleted": "Spam dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Spam {{ id }}?"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

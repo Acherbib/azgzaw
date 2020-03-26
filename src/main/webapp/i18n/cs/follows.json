@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "Vytvořit Follows",
+        "createOrEditLabel": "Vytvořit nebo upravit Follows",
+        "search": "Vyhledat Follows",
+        "notFound": "No Follows found"
+      },
+      "created": "Byl vytvořen potomek entity Follows s identifikátorem {{ param }}",
+      "updated": "Potomek entity Follows s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Follows s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Follows {{ id }}?"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

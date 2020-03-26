@@ -1,0 +1,36 @@
+{
+  "azgzawApp": {
+    "gift": {
+      "home": {
+        "title": "Gifts",
+        "createLabel": "Yangi Gift qo`shish",
+        "createOrEditLabel": "Giftni tahrirlash",
+        "search": "Giftni izlash",
+        "notFound": "No Gifts found"
+      },
+      "created": "Gift {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Gift saqlandi",
+      "deleted": "{{ param }}- Gift o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Giftni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Gift"
+      },
+      "title": "Title",
+      "description": "Description",
+      "isAGift": "Is A Gift",
+      "reserved": "Reserved",
+      "city": "City",
+      "country": "Country",
+      "isAuction": "Is Auction",
+      "startPrice": "Start Price",
+      "backgroundColor": "Background Color",
+      "numberLikesOfGifts": "Number Likes Of Gifts",
+      "numberSeenOfGifts": "Number Seen Of Gifts",
+      "dateOfCreation": "Date Of Creation",
+      "image": "Image",
+      "authorOfGift": "Author Of Gift"
+    }
+  }
+}

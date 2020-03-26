@@ -1,0 +1,85 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="azgzawApp.commentOfCitation.home.title">Comment Of Citations</span>
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-comment-of-citation" [routerLink]="['/comment-of-citation/new']">
+            <fa-icon [icon]="'plus'"></fa-icon>
+            <span class="hidden-sm-down"  jhiTranslate="azgzawApp.commentOfCitation.home.createLabel">
+            Create a new Comment Of Citation
+            </span>
+        </button>
+    </h2>
+    <jhi-alert-error></jhi-alert-error>
+    <jhi-alert></jhi-alert>
+    <div class="row">
+        <div class="col-sm-12">
+            <form name="searchForm" class="form-inline">
+                <div class="input-group w-100 mt-3">
+                    <input type="text" class="form-control" [(ngModel)]="currentSearch" id="currentSearch" name="currentSearch" placeholder="{{ 'azgzawApp.commentOfCitation.home.search' | translate }}">
+                    <button class="input-group-append btn btn-info" (click)="search(currentSearch)">
+                        <fa-icon [icon]="'search'"></fa-icon>
+                    </button>
+                    <button class="input-group-append btn btn-danger" (click)="search('')" *ngIf="currentSearch">
+                        <fa-icon [icon]="'trash-alt'"></fa-icon>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br/>
+    <div class="alert alert-warning" *ngIf="commentOfCitations?.length === 0">
+        <span jhiTranslate="azgzawApp.commentOfCitation.home.notFound">No commentOfCitations found</span>
+    </div>
+    <div class="table-responsive" *ngIf="commentOfCitations?.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+            <tr>
+            <th scope="col" ><span jhiTranslate="global.field.id">ID</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.commentOfCitation.bodyComment">Body Comment</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.commentOfCitation.commentOfCitationImage">Comment Of Citation Image</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.commentOfCitation.dateOfCreation">Date Of Creation</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.commentOfCitation.citation">Citation</span></th>
+            <th scope="col"></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let commentOfCitation of commentOfCitations ;trackBy: trackId">
+                <td><a [routerLink]="['/comment-of-citation', commentOfCitation.id, 'view' ]">{{commentOfCitation.id}}</a></td>
+                <td>{{commentOfCitation.bodyComment}}</td>
+                <td>
+                    <a *ngIf="commentOfCitation.commentOfCitationImage" (click)="openFile(commentOfCitation.commentOfCitationImageContentType, commentOfCitation.commentOfCitationImage)">
+                        <img [src]="'data:' + commentOfCitation.commentOfCitationImageContentType + ';base64,' + commentOfCitation.commentOfCitationImage" style="max-height: 30px;" alt="commentOfCitation image"/>
+                    </a>
+                    <span *ngIf="commentOfCitation.commentOfCitationImage">{{commentOfCitation.commentOfCitationImageContentType}}, {{byteSize(commentOfCitation.commentOfCitationImage)}}</span>
+                </td>
+                <td>{{commentOfCitation.dateOfCreation | date:'medium'}}</td>
+                <td>
+                    <div *ngIf="commentOfCitation.citation">
+                        <a [routerLink]="['/citation', commentOfCitation.citation?.id, 'view' ]" >{{commentOfCitation.citation?.id}}</a>
+                    </div>
+                </td>
+                <td class="text-right">
+                    <div class="btn-group">
+                        <button type="submit"
+                                [routerLink]="['/comment-of-citation', commentOfCitation.id, 'view' ]"
+                                class="btn btn-info btn-sm">
+                            <fa-icon [icon]="'eye'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/comment-of-citation', commentOfCitation.id, 'edit']"
+                                class="btn btn-primary btn-sm">
+                            <fa-icon [icon]="'pencil-alt'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit" (click)="delete(commentOfCitation)"
+                                class="btn btn-danger btn-sm">
+                            <fa-icon [icon]="'times'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

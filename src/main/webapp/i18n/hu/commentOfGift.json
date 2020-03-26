@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "CommentOfGifts",
+        "createLabel": "Egy új Comment Of Gift létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Comment Of Giftt",
+        "search": "Comment Of Gift keresése",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "Egy új Comment Of Gift lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Comment Of Gift módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Comment Of Gift törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Comment Of Giftt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

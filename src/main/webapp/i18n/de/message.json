@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "message": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Message erstellen",
+        "createOrEditLabel": "Message erstellen oder bearbeiten",
+        "search": "Suche nach Message",
+        "notFound": "No Messages found"
+      },
+      "created": "Message erstellt mit ID {{ param }}",
+      "updated": "Message aktualisiert mit ID {{ param }}",
+      "deleted": "Message gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Message {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "content": "Content",
+      "dateOfSend": "Date Of Send",
+      "media": "Media",
+      "seen": "Seen",
+      "authorOfMessage": "Author Of Message",
+      "receiverOfMessage": "Receiver Of Message"
+    }
+  }
+}

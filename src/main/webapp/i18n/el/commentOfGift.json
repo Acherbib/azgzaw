@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gifts",
+        "createLabel": "Δημιουργήστε ένα νέο Comment Of Gift",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Comment Of Gift",
+        "search": "Αναζήτηση για Comment Of Gift",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "Ένα νέο Comment Of Gift έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Comment Of Gift έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Comment Of Gift έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Comment Of Gift {{ id }};"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "Δημιουργήστε ένα νέο Comment Of Citation",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Comment Of Citation",
+        "search": "Αναζήτηση για Comment Of Citation",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "Ένα νέο Comment Of Citation έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Comment Of Citation έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Comment Of Citation έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Comment Of Citation {{ id }};"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

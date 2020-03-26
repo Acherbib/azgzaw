@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "Luo Like Of Status",
+        "createOrEditLabel": "Luo tai muokkaa Like Of Status",
+        "search": "Etsi Like Of Status",
+        "notFound": "Like Of Status ei löytynyt"
+      },
+      "created": "Uusi Like Of Status on luotu, id: {{ param }}",
+      "updated": "Like Of Status on päivitetty, id: {{ param }}",
+      "deleted": "Like Of Status on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Like Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

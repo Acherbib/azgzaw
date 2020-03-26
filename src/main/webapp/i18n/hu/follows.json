@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "Egy új Follows létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Followst",
+        "search": "Follows keresése",
+        "notFound": "No Follows found"
+      },
+      "created": "Egy új Follows lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Follows módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Follows törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Followst {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

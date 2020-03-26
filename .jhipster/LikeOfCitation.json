@@ -1,0 +1,41 @@
+{
+    "name": "LikeOfCitation",
+    "fields": [
+        {
+            "fieldName": "typeOfLike",
+            "fieldType": "LikeType",
+            "fieldValues": "LIKE,LOVE,SAD,HAHA,ANGRY",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "citation",
+            "otherEntityRelationshipName": "likeOfCitation",
+            "relationshipName": "citation",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "likeOfCitation",
+            "relationshipName": "authorOfLike",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20200325221013",
+    "entityTableName": "like_of_citation",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

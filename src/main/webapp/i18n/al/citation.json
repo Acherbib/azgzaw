@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "Krijo një të ri Citation",
+        "createOrEditLabel": "Krijo ose përpuno një Citation",
+        "search": "Kërko për Citation",
+        "notFound": "No Citations found"
+      },
+      "created": "Një Citation i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Citation u përpunua me identifikues {{ param }}",
+      "deleted": "Një Citation u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

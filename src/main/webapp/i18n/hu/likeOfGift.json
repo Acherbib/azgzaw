@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "LikeOfGifts",
+        "createLabel": "Egy új Like Of Gift létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Like Of Giftt",
+        "search": "Like Of Gift keresése",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "Egy új Like Of Gift lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Like Of Gift módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Like Of Gift törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Like Of Giftt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

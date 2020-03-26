@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gifts",
+        "createLabel": "Thêm mới một Comment Of Gift",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Comment Of Gift",
+        "search": "Tìm Comment Of Gift",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "Một Comment Of Gift mới được tạo với định danh {{ param }}",
+      "updated": "Một Comment Of Gift cập nhật với định danh {{ param }}",
+      "deleted": "Một Comment Of Gift đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Comment Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "Skapa en ny Follows",
+        "createOrEditLabel": "Skapa eller ändra en Follows",
+        "search": "Sök efter Follows",
+        "notFound": "No Follows found"
+      },
+      "created": "En ny Follows är skapad med id {{ param }}",
+      "updated": "En Follows är uppdaterad med id  {{ param }}",
+      "deleted": "En Follows är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Follows {{ id }}?"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

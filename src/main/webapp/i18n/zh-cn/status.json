@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "创建新 Status",
+        "createOrEditLabel": "创建或编辑 Status",
+        "search": "查找 Status",
+        "notFound": "No Statuses found"
+      },
+      "created": "Status {{ param }} 创建成功",
+      "updated": "Status {{ param }} 更新成功",
+      "deleted": "Status {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Status {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

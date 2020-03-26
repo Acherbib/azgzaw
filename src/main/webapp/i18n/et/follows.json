@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "Lisa uus Follows",
+        "createOrEditLabel": "Lisa või muuda Follows",
+        "search": "Otsi Follows",
+        "notFound": "No Follows found"
+      },
+      "created": "Uus Follows on loodud identifikaatoriga {{ param }}",
+      "updated": "Follows identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Follows identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Follows {{ id }}?"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "Like Of Citations",
+        "createLabel": "Kreiraj novi Like Of Citation",
+        "createOrEditLabel": "Kreirajte ili izmenite Like Of Citation",
+        "search": "Potražite Like Of Citation",
+        "notFound": "No Like Of Citations found"
+      },
+      "created": "Kreiran je novi Like Of Citation pod nazivom {{ param }}",
+      "updated": "Like Of Citation pod nazivom {{ param }} je ažuriran",
+      "deleted": "Like Of Citation pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Like Of Citation pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

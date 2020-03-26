@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "नवीन Comment Of Status तयार करा",
+        "createOrEditLabel": "Comment Of Status तयार किंवा संपादित करा",
+        "search": "Comment Of Status शोधा",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "Comment Of Status [identifier: {{ param }}] तयार आहे",
+      "updated": "Comment Of Status [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Comment Of Status [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Comment Of Status [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "కొత్త Spam  సృష్టించండి",
+        "createOrEditLabel": "Spam సృష్టించండి లేదా సవరించండి",
+        "search": "Spam కొరకు శోధించండి",
+        "notFound": "No Spams found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Spam సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Spam సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Spam తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Spam {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

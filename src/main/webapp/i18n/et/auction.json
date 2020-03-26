@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "Lisa uus Auction",
+        "createOrEditLabel": "Lisa või muuda Auction",
+        "search": "Otsi Auction",
+        "notFound": "No Auctions found"
+      },
+      "created": "Uus Auction on loodud identifikaatoriga {{ param }}",
+      "updated": "Auction identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Auction identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Auction {{ id }}?"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

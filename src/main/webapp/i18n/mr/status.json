@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "नवीन Status तयार करा",
+        "createOrEditLabel": "Status तयार किंवा संपादित करा",
+        "search": "Status शोधा",
+        "notFound": "No Statuses found"
+      },
+      "created": "Status [identifier: {{ param }}] तयार आहे",
+      "updated": "Status [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Status [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Status [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

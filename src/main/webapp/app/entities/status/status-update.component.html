@@ -1,0 +1,79 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+            <h2 id="jhi-status-heading" jhiTranslate="azgzawApp.status.home.createOrEditLabel">Create or edit a Status</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!editForm.get('id')!.value">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id" formControlName="id"
+                        readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.status.description" for="field_description">Description</label>
+                    <input type="text" class="form-control" name="description" id="field_description"
+                           formControlName="description"/>
+                    <div *ngIf="editForm.get('description')!.invalid && (editForm.get('description')!.dirty || editForm.get('description')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('description')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.status.statusMedia" for="field_statusMedia">Status Media</label>
+                    <div>
+                        <div *ngIf="editForm.get('statusMedia')!.value" class="form-text text-danger clearfix">
+                            <a class="pull-left" (click)="openFile(editForm.get('statusMediaContentType')!.value, editForm.get('statusMedia')!.value)" jhiTranslate="entity.action.open">open</a><br>
+                            <span class="pull-left">{{editForm.get('statusMediaContentType')!.value}}, {{byteSize(editForm.get('statusMedia')!.value)}}</span>
+                            <button type="button" (click)="editForm.patchValue({statusMedia: null});editForm.patchValue({statusMediaContentType: null});"
+                                    class="btn btn-secondary btn-xs pull-right">
+                                <fa-icon [icon]="'times'"></fa-icon>
+                            </button>
+                        </div>
+                        <input type="file" id="file_statusMedia" (change)="setFileData($event, 'statusMedia', false)" jhiTranslate="entity.action.addblob"/>
+                    </div>
+                    <input type="hidden" class="form-control" name="statusMedia" id="field_statusMedia"
+                           formControlName="statusMedia"/>
+                    <input type="hidden" class="form-control" name="statusMediaContentType" id="field_statusMediaContentType"
+                           formControlName="statusMediaContentType" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.status.numberSeenOfStatus" for="field_numberSeenOfStatus">Number Seen Of Status</label>
+                    <input type="number" class="form-control" name="numberSeenOfStatus" id="field_numberSeenOfStatus"
+                           formControlName="numberSeenOfStatus"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.status.statusPrivacy" for="field_statusPrivacy">Status Privacy</label>
+                    <select class="form-control" name="statusPrivacy" formControlName="statusPrivacy" id="field_statusPrivacy">
+                        <option value="PUBLIC">{{'azgzawApp.Privacy.PUBLIC' | translate}}</option>
+                        <option value="ONLYME">{{'azgzawApp.Privacy.ONLYME' | translate}}</option>
+                        <option value="FOLLOWS">{{'azgzawApp.Privacy.FOLLOWS' | translate}}</option>
+                    </select>
+                    <div *ngIf="editForm.get('statusPrivacy')!.invalid && (editForm.get('statusPrivacy')!.dirty || editForm.get('statusPrivacy')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('statusPrivacy')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.status.authorOfStatus" for="field_authorOfStatus">Author Of Status</label>
+                    <select class="form-control" id="field_authorOfStatus" name="authorOfStatus" formControlName="authorOfStatus">
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="userOption.id === editForm.get('authorOfStatus')!.value?.id ? editForm.get('authorOfStatus')!.value : userOption" *ngFor="let userOption of users; trackBy: trackById">{{userOption.id}}</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

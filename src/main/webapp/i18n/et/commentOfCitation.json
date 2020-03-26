@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "Lisa uus Comment Of Citation",
+        "createOrEditLabel": "Lisa või muuda Comment Of Citation",
+        "search": "Otsi Comment Of Citation",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "Uus Comment Of Citation on loodud identifikaatoriga {{ param }}",
+      "updated": "Comment Of Citation identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Comment Of Citation identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Comment Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

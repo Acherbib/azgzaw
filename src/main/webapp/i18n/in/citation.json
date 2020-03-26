@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "Buat Citation baru",
+        "createOrEditLabel": "Buat atau edit Citation",
+        "search": "Cari Citation",
+        "notFound": "No Citations found"
+      },
+      "created": "Citation dengan id {{ param }} telah dibuat",
+      "updated": "Citation dengan id {{ param }} telah diperbaharui",
+      "deleted": "Citation dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "Like Of Gift erstellen",
+        "createOrEditLabel": "Like Of Gift erstellen oder bearbeiten",
+        "search": "Suche nach Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "Like Of Gift erstellt mit ID {{ param }}",
+      "updated": "Like Of Gift aktualisiert mit ID {{ param }}",
+      "deleted": "Like Of Gift gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Like Of Gift {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "message": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Lisa uus Message",
+        "createOrEditLabel": "Lisa või muuda Message",
+        "search": "Otsi Message",
+        "notFound": "No Messages found"
+      },
+      "created": "Uus Message on loodud identifikaatoriga {{ param }}",
+      "updated": "Message identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Message identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "content": "Content",
+      "dateOfSend": "Date Of Send",
+      "media": "Media",
+      "seen": "Seen",
+      "authorOfMessage": "Author Of Message",
+      "receiverOfMessage": "Receiver Of Message"
+    }
+  }
+}

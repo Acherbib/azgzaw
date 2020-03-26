@@ -1,0 +1,45 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="follows">
+            <h2><span jhiTranslate="azgzawApp.follows.detail.title">Follows</span> {{follows.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="azgzawApp.follows.followingStartDate">Following Start Date</span></dt>
+                <dd>
+                    <span>{{follows.followingStartDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.follows.accepted">Accepted</span></dt>
+                <dd>
+                    <span>{{follows.accepted}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.follows.blocked">Blocked</span></dt>
+                <dd>
+                    <span>{{follows.blocked}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.follows.profile">Profile</span></dt>
+                <dd>
+                    <div *ngIf="follows.profile">
+                        <a [routerLink]="['/profile', follows.profile?.id, 'view']">{{follows.profile?.id}}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.follows.friend">Friend</span></dt>
+                <dd>
+                    {{follows.friend?.id}}
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/follows', follows.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

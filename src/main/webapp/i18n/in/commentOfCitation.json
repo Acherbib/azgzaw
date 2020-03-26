@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "Buat Comment Of Citation baru",
+        "createOrEditLabel": "Buat atau edit Comment Of Citation",
+        "search": "Cari Comment Of Citation",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "Comment Of Citation dengan id {{ param }} telah dibuat",
+      "updated": "Comment Of Citation dengan id {{ param }} telah diperbaharui",
+      "deleted": "Comment Of Citation dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Comment Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

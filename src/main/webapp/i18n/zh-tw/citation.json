@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "建立一筆新的 Citation",
+        "createOrEditLabel": "建立或編輯 Citation",
+        "search": "搜尋 Citation",
+        "notFound": "No Citations found"
+      },
+      "created": "新的 Citation 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Citation 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Citation 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Citation {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

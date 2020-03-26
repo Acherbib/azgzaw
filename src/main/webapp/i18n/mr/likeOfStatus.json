@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "नवीन Like Of Status तयार करा",
+        "createOrEditLabel": "Like Of Status तयार किंवा संपादित करा",
+        "search": "Like Of Status शोधा",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "Like Of Status [identifier: {{ param }}] तयार आहे",
+      "updated": "Like Of Status [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Like Of Status [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Like Of Status [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

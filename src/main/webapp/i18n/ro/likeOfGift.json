@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "Creeare o nouă entitate Like Of Gift",
+        "createOrEditLabel": "Creeare sau editare Like Of Gift",
+        "search": "Căutare după Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "A fost creată o nouă entitate Like Of Gift cu identificatorul {{ param }}",
+      "updated": "Like Of Gift cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Like Of Gift cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Like Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

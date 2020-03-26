@@ -1,0 +1,128 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+            <h2 id="jhi-profile-heading" jhiTranslate="azgzawApp.profile.home.createOrEditLabel">Create or edit a Profile</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!editForm.get('id')!.value">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id" formControlName="id"
+                        readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.numberOfMinutesConnected" for="field_numberOfMinutesConnected">Number Of Minutes Connected</label>
+                    <input type="number" class="form-control" name="numberOfMinutesConnected" id="field_numberOfMinutesConnected"
+                           formControlName="numberOfMinutesConnected"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.verified" for="field_verified">Verified</label>
+                    <input type="checkbox" class="form-control" name="verified" id="field_verified"
+                           formControlName="verified"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.joinedDate" for="field_joinedDate">Joined Date</label>
+                    <div class="d-flex">
+                        <input id="field_joinedDate" type="datetime-local" class="form-control" name="joinedDate" formControlName="joinedDate" placeholder="YYYY-MM-DD HH:mm"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.dateOfBirth" for="field_dateOfBirth">Date Of Birth</label>
+                    <div class="input-group">
+                        <input id="field_dateOfBirth" type="text" class="form-control" name="dateOfBirth" ngbDatepicker  #dateOfBirthDp="ngbDatepicker" formControlName="dateOfBirth"/>
+                        <span class="input-group-append">
+                            <button type="button" class="btn btn-secondary" (click)="dateOfBirthDp.toggle()"><fa-icon [icon]="'calendar-alt'"></fa-icon></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.dateOfBirthVisible" for="field_dateOfBirthVisible">Date Of Birth Visible</label>
+                    <input type="checkbox" class="form-control" name="dateOfBirthVisible" id="field_dateOfBirthVisible"
+                           formControlName="dateOfBirthVisible"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.phoneNumber" for="field_phoneNumber">Phone Number</label>
+                    <input type="number" class="form-control" name="phoneNumber" id="field_phoneNumber"
+                           formControlName="phoneNumber"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.phoneNumberVisible" for="field_phoneNumberVisible">Phone Number Visible</label>
+                    <input type="checkbox" class="form-control" name="phoneNumberVisible" id="field_phoneNumberVisible"
+                           formControlName="phoneNumberVisible"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.aboutMe" for="field_aboutMe">About Me</label>
+                    <input type="text" class="form-control" name="aboutMe" id="field_aboutMe"
+                           formControlName="aboutMe"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.aboutMeVisible" for="field_aboutMeVisible">About Me Visible</label>
+                    <input type="checkbox" class="form-control" name="aboutMeVisible" id="field_aboutMeVisible"
+                           formControlName="aboutMeVisible"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.gender" for="field_gender">Gender</label>
+                    <select class="form-control" name="gender" formControlName="gender" id="field_gender">
+                        <option value="MALE">{{'azgzawApp.Gender.MALE' | translate}}</option>
+                        <option value="FEMALE">{{'azgzawApp.Gender.FEMALE' | translate}}</option>
+                        <option value="UKNNOWN">{{'azgzawApp.Gender.UKNNOWN' | translate}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.genderVisible" for="field_genderVisible">Gender Visible</label>
+                    <input type="checkbox" class="form-control" name="genderVisible" id="field_genderVisible"
+                           formControlName="genderVisible"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.maritalStatus" for="field_maritalStatus">Marital Status</label>
+                    <select class="form-control" name="maritalStatus" formControlName="maritalStatus" id="field_maritalStatus">
+                        <option value="SINGLE">{{'azgzawApp.MaritalStatus.SINGLE' | translate}}</option>
+                        <option value="MARRIED">{{'azgzawApp.MaritalStatus.MARRIED' | translate}}</option>
+                        <option value="DIVORCED">{{'azgzawApp.MaritalStatus.DIVORCED' | translate}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.maritalStatusVisible" for="field_maritalStatusVisible">Marital Status Visible</label>
+                    <input type="checkbox" class="form-control" name="maritalStatusVisible" id="field_maritalStatusVisible"
+                           formControlName="maritalStatusVisible"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.profilePrivacy" for="field_profilePrivacy">Profile Privacy</label>
+                    <select class="form-control" name="profilePrivacy" formControlName="profilePrivacy" id="field_profilePrivacy">
+                        <option value="PUBLIC">{{'azgzawApp.Privacy.PUBLIC' | translate}}</option>
+                        <option value="ONLYME">{{'azgzawApp.Privacy.ONLYME' | translate}}</option>
+                        <option value="FOLLOWS">{{'azgzawApp.Privacy.FOLLOWS' | translate}}</option>
+                    </select>
+                    <div *ngIf="editForm.get('profilePrivacy')!.invalid && (editForm.get('profilePrivacy')!.dirty || editForm.get('profilePrivacy')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('profilePrivacy')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.location" for="field_location">Location</label>
+                    <select class="form-control" id="field_location" name="location" formControlName="location">
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="locationOption.id === editForm.get('location')!.value?.id ? editForm.get('location')!.value : locationOption" *ngFor="let locationOption of locations; trackBy: trackById">{{locationOption.id}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.profile.user" for="field_user">User</label>
+                    <select class="form-control" id="field_user" name="user" formControlName="user">
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="userOption.id === editForm.get('user')!.value?.id ? editForm.get('user')!.value : userOption" *ngFor="let userOption of users; trackBy: trackById">{{userOption.id}}</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

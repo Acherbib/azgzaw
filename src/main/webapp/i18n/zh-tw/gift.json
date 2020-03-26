@@ -1,0 +1,36 @@
+{
+  "azgzawApp": {
+    "gift": {
+      "home": {
+        "title": "Gifts",
+        "createLabel": "建立一筆新的 Gift",
+        "createOrEditLabel": "建立或編輯 Gift",
+        "search": "搜尋 Gift",
+        "notFound": "No Gifts found"
+      },
+      "created": "新的 Gift 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Gift 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Gift 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Gift {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Gift"
+      },
+      "title": "Title",
+      "description": "Description",
+      "isAGift": "Is A Gift",
+      "reserved": "Reserved",
+      "city": "City",
+      "country": "Country",
+      "isAuction": "Is Auction",
+      "startPrice": "Start Price",
+      "backgroundColor": "Background Color",
+      "numberLikesOfGifts": "Number Likes Of Gifts",
+      "numberSeenOfGifts": "Number Seen Of Gifts",
+      "dateOfCreation": "Date Of Creation",
+      "image": "Image",
+      "authorOfGift": "Author Of Gift"
+    }
+  }
+}

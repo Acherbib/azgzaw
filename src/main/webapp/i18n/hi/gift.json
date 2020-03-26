@@ -1,0 +1,36 @@
+{
+  "azgzawApp": {
+    "gift": {
+      "home": {
+        "title": "Gifts",
+        "createLabel": "नया Gift बनाएँ",
+        "createOrEditLabel": "Gift बनाएँ या संपादित करें",
+        "search": "Gift खोजें",
+        "notFound": "No Gifts found"
+      },
+      "created": "एक नया Gift [identifier: {{ param }}] तैयार है",
+      "updated": "एक Gift [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Gift [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Gift [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Gift"
+      },
+      "title": "Title",
+      "description": "Description",
+      "isAGift": "Is A Gift",
+      "reserved": "Reserved",
+      "city": "City",
+      "country": "Country",
+      "isAuction": "Is Auction",
+      "startPrice": "Start Price",
+      "backgroundColor": "Background Color",
+      "numberLikesOfGifts": "Number Likes Of Gifts",
+      "numberSeenOfGifts": "Number Seen Of Gifts",
+      "dateOfCreation": "Date Of Creation",
+      "image": "Image",
+      "authorOfGift": "Author Of Gift"
+    }
+  }
+}

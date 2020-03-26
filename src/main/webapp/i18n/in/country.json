@@ -1,0 +1,23 @@
+{
+  "azgzawApp": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "createLabel": "Buat Country baru",
+        "createOrEditLabel": "Buat atau edit Country",
+        "search": "Cari Country",
+        "notFound": "No Countries found"
+      },
+      "created": "Country dengan id {{ param }} telah dibuat",
+      "updated": "Country dengan id {{ param }} telah diperbaharui",
+      "deleted": "Country dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Country {{ id }}?"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "countryName": "Country Name"
+    }
+  }
+}

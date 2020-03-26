@@ -1,0 +1,48 @@
+{
+    "name": "Status",
+    "fields": [
+        {
+            "fieldName": "description",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "statusMedia",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "any"
+        },
+        {
+            "fieldName": "numberSeenOfStatus",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "statusPrivacy",
+            "fieldType": "Privacy",
+            "fieldValues": "PUBLIC,ONLYME,FOLLOWS",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "status",
+            "relationshipName": "authorOfStatus",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200325221003",
+    "entityTableName": "status",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

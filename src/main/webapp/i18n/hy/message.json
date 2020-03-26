@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "message": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Ստեղծել նոր Message",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Message",
+        "search": "Գտնել Message",
+        "notFound": "No Messages found"
+      },
+      "created": "Նոր Message ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Message թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Message հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "content": "Content",
+      "dateOfSend": "Date Of Send",
+      "media": "Media",
+      "seen": "Seen",
+      "authorOfMessage": "Author Of Message",
+      "receiverOfMessage": "Receiver Of Message"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "Pridať Auction",
+        "createOrEditLabel": "Pridať alebo upraviť Auction",
+        "search": "Vyhľadať Auction",
+        "notFound": "No Auctions found"
+      },
+      "created": "Bol vytvorený potomok entity Auction s identifikátorom {{ param }}",
+      "updated": "Potomok entity Auction s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Auction s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Auction {{ id }}?"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

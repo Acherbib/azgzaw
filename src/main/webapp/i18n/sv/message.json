@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "message": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Skapa en ny Message",
+        "createOrEditLabel": "Skapa eller ändra en Message",
+        "search": "Sök efter Message",
+        "notFound": "No Messages found"
+      },
+      "created": "En ny Message är skapad med id {{ param }}",
+      "updated": "En Message är uppdaterad med id  {{ param }}",
+      "deleted": "En Message är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "content": "Content",
+      "dateOfSend": "Date Of Send",
+      "media": "Media",
+      "seen": "Seen",
+      "authorOfMessage": "Author Of Message",
+      "receiverOfMessage": "Receiver Of Message"
+    }
+  }
+}

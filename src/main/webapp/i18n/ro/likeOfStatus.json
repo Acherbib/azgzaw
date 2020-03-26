@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "Creeare o nouă entitate Like Of Status",
+        "createOrEditLabel": "Creeare sau editare Like Of Status",
+        "search": "Căutare după Like Of Status",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "A fost creată o nouă entitate Like Of Status cu identificatorul {{ param }}",
+      "updated": "Like Of Status cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Like Of Status cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Like Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

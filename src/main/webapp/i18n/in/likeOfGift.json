@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "Buat Like Of Gift baru",
+        "createOrEditLabel": "Buat atau edit Like Of Gift",
+        "search": "Cari Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "Like Of Gift dengan id {{ param }} telah dibuat",
+      "updated": "Like Of Gift dengan id {{ param }} telah diperbaharui",
+      "deleted": "Like Of Gift dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Like Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

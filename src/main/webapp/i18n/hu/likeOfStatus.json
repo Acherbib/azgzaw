@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "LikeOfStatuses",
+        "createLabel": "Egy új Like Of Status létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Like Of Statust",
+        "search": "Like Of Status keresése",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "Egy új Like Of Status lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Like Of Status módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Like Of Status törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Like Of Statust {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "สร้าง Spam",
+        "createOrEditLabel": "สร้างหรือแก้ไข Spam",
+        "search": "ค้นหา Spam",
+        "notFound": "No Spams found"
+      },
+      "created": "Spam ถูกสร้างด้วย {{ param }}",
+      "updated": "Spam ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Spam ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Spam {{ id }}?"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "Like Of Gift အသစ်ထည့်မည်",
+        "createOrEditLabel": "Like Of Gift အသစ်ထည့်ခြင်း (သို့) ပြုပြင်ခြင်း",
+        "search": "ရှာဖွေရန် Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "{{ param }} အိုင်ဒီဖြင့် Like Of Gift အသစ်တစ်ခုအား ထည့်ပြီးပါပြီ။",
+      "updated": "{{ param }} အိုင်ဒီဖြင့် Like Of Gift တစ်ခုအား ပြုပြင်ပြီးပါပြီ။",
+      "deleted": "{{ param }} အိုင်ဒီဖြင့် Like Of Gift တစ်ခုအား ဖျက်ပြီးပါပြီ။",
+      "delete": {
+        "question": "Like Of Gift {{ id }} အား ဖျက်ပါမည်။ သေချာပါသလား?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

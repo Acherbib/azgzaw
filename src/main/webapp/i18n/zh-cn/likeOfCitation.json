@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "Like Of Citations",
+        "createLabel": "创建新 Like Of Citation",
+        "createOrEditLabel": "创建或编辑 Like Of Citation",
+        "search": "查找 Like Of Citation",
+        "notFound": "No Like Of Citations found"
+      },
+      "created": "Like Of Citation {{ param }} 创建成功",
+      "updated": "Like Of Citation {{ param }} 更新成功",
+      "deleted": "Like Of Citation {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Like Of Citation {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

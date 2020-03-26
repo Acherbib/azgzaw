@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gifts",
+        "createLabel": "Kreiraj novi Comment Of Gift",
+        "createOrEditLabel": "Kreirajte ili izmenite Comment Of Gift",
+        "search": "Potražite Comment Of Gift",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "Kreiran je novi Comment Of Gift pod nazivom {{ param }}",
+      "updated": "Comment Of Gift pod nazivom {{ param }} je ažuriran",
+      "deleted": "Comment Of Gift pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Comment Of Gift pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

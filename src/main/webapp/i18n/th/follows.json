@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "สร้าง Follows",
+        "createOrEditLabel": "สร้างหรือแก้ไข Follows",
+        "search": "ค้นหา Follows",
+        "notFound": "No Follows found"
+      },
+      "created": "Follows ถูกสร้างด้วย {{ param }}",
+      "updated": "Follows ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Follows ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Follows {{ id }}?"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

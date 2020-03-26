@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Status",
+        "createLabel": "Dodaj Status",
+        "createOrEditLabel": "Dodaj lub edytuj: Status",
+        "search": "Szukaj Status",
+        "notFound": "No Statuses found"
+      },
+      "created": "Utworzono nowy obiekt typu Status z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Status z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Status z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

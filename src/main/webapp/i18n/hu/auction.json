@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "Egy új Auction létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Auctiont",
+        "search": "Auction keresése",
+        "notFound": "No Auctions found"
+      },
+      "created": "Egy új Auction lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Auction módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Auction törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Auctiont {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

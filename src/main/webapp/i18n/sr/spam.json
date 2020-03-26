@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "Kreiraj novi Spam",
+        "createOrEditLabel": "Kreirajte ili izmenite Spam",
+        "search": "Potražite Spam",
+        "notFound": "No Spams found"
+      },
+      "created": "Kreiran je novi Spam pod nazivom {{ param }}",
+      "updated": "Spam pod nazivom {{ param }} je ažuriran",
+      "deleted": "Spam pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Spam pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

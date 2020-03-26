@@ -1,0 +1,103 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="azgzawApp.gift.home.title">Gifts</span>
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-gift" [routerLink]="['/gift/new']">
+            <fa-icon [icon]="'plus'"></fa-icon>
+            <span class="hidden-sm-down"  jhiTranslate="azgzawApp.gift.home.createLabel">
+            Create a new Gift
+            </span>
+        </button>
+    </h2>
+    <jhi-alert-error></jhi-alert-error>
+    <jhi-alert></jhi-alert>
+    <div class="row">
+        <div class="col-sm-12">
+            <form name="searchForm" class="form-inline">
+                <div class="input-group w-100 mt-3">
+                    <input type="text" class="form-control" [(ngModel)]="currentSearch" id="currentSearch" name="currentSearch" placeholder="{{ 'azgzawApp.gift.home.search' | translate }}">
+                    <button class="input-group-append btn btn-info" (click)="search(currentSearch)">
+                        <fa-icon [icon]="'search'"></fa-icon>
+                    </button>
+                    <button class="input-group-append btn btn-danger" (click)="search('')" *ngIf="currentSearch">
+                        <fa-icon [icon]="'trash-alt'"></fa-icon>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br/>
+    <div class="alert alert-warning" *ngIf="gifts?.length === 0">
+        <span jhiTranslate="azgzawApp.gift.home.notFound">No gifts found</span>
+    </div>
+    <div class="table-responsive" *ngIf="gifts?.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+            <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="reset.bind(this)">
+            <th scope="col"  jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th scope="col"  jhiSortBy="title"><span jhiTranslate="azgzawApp.gift.title">Title</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th scope="col"  jhiSortBy="description"><span jhiTranslate="azgzawApp.gift.description">Description</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th scope="col"  jhiSortBy="isAGift"><span jhiTranslate="azgzawApp.gift.isAGift">Is A Gift</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th scope="col"  jhiSortBy="reserved"><span jhiTranslate="azgzawApp.gift.reserved">Reserved</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th scope="col"  jhiSortBy="city"><span jhiTranslate="azgzawApp.gift.city">City</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th scope="col"  jhiSortBy="country"><span jhiTranslate="azgzawApp.gift.country">Country</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th scope="col"  jhiSortBy="isAuction"><span jhiTranslate="azgzawApp.gift.isAuction">Is Auction</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th scope="col"  jhiSortBy="startPrice"><span jhiTranslate="azgzawApp.gift.startPrice">Start Price</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th scope="col"  jhiSortBy="backgroundColor"><span jhiTranslate="azgzawApp.gift.backgroundColor">Background Color</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th scope="col"  jhiSortBy="numberLikesOfGifts"><span jhiTranslate="azgzawApp.gift.numberLikesOfGifts">Number Likes Of Gifts</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th scope="col"  jhiSortBy="numberSeenOfGifts"><span jhiTranslate="azgzawApp.gift.numberSeenOfGifts">Number Seen Of Gifts</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th scope="col"  jhiSortBy="dateOfCreation"><span jhiTranslate="azgzawApp.gift.dateOfCreation">Date Of Creation</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th scope="col"  jhiSortBy="image"><span jhiTranslate="azgzawApp.gift.image">Image</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th scope="col"  jhiSortBy="authorOfGift.id"><span jhiTranslate="azgzawApp.gift.authorOfGift">Author Of Gift</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th scope="col"></th>
+            </tr>
+            </thead>
+            <tbody infinite-scroll (scrolled)="loadPage(page + 1)" [infiniteScrollDisabled]="page >= links['last']" [infiniteScrollDistance]="0">
+            <tr *ngFor="let gift of gifts ;trackBy: trackId">
+                <td><a [routerLink]="['/gift', gift.id, 'view' ]">{{gift.id}}</a></td>
+                <td>{{gift.title}}</td>
+                <td>{{gift.description}}</td>
+                <td>{{gift.isAGift}}</td>
+                <td>{{gift.reserved}}</td>
+                <td>{{gift.city}}</td>
+                <td>{{gift.country}}</td>
+                <td>{{gift.isAuction}}</td>
+                <td>{{gift.startPrice}}</td>
+                <td>{{gift.backgroundColor}}</td>
+                <td>{{gift.numberLikesOfGifts}}</td>
+                <td>{{gift.numberSeenOfGifts}}</td>
+                <td>{{gift.dateOfCreation | date:'medium'}}</td>
+                <td>
+                    <a *ngIf="gift.image" (click)="openFile(gift.imageContentType, gift.image)">
+                        <img [src]="'data:' + gift.imageContentType + ';base64,' + gift.image" style="max-height: 30px;" alt="gift image"/>
+                    </a>
+                    <span *ngIf="gift.image">{{gift.imageContentType}}, {{byteSize(gift.image)}}</span>
+                </td>
+                <td>
+                    {{gift.authorOfGift?.id}}
+                </td>
+                <td class="text-right">
+                    <div class="btn-group">
+                        <button type="submit"
+                                [routerLink]="['/gift', gift.id, 'view' ]"
+                                class="btn btn-info btn-sm">
+                            <fa-icon [icon]="'eye'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/gift', gift.id, 'edit']"
+                                class="btn btn-primary btn-sm">
+                            <fa-icon [icon]="'pencil-alt'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit" (click)="delete(gift)"
+                                class="btn btn-danger btn-sm">
+                            <fa-icon [icon]="'times'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

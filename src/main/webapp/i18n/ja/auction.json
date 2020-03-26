@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "Auction を追加",
+        "createOrEditLabel": "Auctionを追加または編集",
+        "search": "Search for Auction",
+        "notFound": "No Auctions found"
+      },
+      "created": "A new Auction is created with identifier {{ param }}",
+      "updated": "A Auction is updated with identifier {{ param }}",
+      "deleted": "A Auction is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Auction {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="status">
+            <h2><span jhiTranslate="azgzawApp.status.detail.title">Status</span> {{status.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="azgzawApp.status.description">Description</span></dt>
+                <dd>
+                    <span>{{status.description}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.status.statusMedia">Status Media</span></dt>
+                <dd>
+                    <div *ngIf="status.statusMedia">
+                        <a (click)="openFile(status.statusMediaContentType!, status.statusMedia)" jhiTranslate="entity.action.open">open</a>
+                        {{status.statusMediaContentType}}, {{byteSize(status.statusMedia)}}
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.status.numberSeenOfStatus">Number Seen Of Status</span></dt>
+                <dd>
+                    <span>{{status.numberSeenOfStatus}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.status.statusPrivacy">Status Privacy</span></dt>
+                <dd>
+                    <span jhiTranslate="{{'azgzawApp.Privacy.' + status.statusPrivacy}}">{{status.statusPrivacy}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.status.authorOfStatus">Author Of Status</span></dt>
+                <dd>
+                    {{status.authorOfStatus?.id}}
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/status', status.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

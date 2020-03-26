@@ -1,0 +1,23 @@
+{
+  "azgzawApp": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "createLabel": "Yangi Country qo`shish",
+        "createOrEditLabel": "Countryni tahrirlash",
+        "search": "Countryni izlash",
+        "notFound": "No Countries found"
+      },
+      "created": "Country {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Country saqlandi",
+      "deleted": "{{ param }}- Country o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Countryni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "countryName": "Country Name"
+    }
+  }
+}

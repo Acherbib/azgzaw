@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "Like Of Citations",
+        "createLabel": "Lisa uus Like Of Citation",
+        "createOrEditLabel": "Lisa või muuda Like Of Citation",
+        "search": "Otsi Like Of Citation",
+        "notFound": "No Like Of Citations found"
+      },
+      "created": "Uus Like Of Citation on loodud identifikaatoriga {{ param }}",
+      "updated": "Like Of Citation identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Like Of Citation identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Like Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

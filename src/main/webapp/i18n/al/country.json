@@ -1,0 +1,23 @@
+{
+  "azgzawApp": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "createLabel": "Krijo një të ri Country",
+        "createOrEditLabel": "Krijo ose përpuno një Country",
+        "search": "Kërko për Country",
+        "notFound": "No Countries found"
+      },
+      "created": "Një Country i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Country u përpunua me identifikues {{ param }}",
+      "deleted": "Një Country u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Country {{ id }}?"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "countryName": "Country Name"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "createLabel": "కొత్త Location  సృష్టించండి",
+        "createOrEditLabel": "Location సృష్టించండి లేదా సవరించండి",
+        "search": "Location కొరకు శోధించండి",
+        "notFound": "No Locations found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Location సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Location సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Location తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Location {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "streetAddress": "Street Address",
+      "postCode": "Post Code",
+      "city": "City",
+      "stateProvince": "State Province",
+      "country": "Country"
+    }
+  }
+}

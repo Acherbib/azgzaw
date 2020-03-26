@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "नया Auction बनाएँ",
+        "createOrEditLabel": "Auction बनाएँ या संपादित करें",
+        "search": "Auction खोजें",
+        "notFound": "No Auctions found"
+      },
+      "created": "एक नया Auction [identifier: {{ param }}] तैयार है",
+      "updated": "एक Auction [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Auction [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Auction [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

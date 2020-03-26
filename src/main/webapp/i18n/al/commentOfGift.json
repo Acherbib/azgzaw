@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gifts",
+        "createLabel": "Krijo një të ri Comment Of Gift",
+        "createOrEditLabel": "Krijo ose përpuno një Comment Of Gift",
+        "search": "Kërko për Comment Of Gift",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "Një Comment Of Gift i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Comment Of Gift u përpunua me identifikues {{ param }}",
+      "deleted": "Një Comment Of Gift u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Comment Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

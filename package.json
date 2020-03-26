@@ -26,14 +26,16 @@
     "core-js": "3.5.0",
     "moment": "2.24.0",
     "ng-jhipster": "0.11.5",
+    "ngx-avatar": "^3.7.0",
     "ngx-cookie": "4.0.2",
     "ngx-infinite-scroll": "8.0.1",
+    "ngx-pinch-zoom": "^2.3.4",
     "ngx-webstorage": "4.0.1",
     "rxjs": "6.5.3",
-    "swagger-ui-dist": "3.24.3",
     "sockjs-client": "1.4.0",
-    "webstomp-client": "1.2.6",
+    "swagger-ui-dist": "3.24.3",
     "tslib": "1.10.0",
+    "webstomp-client": "1.2.6",
     "zone.js": "0.10.2"
   },
   "devDependencies": {

@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "Skapa en ny Spam",
+        "createOrEditLabel": "Skapa eller ändra en Spam",
+        "search": "Sök efter Spam",
+        "notFound": "No Spams found"
+      },
+      "created": "En ny Spam är skapad med id {{ param }}",
+      "updated": "En Spam är uppdaterad med id  {{ param }}",
+      "deleted": "En Spam är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Spam {{ id }}?"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

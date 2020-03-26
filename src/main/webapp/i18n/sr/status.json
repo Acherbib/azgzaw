@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "Kreiraj novi Status",
+        "createOrEditLabel": "Kreirajte ili izmenite Status",
+        "search": "Potražite Status",
+        "notFound": "No Statuses found"
+      },
+      "created": "Kreiran je novi Status pod nazivom {{ param }}",
+      "updated": "Status pod nazivom {{ param }} je ažuriran",
+      "deleted": "Status pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Status pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

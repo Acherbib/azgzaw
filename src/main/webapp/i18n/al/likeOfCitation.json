@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "Like Of Citations",
+        "createLabel": "Krijo një të ri Like Of Citation",
+        "createOrEditLabel": "Krijo ose përpuno një Like Of Citation",
+        "search": "Kërko për Like Of Citation",
+        "notFound": "No Like Of Citations found"
+      },
+      "created": "Një Like Of Citation i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Like Of Citation u përpunua me identifikues {{ param }}",
+      "deleted": "Një Like Of Citation u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Like Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

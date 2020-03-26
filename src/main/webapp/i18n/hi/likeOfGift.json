@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "LikeOfGifts",
+        "createLabel": "नया Like Of Gift बनाएँ",
+        "createOrEditLabel": "Like Of Gift बनाएँ या संपादित करें",
+        "search": "Like Of Gift खोजें",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "एक नया Like Of Gift [identifier: {{ param }}] तैयार है",
+      "updated": "एक Like Of Gift [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Like Of Gift [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Like Of Gift [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

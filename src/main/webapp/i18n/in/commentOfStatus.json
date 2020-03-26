@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "Buat Comment Of Status baru",
+        "createOrEditLabel": "Buat atau edit Comment Of Status",
+        "search": "Cari Comment Of Status",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "Comment Of Status dengan id {{ param }} telah dibuat",
+      "updated": "Comment Of Status dengan id {{ param }} telah diperbaharui",
+      "deleted": "Comment Of Status dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Comment Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

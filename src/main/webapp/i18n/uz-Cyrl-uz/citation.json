@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "Янги Citation қўшиш",
+        "createOrEditLabel": "Citationни таҳрирлаш",
+        "search": "Citationни излаш",
+        "notFound": "No Citations found"
+      },
+      "created": "Citation {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Citation сақланди.",
+      "deleted": "{{ param }}- Citation ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Citationни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

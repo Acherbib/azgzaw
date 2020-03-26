@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "Thêm mới một Comment Of Citation",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Comment Of Citation",
+        "search": "Tìm Comment Of Citation",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "Một Comment Of Citation mới được tạo với định danh {{ param }}",
+      "updated": "Một Comment Of Citation cập nhật với định danh {{ param }}",
+      "deleted": "Một Comment Of Citation đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Comment Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

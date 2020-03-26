@@ -1,0 +1,95 @@
+{
+    "name": "Profile",
+    "fields": [
+        {
+            "fieldName": "numberOfMinutesConnected",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "verified",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "joinedDate",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "dateOfBirth",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "dateOfBirthVisible",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "phoneNumber",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "phoneNumberVisible",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "aboutMe",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "aboutMeVisible",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "gender",
+            "fieldType": "Gender",
+            "fieldValues": "MALE,FEMALE,UKNNOWN"
+        },
+        {
+            "fieldName": "genderVisible",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "maritalStatus",
+            "fieldType": "MaritalStatus",
+            "fieldValues": "SINGLE,MARRIED,DIVORCED"
+        },
+        {
+            "fieldName": "maritalStatusVisible",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "profilePrivacy",
+            "fieldType": "Privacy",
+            "fieldValues": "PUBLIC,ONLYME,FOLLOWS",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "location",
+            "otherEntityRelationshipName": "profile",
+            "relationshipName": "location",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "profile",
+            "relationshipName": "user",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20200325221002",
+    "entityTableName": "profile",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

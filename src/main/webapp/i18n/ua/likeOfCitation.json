@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "Like Of Citations",
+        "createLabel": "Створити новий Like Of Citation",
+        "createOrEditLabel": "Створити чи редагувати Like Of Citation",
+        "search": "Знайти Like Of Citation",
+        "notFound": "No Like Of Citations found"
+      },
+      "created": "Новий Like Of Citation створений з ідентифікатором {{ param }}",
+      "updated": "Like Of Citation оновлений з ідентифікатором {{ param }}",
+      "deleted": "Like Of Citation видалений з ідентифікатором {{ param }}",
+      "delete": {
+        "question": "Ви впевнені, що хочете видалити Like Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

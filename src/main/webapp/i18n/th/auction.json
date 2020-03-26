@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "สร้าง Auction",
+        "createOrEditLabel": "สร้างหรือแก้ไข Auction",
+        "search": "ค้นหา Auction",
+        "notFound": "No Auctions found"
+      },
+      "created": "Auction ถูกสร้างด้วย {{ param }}",
+      "updated": "Auction ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Auction ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Auction {{ id }}?"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

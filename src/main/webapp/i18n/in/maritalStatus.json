@@ -1,0 +1,10 @@
+{
+  "azgzawApp": {
+    "MaritalStatus": {
+      "null": "",
+      "SINGLE": "SINGLE",
+      "MARRIED": "MARRIED",
+      "DIVORCED": "DIVORCED"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+            <h2 id="jhi-follows-heading" jhiTranslate="azgzawApp.follows.home.createOrEditLabel">Create or edit a Follows</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!editForm.get('id')!.value">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id" formControlName="id"
+                        readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.follows.followingStartDate" for="field_followingStartDate">Following Start Date</label>
+                    <div class="d-flex">
+                        <input id="field_followingStartDate" type="datetime-local" class="form-control" name="followingStartDate" formControlName="followingStartDate" placeholder="YYYY-MM-DD HH:mm"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.follows.accepted" for="field_accepted">Accepted</label>
+                    <input type="checkbox" class="form-control" name="accepted" id="field_accepted"
+                           formControlName="accepted"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.follows.blocked" for="field_blocked">Blocked</label>
+                    <input type="checkbox" class="form-control" name="blocked" id="field_blocked"
+                           formControlName="blocked"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.follows.profile" for="field_profile">Profile</label>
+                    <select class="form-control" id="field_profile" name="profile" formControlName="profile">
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="profileOption.id === editForm.get('profile')!.value?.id ? editForm.get('profile')!.value : profileOption" *ngFor="let profileOption of profiles; trackBy: trackById">{{profileOption.id}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.follows.friend" for="field_friend">Friend</label>
+                    <select class="form-control" id="field_friend" name="friend" formControlName="friend">
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="userOption.id === editForm.get('friend')!.value?.id ? editForm.get('friend')!.value : userOption" *ngFor="let userOption of users; trackBy: trackById">{{userOption.id}}</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

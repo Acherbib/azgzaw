@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "కొత్త Comment Of Status  సృష్టించండి",
+        "createOrEditLabel": "Comment Of Status సృష్టించండి లేదా సవరించండి",
+        "search": "Comment Of Status కొరకు శోధించండి",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Comment Of Status సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Comment Of Status సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Comment Of Status తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Comment Of Status {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

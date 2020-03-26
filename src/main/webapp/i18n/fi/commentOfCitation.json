@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "Luo Comment Of Citation",
+        "createOrEditLabel": "Luo tai muokkaa Comment Of Citation",
+        "search": "Etsi Comment Of Citation",
+        "notFound": "Comment Of Citation ei löytynyt"
+      },
+      "created": "Uusi Comment Of Citation on luotu, id: {{ param }}",
+      "updated": "Comment Of Citation on päivitetty, id: {{ param }}",
+      "deleted": "Comment Of Citation on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Comment Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

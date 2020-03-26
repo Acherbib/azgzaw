@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "Like Of Gift-ஐ உருவாக்கு",
+        "createOrEditLabel": "Like Of Gift -ஐ மாற்று (அ) உருவாக்கு",
+        "search": "Search for Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "Like Of Gift புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Like Of Gift மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Like Of Gift நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Like Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

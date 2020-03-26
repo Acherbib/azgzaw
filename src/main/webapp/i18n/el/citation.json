@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "Δημιουργήστε ένα νέο Citation",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Citation",
+        "search": "Αναζήτηση για Citation",
+        "notFound": "No Citations found"
+      },
+      "created": "Ένα νέο Citation έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Citation έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Citation έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Citation {{ id }};"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

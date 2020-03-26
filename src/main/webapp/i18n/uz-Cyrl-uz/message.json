@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "message": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Янги Message қўшиш",
+        "createOrEditLabel": "Messageни таҳрирлаш",
+        "search": "Messageни излаш",
+        "notFound": "No Messages found"
+      },
+      "created": "Message {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Message сақланди.",
+      "deleted": "{{ param }}- Message ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Messageни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "content": "Content",
+      "dateOfSend": "Date Of Send",
+      "media": "Media",
+      "seen": "Seen",
+      "authorOfMessage": "Author Of Message",
+      "receiverOfMessage": "Receiver Of Message"
+    }
+  }
+}

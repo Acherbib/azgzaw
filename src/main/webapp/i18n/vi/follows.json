@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "Thêm mới một Follows",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Follows",
+        "search": "Tìm Follows",
+        "notFound": "No Follows found"
+      },
+      "created": "Một Follows mới được tạo với định danh {{ param }}",
+      "updated": "Một Follows cập nhật với định danh {{ param }}",
+      "deleted": "Một Follows đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Follows {{ id }}?"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

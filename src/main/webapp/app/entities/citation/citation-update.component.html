@@ -1,0 +1,72 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+            <h2 id="jhi-citation-heading" jhiTranslate="azgzawApp.citation.home.createOrEditLabel">Create or edit a Citation</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+
+                <div class="form-group" [hidden]="!editForm.get('id')!.value">
+                    <label for="id" hidden jhiTranslate="global.field.id">ID</label>
+                    <input type="text" hidden class="form-control" id="id" name="id" formControlName="id"
+                        readonly />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.citation.greenCitationPrivacy" for="field_greenCitationPrivacy">Green Citation Privacy</label>
+                    <select class="form-control" name="greenCitationPrivacy" formControlName="greenCitationPrivacy" id="field_greenCitationPrivacy">
+                        <option value="PUBLIC">{{'azgzawApp.Privacy.PUBLIC' | translate}}</option>
+                        <option value="ONLYME">{{'azgzawApp.Privacy.ONLYME' | translate}}</option>
+                        <option value="FOLLOWS">{{'azgzawApp.Privacy.FOLLOWS' | translate}}</option>
+                    </select>
+                    <div *ngIf="editForm.get('greenCitationPrivacy')!.invalid && (editForm.get('greenCitationPrivacy')!.dirty || editForm.get('greenCitationPrivacy')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('greenCitationPrivacy')?.errors?.required" jhiTranslate="entity.validation.required">
+                            This field is required.
+                        </small>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.citation.description" for="field_description">Description</label>
+                    <textarea type="text" class="form-control" name="description" id="field_description"
+                              formControlName="description"></textarea>
+                    <div *ngIf="editForm.get('description')!.invalid && (editForm.get('description')!.dirty || editForm.get('description')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('description')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.citation.greenCitationMedia" for="field_greenCitationMedia">Green Citation Media</label>
+                    <div>
+                        <img [src]="'data:' + editForm.get('greenCitationMediaContentType')!.value + ';base64,' + editForm.get('greenCitationMedia')!.value" style="max-height: 100px;" *ngIf="editForm.get('greenCitationMedia')!.value" alt="citation image"/>
+                        <div *ngIf="editForm.get('greenCitationMedia')!.value" class="form-text text-danger clearfix">
+                            <span class="pull-left">{{editForm.get('greenCitationMediaContentType')!.value}}, {{byteSize(editForm.get('greenCitationMedia')!.value)}}</span>
+                            <button type="button" (click)="clearInputImage('greenCitationMedia', 'greenCitationMediaContentType', 'file_greenCitationMedia')" class="btn btn-secondary btn-xs pull-right">
+                                <fa-icon [icon]="'times'"></fa-icon>
+                            </button>
+                        </div>
+                        <input type="file" id="file_greenCitationMedia" (change)="setFileData($event, 'greenCitationMedia', true)" accept="image/*" jhiTranslate="entity.action.addimage"/>
+                    </div>
+                    <input type="hidden" class="form-control" name="greenCitationMedia" id="field_greenCitationMedia"
+                           formControlName="greenCitationMedia"/>
+                    <input type="hidden" class="form-control" name="greenCitationMediaContentType" id="field_greenCitationMediaContentType"
+                           formControlName="greenCitationMediaContentType" />
+                </div>
+
+
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

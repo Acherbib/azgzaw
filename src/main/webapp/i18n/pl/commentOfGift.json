@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gift",
+        "createLabel": "Dodaj Comment Of Gift",
+        "createOrEditLabel": "Dodaj lub edytuj: Comment Of Gift",
+        "search": "Szukaj Comment Of Gift",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "Utworzono nowy obiekt typu Comment Of Gift z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Comment Of Gift z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Comment Of Gift z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Comment Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

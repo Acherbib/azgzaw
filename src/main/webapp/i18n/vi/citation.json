@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "Thêm mới một Citation",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Citation",
+        "search": "Tìm Citation",
+        "notFound": "No Citations found"
+      },
+      "created": "Một Citation mới được tạo với định danh {{ param }}",
+      "updated": "Một Citation cập nhật với định danh {{ param }}",
+      "deleted": "Một Citation đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

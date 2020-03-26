@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "Krijo një të ri Like Of Gift",
+        "createOrEditLabel": "Krijo ose përpuno një Like Of Gift",
+        "search": "Kërko për Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "Një Like Of Gift i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Like Of Gift u përpunua me identifikues {{ param }}",
+      "deleted": "Një Like Of Gift u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Like Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "Buat Like Of Status baru",
+        "createOrEditLabel": "Buat atau edit Like Of Status",
+        "search": "Cari Like Of Status",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "Like Of Status dengan id {{ param }} telah dibuat",
+      "updated": "Like Of Status dengan id {{ param }} telah diperbaharui",
+      "deleted": "Like Of Status dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Like Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

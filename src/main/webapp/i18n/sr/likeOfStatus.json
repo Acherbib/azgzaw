@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "Kreiraj novi Like Of Status",
+        "createOrEditLabel": "Kreirajte ili izmenite Like Of Status",
+        "search": "Potražite Like Of Status",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "Kreiran je novi Like Of Status pod nazivom {{ param }}",
+      "updated": "Like Of Status pod nazivom {{ param }} je ažuriran",
+      "deleted": "Like Of Status pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Like Of Status pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

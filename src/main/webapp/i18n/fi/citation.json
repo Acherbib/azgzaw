@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "Luo Citation",
+        "createOrEditLabel": "Luo tai muokkaa Citation",
+        "search": "Etsi Citation",
+        "notFound": "Citation ei löytynyt"
+      },
+      "created": "Uusi Citation on luotu, id: {{ param }}",
+      "updated": "Citation on päivitetty, id: {{ param }}",
+      "deleted": "Citation on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

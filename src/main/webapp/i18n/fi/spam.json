@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "Luo Spam",
+        "createOrEditLabel": "Luo tai muokkaa Spam",
+        "search": "Etsi Spam",
+        "notFound": "Spam ei löytynyt"
+      },
+      "created": "Uusi Spam on luotu, id: {{ param }}",
+      "updated": "Spam on päivitetty, id: {{ param }}",
+      "deleted": "Spam on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Spam {{ id }}?"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

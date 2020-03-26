@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "建立一筆新的 Comment Of Citation",
+        "createOrEditLabel": "建立或編輯 Comment Of Citation",
+        "search": "搜尋 Comment Of Citation",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "新的 Comment Of Citation 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Comment Of Citation 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Comment Of Citation 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Comment Of Citation {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

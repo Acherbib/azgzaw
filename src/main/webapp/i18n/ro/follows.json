@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "Creeare o nouă entitate Follows",
+        "createOrEditLabel": "Creeare sau editare Follows",
+        "search": "Căutare după Follows",
+        "notFound": "No Follows found"
+      },
+      "created": "A fost creată o nouă entitate Follows cu identificatorul {{ param }}",
+      "updated": "Follows cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Follows cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Follows {{ id }}?"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

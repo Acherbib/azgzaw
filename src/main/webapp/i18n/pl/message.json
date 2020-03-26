@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "message": {
+      "home": {
+        "title": "Message",
+        "createLabel": "Dodaj Message",
+        "createOrEditLabel": "Dodaj lub edytuj: Message",
+        "search": "Szukaj Message",
+        "notFound": "No Messages found"
+      },
+      "created": "Utworzono nowy obiekt typu Message z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Message z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Message z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "content": "Content",
+      "dateOfSend": "Date Of Send",
+      "media": "Media",
+      "seen": "Seen",
+      "authorOfMessage": "Author Of Message",
+      "receiverOfMessage": "Receiver Of Message"
+    }
+  }
+}

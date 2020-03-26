@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "Kreiraj novi Citation",
+        "createOrEditLabel": "Kreirajte ili izmenite Citation",
+        "search": "Potražite Citation",
+        "notFound": "No Citations found"
+      },
+      "created": "Kreiran je novi Citation pod nazivom {{ param }}",
+      "updated": "Citation pod nazivom {{ param }} je ažuriran",
+      "deleted": "Citation pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Citation pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

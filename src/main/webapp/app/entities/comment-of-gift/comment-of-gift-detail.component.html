@@ -1,0 +1,50 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="commentOfGift">
+            <h2><span jhiTranslate="azgzawApp.commentOfGift.detail.title">Comment Of Gift</span> {{commentOfGift.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="azgzawApp.commentOfGift.bodyComment">Body Comment</span></dt>
+                <dd>
+                    <span>{{commentOfGift.bodyComment}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.commentOfGift.commentOfGiftImage">Comment Of Gift Image</span></dt>
+                <dd>
+                    <div *ngIf="commentOfGift.commentOfGiftImage">
+                        <a (click)="openFile(commentOfGift.commentOfGiftImageContentType!, commentOfGift.commentOfGiftImage)">
+                            <img [src]="'data:' + commentOfGift.commentOfGiftImageContentType + ';base64,' + commentOfGift.commentOfGiftImage" style="max-width: 100%;" alt="commentOfGift image"/>
+                        </a>
+                        {{commentOfGift.commentOfGiftImageContentType}}, {{byteSize(commentOfGift.commentOfGiftImage)}}
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.commentOfGift.dateOfCreation">Date Of Creation</span></dt>
+                <dd>
+                    <span>{{commentOfGift.dateOfCreation}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.commentOfGift.gift">Gift</span></dt>
+                <dd>
+                    <div *ngIf="commentOfGift.gift">
+                        <a [routerLink]="['/gift', commentOfGift.gift?.id, 'view']">{{commentOfGift.gift?.id}}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.commentOfGift.author">Author</span></dt>
+                <dd>
+                    {{commentOfGift.author?.id}}
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/comment-of-gift', commentOfGift.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

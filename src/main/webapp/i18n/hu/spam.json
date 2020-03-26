@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "Egy új Spam létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Spamt",
+        "search": "Spam keresése",
+        "notFound": "No Spams found"
+      },
+      "created": "Egy új Spam lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Spam módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Spam törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Spamt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

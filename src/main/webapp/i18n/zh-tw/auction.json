@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "建立一筆新的 Auction",
+        "createOrEditLabel": "建立或編輯 Auction",
+        "search": "搜尋 Auction",
+        "notFound": "No Auctions found"
+      },
+      "created": "新的 Auction 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Auction 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Auction 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Auction {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

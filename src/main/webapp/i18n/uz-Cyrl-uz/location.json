@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "createLabel": "Янги Location қўшиш",
+        "createOrEditLabel": "Locationни таҳрирлаш",
+        "search": "Locationни излаш",
+        "notFound": "No Locations found"
+      },
+      "created": "Location {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Location сақланди.",
+      "deleted": "{{ param }}- Location ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Locationни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "streetAddress": "Street Address",
+      "postCode": "Post Code",
+      "city": "City",
+      "stateProvince": "State Province",
+      "country": "Country"
+    }
+  }
+}

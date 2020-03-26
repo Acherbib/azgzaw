@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "Pridať Citation",
+        "createOrEditLabel": "Pridať alebo upraviť Citation",
+        "search": "Vyhľadať Citation",
+        "notFound": "No Citations found"
+      },
+      "created": "Bol vytvorený potomok entity Citation s identifikátorom {{ param }}",
+      "updated": "Potomok entity Citation s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Citation s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

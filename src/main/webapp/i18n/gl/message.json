@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "message": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Crear novo Message",
+        "createOrEditLabel": "Crear ou editar Message",
+        "search": "Search for Message",
+        "notFound": "No Messages found"
+      },
+      "created": "Un novo Message foi creado co identificador {{ param }}",
+      "updated": "Un Message foi actualizado co identificador {{ param }}",
+      "deleted": "Un Message foi eliminado co identificador {{ param }}",
+      "delete": {
+        "question": "Seguro que desexa eliminar Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "content": "Content",
+      "dateOfSend": "Date Of Send",
+      "media": "Media",
+      "seen": "Seen",
+      "authorOfMessage": "Author Of Message",
+      "receiverOfMessage": "Receiver Of Message"
+    }
+  }
+}

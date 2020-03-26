@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "Criar novo(a) Spam",
+        "createOrEditLabel": "Criar ou editar Spam",
+        "search": "Procurar por Spam",
+        "notFound": "Nenhum Spams encontrado"
+      },
+      "created": "Um novo Spam foi criado com o identificador {{ param }}",
+      "updated": "Spam com identificador {{ param }} foi actualizado",
+      "deleted": "Spam com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Spam {{ id }}?"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

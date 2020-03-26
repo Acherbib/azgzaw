@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "创建新 Comment Of Status",
+        "createOrEditLabel": "创建或编辑 Comment Of Status",
+        "search": "查找 Comment Of Status",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "Comment Of Status {{ param }} 创建成功",
+      "updated": "Comment Of Status {{ param }} 更新成功",
+      "deleted": "Comment Of Status {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Comment Of Status {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

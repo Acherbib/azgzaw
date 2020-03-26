@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "Стварыць новы Spam",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Spam",
+        "search": "Знайсці Spam",
+        "notFound": "No Spams found"
+      },
+      "created": "Новы Spam створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Spam абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Spam выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Spam {{ id }}?"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

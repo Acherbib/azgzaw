@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gifts",
+        "createLabel": "Buat Comment Of Gift baru",
+        "createOrEditLabel": "Buat atau edit Comment Of Gift",
+        "search": "Cari Comment Of Gift",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "Comment Of Gift dengan id {{ param }} telah dibuat",
+      "updated": "Comment Of Gift dengan id {{ param }} telah diperbaharui",
+      "deleted": "Comment Of Gift dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Comment Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

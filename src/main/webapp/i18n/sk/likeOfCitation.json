@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "Like Of Citations",
+        "createLabel": "Pridať Like Of Citation",
+        "createOrEditLabel": "Pridať alebo upraviť Like Of Citation",
+        "search": "Vyhľadať Like Of Citation",
+        "notFound": "No Like Of Citations found"
+      },
+      "created": "Bol vytvorený potomok entity Like Of Citation s identifikátorom {{ param }}",
+      "updated": "Potomok entity Like Of Citation s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Like Of Citation s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Like Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "创建新 Auction",
+        "createOrEditLabel": "创建或编辑 Auction",
+        "search": "查找 Auction",
+        "notFound": "No Auctions found"
+      },
+      "created": "Auction {{ param }} 创建成功",
+      "updated": "Auction {{ param }} 更新成功",
+      "deleted": "Auction {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Auction {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

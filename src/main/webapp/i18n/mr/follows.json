@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "नवीन Follows तयार करा",
+        "createOrEditLabel": "Follows तयार किंवा संपादित करा",
+        "search": "Follows शोधा",
+        "notFound": "No Follows found"
+      },
+      "created": "Follows [identifier: {{ param }}] तयार आहे",
+      "updated": "Follows [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Follows [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Follows [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "Yangi Comment Of Citation qo`shish",
+        "createOrEditLabel": "Comment Of Citationni tahrirlash",
+        "search": "Comment Of Citationni izlash",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "Comment Of Citation {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Comment Of Citation saqlandi",
+      "deleted": "{{ param }}- Comment Of Citation o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Comment Of Citationni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

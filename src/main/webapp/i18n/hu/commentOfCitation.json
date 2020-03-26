@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "CommentOfCitations",
+        "createLabel": "Egy új Comment Of Citation létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Comment Of Citationt",
+        "search": "Comment Of Citation keresése",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "Egy új Comment Of Citation lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Comment Of Citation módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Comment Of Citation törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Comment Of Citationt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

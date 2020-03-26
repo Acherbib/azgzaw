@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "创建新 Like Of Status",
+        "createOrEditLabel": "创建或编辑 Like Of Status",
+        "search": "查找 Like Of Status",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "Like Of Status {{ param }} 创建成功",
+      "updated": "Like Of Status {{ param }} 更新成功",
+      "deleted": "Like Of Status {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Like Of Status {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

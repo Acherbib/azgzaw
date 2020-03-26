@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfCitation": {
+      "home": {
+        "title": "Like Of Citations",
+        "createLabel": "కొత్త Like Of Citation  సృష్టించండి",
+        "createOrEditLabel": "Like Of Citation సృష్టించండి లేదా సవరించండి",
+        "search": "Like Of Citation కొరకు శోధించండి",
+        "notFound": "No Like Of Citations found"
+      },
+      "created": "{{ param }} ఐడీ తో ఒక కొత్త Like Of Citation సృష్టించబడినది",
+      "updated": "{{ param }} ఐడీ తో ఒక కొత్త Like Of Citation సవరించబడినది",
+      "deleted": "{{ param }} ఐడీ తో ఒక కొత్త Like Of Citation తొలగించబడినది",
+      "delete": {
+        "question": "మీరు Like Of Citation {{ id }} ఖచ్చితంగా తొలగించాలనుకుంటున్నారా?"
+      },
+      "detail": {
+        "title": "Like Of Citation"
+      },
+      "typeOfLike": "Type Of Like",
+      "citation": "Citation",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

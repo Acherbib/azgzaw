@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "Krijo një të ri Spam",
+        "createOrEditLabel": "Krijo ose përpuno një Spam",
+        "search": "Kërko për Spam",
+        "notFound": "No Spams found"
+      },
+      "created": "Një Spam i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Spam u përpunua me identifikues {{ param }}",
+      "deleted": "Një Spam u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Spam {{ id }}?"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "Vytvořit Like Of Gift",
+        "createOrEditLabel": "Vytvořit nebo upravit Like Of Gift",
+        "search": "Vyhledat Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "Byl vytvořen potomek entity Like Of Gift s identifikátorem {{ param }}",
+      "updated": "Potomek entity Like Of Gift s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Like Of Gift s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Like Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "Vytvořit Status",
+        "createOrEditLabel": "Vytvořit nebo upravit Status",
+        "search": "Vyhledat Status",
+        "notFound": "No Statuses found"
+      },
+      "created": "Byl vytvořen potomek entity Status s identifikátorem {{ param }}",
+      "updated": "Potomek entity Status s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Status s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "description": "Description",
+      "statusMedia": "Status Media",
+      "numberSeenOfStatus": "Number Seen Of Status",
+      "statusPrivacy": "Status Privacy",
+      "authorOfStatus": "Author Of Status"
+    }
+  }
+}

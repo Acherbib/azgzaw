@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "Lisa uus Like Of Gift",
+        "createOrEditLabel": "Lisa või muuda Like Of Gift",
+        "search": "Otsi Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "Uus Like Of Gift on loodud identifikaatoriga {{ param }}",
+      "updated": "Like Of Gift identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Like Of Gift identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Like Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

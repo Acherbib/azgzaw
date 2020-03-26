@@ -1,0 +1,88 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+            <h2 id="jhi-message-heading" jhiTranslate="azgzawApp.message.home.createOrEditLabel">Create or edit a Message</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!editForm.get('id')!.value">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id" formControlName="id"
+                        readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.message.content" for="field_content">Content</label>
+                    <input type="text" class="form-control" name="content" id="field_content"
+                           formControlName="content"/>
+                    <div *ngIf="editForm.get('content')!.invalid && (editForm.get('content')!.dirty || editForm.get('content')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('content')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.message.dateOfSend" for="field_dateOfSend">Date Of Send</label>
+                    <div class="d-flex">
+                        <input id="field_dateOfSend" type="datetime-local" class="form-control" name="dateOfSend" formControlName="dateOfSend" placeholder="YYYY-MM-DD HH:mm"/>
+                    </div>
+                    <div *ngIf="editForm.get('dateOfSend')!.invalid && (editForm.get('dateOfSend')!.dirty || editForm.get('dateOfSend')!.touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('dateOfSend')?.errors?.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                        <small class="form-text text-danger"
+                            [hidden]="!editForm.get('dateOfSend')?.errors?.ZonedDateTimelocal" jhiTranslate="entity.validation.ZonedDateTimelocal">
+                            This field should be a date and time.
+                        </small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.message.media" for="field_media">Media</label>
+                    <div>
+                        <div *ngIf="editForm.get('media')!.value" class="form-text text-danger clearfix">
+                            <a class="pull-left" (click)="openFile(editForm.get('mediaContentType')!.value, editForm.get('media')!.value)" jhiTranslate="entity.action.open">open</a><br>
+                            <span class="pull-left">{{editForm.get('mediaContentType')!.value}}, {{byteSize(editForm.get('media')!.value)}}</span>
+                            <button type="button" (click)="editForm.patchValue({media: null});editForm.patchValue({mediaContentType: null});"
+                                    class="btn btn-secondary btn-xs pull-right">
+                                <fa-icon [icon]="'times'"></fa-icon>
+                            </button>
+                        </div>
+                        <input type="file" id="file_media" (change)="setFileData($event, 'media', false)" jhiTranslate="entity.action.addblob"/>
+                    </div>
+                    <input type="hidden" class="form-control" name="media" id="field_media"
+                           formControlName="media"/>
+                    <input type="hidden" class="form-control" name="mediaContentType" id="field_mediaContentType"
+                           formControlName="mediaContentType" />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.message.seen" for="field_seen">Seen</label>
+                    <input type="checkbox" class="form-control" name="seen" id="field_seen"
+                           formControlName="seen"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.message.authorOfMessage" for="field_authorOfMessage">Author Of Message</label>
+                    <select class="form-control" id="field_authorOfMessage" name="authorOfMessage" formControlName="authorOfMessage">
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="userOption.id === editForm.get('authorOfMessage')!.value?.id ? editForm.get('authorOfMessage')!.value : userOption" *ngFor="let userOption of users; trackBy: trackById">{{userOption.id}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="azgzawApp.message.receiverOfMessage" for="field_receiverOfMessage">Receiver Of Message</label>
+                    <select class="form-control" id="field_receiverOfMessage" name="receiverOfMessage" formControlName="receiverOfMessage">
+                        <option [ngValue]="null"></option>
+                        <option [ngValue]="userOption.id === editForm.get('receiverOfMessage')!.value?.id ? editForm.get('receiverOfMessage')!.value : userOption" *ngFor="let userOption of users; trackBy: trackById">{{userOption.id}}</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

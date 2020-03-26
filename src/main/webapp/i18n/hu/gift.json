@@ -1,0 +1,36 @@
+{
+  "azgzawApp": {
+    "gift": {
+      "home": {
+        "title": "Gifts",
+        "createLabel": "Egy új Gift létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Giftt",
+        "search": "Gift keresése",
+        "notFound": "No Gifts found"
+      },
+      "created": "Egy új Gift lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Gift módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Gift törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Giftt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Gift"
+      },
+      "title": "Title",
+      "description": "Description",
+      "isAGift": "Is A Gift",
+      "reserved": "Reserved",
+      "city": "City",
+      "country": "Country",
+      "isAuction": "Is Auction",
+      "startPrice": "Start Price",
+      "backgroundColor": "Background Color",
+      "numberLikesOfGifts": "Number Likes Of Gifts",
+      "numberSeenOfGifts": "Number Seen Of Gifts",
+      "dateOfCreation": "Date Of Creation",
+      "image": "Image",
+      "authorOfGift": "Author Of Gift"
+    }
+  }
+}

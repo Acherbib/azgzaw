@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "Krijo një të ri Comment Of Citation",
+        "createOrEditLabel": "Krijo ose përpuno një Comment Of Citation",
+        "search": "Kërko për Comment Of Citation",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "Një Comment Of Citation i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Comment Of Citation u përpunua me identifikues {{ param }}",
+      "deleted": "Një Comment Of Citation u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Comment Of Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

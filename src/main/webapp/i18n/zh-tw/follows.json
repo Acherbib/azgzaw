@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "建立一筆新的 Follows",
+        "createOrEditLabel": "建立或編輯 Follows",
+        "search": "搜尋 Follows",
+        "notFound": "No Follows found"
+      },
+      "created": "新的 Follows 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Follows 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Follows 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Follows {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

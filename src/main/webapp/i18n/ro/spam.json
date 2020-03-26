@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "spam": {
+      "home": {
+        "title": "Spams",
+        "createLabel": "Creeare o nouă entitate Spam",
+        "createOrEditLabel": "Creeare sau editare Spam",
+        "search": "Căutare după Spam",
+        "notFound": "No Spams found"
+      },
+      "created": "A fost creată o nouă entitate Spam cu identificatorul {{ param }}",
+      "updated": "Spam cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Spam cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Spam {{ id }}?"
+      },
+      "detail": {
+        "title": "Spam"
+      },
+      "cause": "Cause",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

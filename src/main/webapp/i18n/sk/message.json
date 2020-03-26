@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "message": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Pridať Message",
+        "createOrEditLabel": "Pridať alebo upraviť Message",
+        "search": "Vyhľadať Message",
+        "notFound": "No Messages found"
+      },
+      "created": "Bol vytvorený potomok entity Message s identifikátorom {{ param }}",
+      "updated": "Potomok entity Message s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Message s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "content": "Content",
+      "dateOfSend": "Date Of Send",
+      "media": "Media",
+      "seen": "Seen",
+      "authorOfMessage": "Author Of Message",
+      "receiverOfMessage": "Receiver Of Message"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "azgzawApp": {
+    "commentOfCitation": {
+      "home": {
+        "title": "Comment Of Citations",
+        "createLabel": "Янги Comment Of Citation қўшиш",
+        "createOrEditLabel": "Comment Of Citationни таҳрирлаш",
+        "search": "Comment Of Citationни излаш",
+        "notFound": "No Comment Of Citations found"
+      },
+      "created": "Comment Of Citation {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Comment Of Citation сақланди.",
+      "deleted": "{{ param }}- Comment Of Citation ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Comment Of Citationни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Comment Of Citation"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfCitationImage": "Comment Of Citation Image",
+      "dateOfCreation": "Date Of Creation",
+      "citation": "Citation"
+    }
+  }
+}

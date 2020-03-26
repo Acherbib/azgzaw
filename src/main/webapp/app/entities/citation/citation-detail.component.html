@@ -1,0 +1,52 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="citation">
+            <h2><span jhiTranslate="azgzawApp.citation.detail.title">Citation</span> {{citation.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="azgzawApp.citation.description">Description</span></dt>
+                <dd>
+                    <span>{{citation.description}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.citation.greenCitationMedia">Green Citation Media</span></dt>
+                <dd>
+                    <div *ngIf="citation.greenCitationMedia">
+                        <a (click)="openFile(citation.greenCitationMediaContentType!, citation.greenCitationMedia)">
+                            <img [src]="'data:' + citation.greenCitationMediaContentType + ';base64,' + citation.greenCitationMedia" style="max-width: 100%;" alt="citation image"/>
+                        </a>
+                        {{citation.greenCitationMediaContentType}}, {{byteSize(citation.greenCitationMedia)}}
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.citation.dateOfCreation">Date Of Creation</span></dt>
+                <dd>
+                    <span>{{citation.dateOfCreation}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.citation.backgroundColor">Background Color</span></dt>
+                <dd>
+                    <span>{{citation.backgroundColor}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.citation.greenCitationPrivacy">Green Citation Privacy</span></dt>
+                <dd>
+                    <span jhiTranslate="{{'azgzawApp.Privacy.' + citation.greenCitationPrivacy}}">{{citation.greenCitationPrivacy}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.citation.authorOfCitation">Author Of Citation</span></dt>
+                <dd>
+                    {{citation.authorOfCitation?.id}}
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/citation', citation.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

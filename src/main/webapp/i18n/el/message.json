@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "message": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Δημιουργήστε ένα νέο Message",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Message",
+        "search": "Αναζήτηση για Message",
+        "notFound": "No Messages found"
+      },
+      "created": "Ένα νέο Message έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Message έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Message έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Message {{ id }};"
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "content": "Content",
+      "dateOfSend": "Date Of Send",
+      "media": "Media",
+      "seen": "Seen",
+      "authorOfMessage": "Author Of Message",
+      "receiverOfMessage": "Receiver Of Message"
+    }
+  }
+}

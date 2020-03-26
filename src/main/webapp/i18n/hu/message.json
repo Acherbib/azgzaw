@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "message": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Egy új Message létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Messaget",
+        "search": "Message keresése",
+        "notFound": "No Messages found"
+      },
+      "created": "Egy új Message lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Message módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Message törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Messaget {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Message"
+      },
+      "content": "Content",
+      "dateOfSend": "Date Of Send",
+      "media": "Media",
+      "seen": "Seen",
+      "authorOfMessage": "Author Of Message",
+      "receiverOfMessage": "Receiver Of Message"
+    }
+  }
+}

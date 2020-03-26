@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "follows": {
+      "home": {
+        "title": "Follows",
+        "createLabel": "Buat Follows baru",
+        "createOrEditLabel": "Buat atau edit Follows",
+        "search": "Cari Follows",
+        "notFound": "No Follows found"
+      },
+      "created": "Follows dengan id {{ param }} telah dibuat",
+      "updated": "Follows dengan id {{ param }} telah diperbaharui",
+      "deleted": "Follows dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Follows {{ id }}?"
+      },
+      "detail": {
+        "title": "Follows"
+      },
+      "followingStartDate": "Following Start Date",
+      "accepted": "Accepted",
+      "blocked": "Blocked",
+      "profile": "Profile",
+      "friend": "Friend"
+    }
+  }
+}

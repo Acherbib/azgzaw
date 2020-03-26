@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "Crear novo Citation",
+        "createOrEditLabel": "Crear ou editar Citation",
+        "search": "Search for Citation",
+        "notFound": "No Citations found"
+      },
+      "created": "Un novo Citation foi creado co identificador {{ param }}",
+      "updated": "Un Citation foi actualizado co identificador {{ param }}",
+      "deleted": "Un Citation foi eliminado co identificador {{ param }}",
+      "delete": {
+        "question": "Seguro que desexa eliminar Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}

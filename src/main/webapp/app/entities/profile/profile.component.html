@@ -1,0 +1,106 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="azgzawApp.profile.home.title">Profiles</span>
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-profile" [routerLink]="['/profile/new']">
+            <fa-icon [icon]="'plus'"></fa-icon>
+            <span class="hidden-sm-down"  jhiTranslate="azgzawApp.profile.home.createLabel">
+            Create a new Profile
+            </span>
+        </button>
+    </h2>
+    <jhi-alert-error></jhi-alert-error>
+    <jhi-alert></jhi-alert>
+    <div class="row">
+        <div class="col-sm-12">
+            <form name="searchForm" class="form-inline">
+                <div class="input-group w-100 mt-3">
+                    <input type="text" class="form-control" [(ngModel)]="currentSearch" id="currentSearch" name="currentSearch" placeholder="{{ 'azgzawApp.profile.home.search' | translate }}">
+                    <button class="input-group-append btn btn-info" (click)="search(currentSearch)">
+                        <fa-icon [icon]="'search'"></fa-icon>
+                    </button>
+                    <button class="input-group-append btn btn-danger" (click)="search('')" *ngIf="currentSearch">
+                        <fa-icon [icon]="'trash-alt'"></fa-icon>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br/>
+    <div class="alert alert-warning" *ngIf="profiles?.length === 0">
+        <span jhiTranslate="azgzawApp.profile.home.notFound">No profiles found</span>
+    </div>
+    <div class="table-responsive" *ngIf="profiles?.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+            <tr>
+            <th scope="col" ><span jhiTranslate="global.field.id">ID</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.numberOfMinutesConnected">Number Of Minutes Connected</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.verified">Verified</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.joinedDate">Joined Date</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.dateOfBirth">Date Of Birth</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.dateOfBirthVisible">Date Of Birth Visible</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.phoneNumber">Phone Number</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.phoneNumberVisible">Phone Number Visible</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.aboutMe">About Me</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.aboutMeVisible">About Me Visible</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.gender">Gender</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.genderVisible">Gender Visible</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.maritalStatus">Marital Status</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.maritalStatusVisible">Marital Status Visible</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.profilePrivacy">Profile Privacy</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.location">Location</span></th>
+            <th scope="col" ><span jhiTranslate="azgzawApp.profile.user">User</span></th>
+            <th scope="col"></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let profile of profiles ;trackBy: trackId">
+                <td><a [routerLink]="['/profile', profile.id, 'view' ]">{{profile.id}}</a></td>
+                <td>{{profile.numberOfMinutesConnected}}</td>
+                <td>{{profile.verified}}</td>
+                <td>{{profile.joinedDate | date:'medium'}}</td>
+                <td>{{profile.dateOfBirth | date:'mediumDate'}}</td>
+                <td>{{profile.dateOfBirthVisible}}</td>
+                <td>{{profile.phoneNumber}}</td>
+                <td>{{profile.phoneNumberVisible}}</td>
+                <td>{{profile.aboutMe}}</td>
+                <td>{{profile.aboutMeVisible}}</td>
+                <td jhiTranslate="{{'azgzawApp.Gender.' + profile.gender}}">{{profile.gender}}</td>
+                <td>{{profile.genderVisible}}</td>
+                <td jhiTranslate="{{'azgzawApp.MaritalStatus.' + profile.maritalStatus}}">{{profile.maritalStatus}}</td>
+                <td>{{profile.maritalStatusVisible}}</td>
+                <td jhiTranslate="{{'azgzawApp.Privacy.' + profile.profilePrivacy}}">{{profile.profilePrivacy}}</td>
+                <td>
+                    <div *ngIf="profile.location">
+                        <a [routerLink]="['/location', profile.location?.id, 'view' ]" >{{profile.location?.id}}</a>
+                    </div>
+                </td>
+                <td>
+                    {{profile.user?.id}}
+                </td>
+                <td class="text-right">
+                    <div class="btn-group">
+                        <button type="submit"
+                                [routerLink]="['/profile', profile.id, 'view' ]"
+                                class="btn btn-info btn-sm">
+                            <fa-icon [icon]="'eye'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/profile', profile.id, 'edit']"
+                                class="btn btn-primary btn-sm">
+                            <fa-icon [icon]="'pencil-alt'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit" (click)="delete(profile)"
+                                class="btn btn-danger btn-sm">
+                            <fa-icon [icon]="'times'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

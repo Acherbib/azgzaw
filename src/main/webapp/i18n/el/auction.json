@@ -1,0 +1,29 @@
+{
+  "azgzawApp": {
+    "auction": {
+      "home": {
+        "title": "Auctions",
+        "createLabel": "Δημιουργήστε ένα νέο Auction",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Auction",
+        "search": "Αναζήτηση για Auction",
+        "notFound": "No Auctions found"
+      },
+      "created": "Ένα νέο Auction έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Auction έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Auction έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Auction {{ id }};"
+      },
+      "detail": {
+        "title": "Auction"
+      },
+      "cardType": "Card Type",
+      "cardNumber": "Card Number",
+      "endDate": "End Date",
+      "cvc": "Cvc",
+      "priceOffer": "Price Offer",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

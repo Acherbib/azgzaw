@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "Luo Like Of Gift",
+        "createOrEditLabel": "Luo tai muokkaa Like Of Gift",
+        "search": "Etsi Like Of Gift",
+        "notFound": "Like Of Gift ei löytynyt"
+      },
+      "created": "Uusi Like Of Gift on luotu, id: {{ param }}",
+      "updated": "Like Of Gift on päivitetty, id: {{ param }}",
+      "deleted": "Like Of Gift on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Like Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

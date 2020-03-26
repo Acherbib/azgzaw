@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfGift": {
+      "home": {
+        "title": "Like Of Gifts",
+        "createLabel": "สร้าง Like Of Gift",
+        "createOrEditLabel": "สร้างหรือแก้ไข Like Of Gift",
+        "search": "ค้นหา Like Of Gift",
+        "notFound": "No Like Of Gifts found"
+      },
+      "created": "Like Of Gift ถูกสร้างด้วย {{ param }}",
+      "updated": "Like Of Gift ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Like Of Gift ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Like Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Gift"
+      },
+      "typeOfLike": "Type Of Like",
+      "gift": "Gift",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

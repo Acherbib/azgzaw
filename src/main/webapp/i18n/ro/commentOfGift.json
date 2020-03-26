@@ -1,0 +1,27 @@
+{
+  "azgzawApp": {
+    "commentOfGift": {
+      "home": {
+        "title": "Comment Of Gifts",
+        "createLabel": "Creeare o nouă entitate Comment Of Gift",
+        "createOrEditLabel": "Creeare sau editare Comment Of Gift",
+        "search": "Căutare după Comment Of Gift",
+        "notFound": "No Comment Of Gifts found"
+      },
+      "created": "A fost creată o nouă entitate Comment Of Gift cu identificatorul {{ param }}",
+      "updated": "Comment Of Gift cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Comment Of Gift cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Comment Of Gift {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Gift"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfGiftImage": "Comment Of Gift Image",
+      "dateOfCreation": "Date Of Creation",
+      "gift": "Gift",
+      "author": "Author"
+    }
+  }
+}

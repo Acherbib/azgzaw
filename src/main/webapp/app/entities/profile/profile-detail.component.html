@@ -1,0 +1,89 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="profile">
+            <h2><span jhiTranslate="azgzawApp.profile.detail.title">Profile</span> {{profile.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="azgzawApp.profile.numberOfMinutesConnected">Number Of Minutes Connected</span></dt>
+                <dd>
+                    <span>{{profile.numberOfMinutesConnected}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.profile.verified">Verified</span></dt>
+                <dd>
+                    <span>{{profile.verified}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.profile.joinedDate">Joined Date</span></dt>
+                <dd>
+                    <span>{{profile.joinedDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.profile.dateOfBirth">Date Of Birth</span></dt>
+                <dd>
+                    <span>{{profile.dateOfBirth}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.profile.dateOfBirthVisible">Date Of Birth Visible</span></dt>
+                <dd>
+                    <span>{{profile.dateOfBirthVisible}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.profile.phoneNumber">Phone Number</span></dt>
+                <dd>
+                    <span>{{profile.phoneNumber}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.profile.phoneNumberVisible">Phone Number Visible</span></dt>
+                <dd>
+                    <span>{{profile.phoneNumberVisible}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.profile.aboutMe">About Me</span></dt>
+                <dd>
+                    <span>{{profile.aboutMe}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.profile.aboutMeVisible">About Me Visible</span></dt>
+                <dd>
+                    <span>{{profile.aboutMeVisible}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.profile.gender">Gender</span></dt>
+                <dd>
+                    <span jhiTranslate="{{'azgzawApp.Gender.' + profile.gender}}">{{profile.gender}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.profile.genderVisible">Gender Visible</span></dt>
+                <dd>
+                    <span>{{profile.genderVisible}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.profile.maritalStatus">Marital Status</span></dt>
+                <dd>
+                    <span jhiTranslate="{{'azgzawApp.MaritalStatus.' + profile.maritalStatus}}">{{profile.maritalStatus}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.profile.maritalStatusVisible">Marital Status Visible</span></dt>
+                <dd>
+                    <span>{{profile.maritalStatusVisible}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.profile.profilePrivacy">Profile Privacy</span></dt>
+                <dd>
+                    <span jhiTranslate="{{'azgzawApp.Privacy.' + profile.profilePrivacy}}">{{profile.profilePrivacy}}</span>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.profile.location">Location</span></dt>
+                <dd>
+                    <div *ngIf="profile.location">
+                        <a [routerLink]="['/location', profile.location?.id, 'view']">{{profile.location?.id}}</a>
+                    </div>
+                </dd>
+                <dt><span jhiTranslate="azgzawApp.profile.user">User</span></dt>
+                <dd>
+                    {{profile.user?.id}}
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/profile', profile.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

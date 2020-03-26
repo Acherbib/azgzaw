@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "commentOfStatus": {
+      "home": {
+        "title": "Comment Of Statuses",
+        "createLabel": "สร้าง Comment Of Status",
+        "createOrEditLabel": "สร้างหรือแก้ไข Comment Of Status",
+        "search": "ค้นหา Comment Of Status",
+        "notFound": "No Comment Of Statuses found"
+      },
+      "created": "Comment Of Status ถูกสร้างด้วย {{ param }}",
+      "updated": "Comment Of Status ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Comment Of Status ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Comment Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Comment Of Status"
+      },
+      "bodyComment": "Body Comment",
+      "commentOfStatusImage": "Comment Of Status Image",
+      "mediaType": "Media Type",
+      "dateOfCreation": "Date Of Creation",
+      "status": "Status",
+      "author": "Author"
+    }
+  }
+}

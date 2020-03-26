@@ -1,0 +1,25 @@
+{
+  "azgzawApp": {
+    "likeOfStatus": {
+      "home": {
+        "title": "Like Of Statuses",
+        "createLabel": "Skapa en ny Like Of Status",
+        "createOrEditLabel": "Skapa eller ändra en Like Of Status",
+        "search": "Sök efter Like Of Status",
+        "notFound": "No Like Of Statuses found"
+      },
+      "created": "En ny Like Of Status är skapad med id {{ param }}",
+      "updated": "En Like Of Status är uppdaterad med id  {{ param }}",
+      "deleted": "En Like Of Status är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Like Of Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Of Status"
+      },
+      "typeOfLike": "Type Of Like",
+      "status": "Status",
+      "authorOfLike": "Author Of Like"
+    }
+  }
+}

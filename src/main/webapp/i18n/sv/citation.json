@@ -1,0 +1,28 @@
+{
+  "azgzawApp": {
+    "citation": {
+      "home": {
+        "title": "Citations",
+        "createLabel": "Skapa en ny Citation",
+        "createOrEditLabel": "Skapa eller ändra en Citation",
+        "search": "Sök efter Citation",
+        "notFound": "No Citations found"
+      },
+      "created": "En ny Citation är skapad med id {{ param }}",
+      "updated": "En Citation är uppdaterad med id  {{ param }}",
+      "deleted": "En Citation är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Citation {{ id }}?"
+      },
+      "detail": {
+        "title": "Citation"
+      },
+      "description": "Description",
+      "greenCitationMedia": "Green Citation Media",
+      "dateOfCreation": "Date Of Creation",
+      "backgroundColor": "Background Color",
+      "greenCitationPrivacy": "Green Citation Privacy",
+      "authorOfCitation": "Author Of Citation"
+    }
+  }
+}
