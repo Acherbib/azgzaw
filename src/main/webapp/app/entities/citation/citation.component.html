@@ -22,7 +22,7 @@
                     <div class="col-sm-12">
                         <form name="searchForm" class="form-inline">
                             <div class="input-group w-100 mt-3">
-                                <input type="text" class="form-control col-10 mr-2" [(ngModel)]="currentSearch" id="currentSearch" name="currentSearch" placeholder="{{ 'azgzawApp.citation.home.search' | translate }}">
+                                <input type="text" class="form-control col-9 mr-2" [(ngModel)]="currentSearch" id="currentSearch" name="currentSearch" placeholder="{{ 'azgzawApp.citation.home.search' | translate }}">
                                 <button class="input-group-append btn btn-info" (click)="search(currentSearch)">
                                     <fa-icon [icon]="'search'"></fa-icon>
                                 </button>
@@ -37,7 +37,7 @@
 
                 <div  *ngIf="citations?.length > 0" >
                     <div class="row container mb-3" *ngFor="let citation of citations ;trackBy: trackId">
-                        <div class="card">
+                        <div class="card col-12">
                             <div class="card-body">
                                 <div class="row mb-3">
                                     <ngx-avatar facebookId="100001873174933">&nbsp;</ngx-avatar>

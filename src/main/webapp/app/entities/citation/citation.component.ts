@@ -103,11 +103,10 @@ export class CitationComponent implements OnInit, OnDestroy {
     this.accountService.identity().subscribe(account => {
       if (account) {
         this.login = account.login;
-        this.loadAll();
-        this.registerChangeInCitations();
       }
     });
-
+    this.loadAll();
+    this.registerChangeInCitations();
   }
 
   ngOnDestroy(): void {
@@ -150,6 +149,7 @@ export class CitationComponent implements OnInit, OnDestroy {
     const headersLink = headers.get('link');
     this.links = this.parseLinks.parse(headersLink ? headersLink : '');
     if (data) {
+      data.reverse()
       for (let i = 0; i < data.length; i++) {
         this.citations.push(data[i]);
       }
