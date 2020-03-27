@@ -8,9 +8,10 @@ import { CitationUpdateComponent } from './citation-update.component';
 import { CitationDeleteDialogComponent } from './citation-delete-dialog.component';
 import { citationRoute } from './citation.route';
 import {AvatarModule} from "ngx-avatar";
+import {NgxSpinnerModule} from "ngx-spinner";
 
 @NgModule({
-  imports: [AzgzawSharedModule, RouterModule.forChild(citationRoute),AvatarModule],
+  imports: [AzgzawSharedModule, RouterModule.forChild(citationRoute), AvatarModule, NgxSpinnerModule],
   declarations: [CitationComponent, CitationDetailComponent, CitationUpdateComponent, CitationDeleteDialogComponent],
   entryComponents: [CitationDeleteDialogComponent]
 })

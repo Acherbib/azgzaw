@@ -18,6 +18,14 @@
 
                 <jhi-alert-error></jhi-alert-error>
                 <jhi-alert></jhi-alert>
+                <ngx-spinner
+                    bdColor="rgba(51,51,51,0.8)"
+                    size="medium"
+                    color="#fff"
+                    type="ball-scale-multiple"
+                >
+                    <p style="font-size: 20px; color: white">Loading...</p>
+                </ngx-spinner>
                 <div class="row">
                     <div class="col-sm-12">
                         <form name="searchForm" class="form-inline">
@@ -34,7 +42,6 @@
                     </div>
                 </div>
                 <br/>
-
                 <div  *ngIf="citations?.length > 0" >
                     <div class="row container mb-3" *ngFor="let citation of citations ;trackBy: trackId">
                         <div class="card col-12">
@@ -53,19 +60,19 @@
 
                                 <img class="card-img-top mb-4 justify-around-ns img-thumbnail" *ngIf="citation.greenCitationMedia  && ['image/tiff','image/gif', 'image/png','image/jpeg'].includes(citation.greenCitationMediaContentType)" height="auto"  [src]="'data:' + citation.greenCitationMediaContentType + ';base64,' + citation.greenCitationMedia" style="max-width: 100%;" alt="article image"/>
 
-                                <div class="center btn-group">
+                                <div class="btn-group">
                                     <button type="submit"
                                             [routerLink]="['/citation', citation.id, 'view' ]"
                                             class="btn btn-danger btn-sm">
                                         <fa-icon [icon]="'heart'"></fa-icon>
-                                        <span class="d-none d-md-inline" >Like</span>
+                                        <span>789 Likes</span>
                                     </button>
 
                                     <button type="submit"
                                             [routerLink]="['/citation', citation.id, 'view' ]"
                                             class="btn btn-info btn-sm">
                                         <fa-icon [icon]="'comment'"></fa-icon>
-                                        <span class="d-none d-md-inline" >Comment</span>
+                                        <span>78 Comments</span>
                                     </button>
 
                                     <button type="submit" *ngIf="login === citation.authorOfCitation.login"

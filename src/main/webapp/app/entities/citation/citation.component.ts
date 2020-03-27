@@ -11,6 +11,7 @@ import { ITEMS_PER_PAGE } from 'app/shared/constants/pagination.constants';
 import { CitationService } from './citation.service';
 import { CitationDeleteDialogComponent } from './citation-delete-dialog.component';
 import {AccountService} from "app/core/auth/account.service";
+import {NgxSpinnerService} from "ngx-spinner";
 
 @Component({
   selector: 'jhi-citation',
@@ -28,6 +29,7 @@ export class CitationComponent implements OnInit, OnDestroy {
   login: string | null = null;
 
   constructor(
+    private spinner: NgxSpinnerService,
     private accountService: AccountService,
     protected citationService: CitationService,
     protected dataUtils: JhiDataUtils,
@@ -51,6 +53,7 @@ export class CitationComponent implements OnInit, OnDestroy {
   }
 
   loadAll(): void {
+    this.spinner.show();
     if (this.currentSearch) {
       this.citationService
         .search({
@@ -59,7 +62,10 @@ export class CitationComponent implements OnInit, OnDestroy {
           size: this.itemsPerPage,
           sort: this.sort()
         })
-        .subscribe((res: HttpResponse<ICitation[]>) => this.paginateCitations(res.body, res.headers));
+        .subscribe((res: HttpResponse<ICitation[]>) => {
+          this.paginateCitations(res.body, res.headers)
+          this.spinner.hide();
+        });
       return;
     }
     this.citationService
@@ -68,7 +74,10 @@ export class CitationComponent implements OnInit, OnDestroy {
         size: this.itemsPerPage,
         sort: this.sort()
       })
-      .subscribe((res: HttpResponse<ICitation[]>) => this.paginateCitations(res.body, res.headers));
+      .subscribe((res: HttpResponse<ICitation[]>) =>{
+        this.paginateCitations(res.body, res.headers);
+        this.spinner.hide();
+      });
   }
 
   reset(): void {
@@ -100,6 +109,7 @@ export class CitationComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
+
     this.accountService.identity().subscribe(account => {
       if (account) {
         this.login = account.login;
@@ -129,7 +139,9 @@ export class CitationComponent implements OnInit, OnDestroy {
   }
 
   registerChangeInCitations(): void {
-    this.eventSubscriber = this.eventManager.subscribe('citationListModification', () => this.reset());
+    this.eventSubscriber = this.eventManager.subscribe('citationListModification', () => {
+      this.reset();
+    });
   }
 
   delete(citation: ICitation): void {

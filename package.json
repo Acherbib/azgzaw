@@ -8,6 +8,7 @@
     "node_modules"
   ],
   "dependencies": {
+    "@angular/animations": "^9.1.0",
     "@angular/common": "8.2.14",
     "@angular/compiler": "8.2.14",
     "@angular/core": "8.2.14",
@@ -31,6 +32,7 @@
     "ngx-cookie": "4.0.2",
     "ngx-infinite-scroll": "8.0.1",
     "ngx-pinch-zoom": "^2.3.4",
+    "ngx-spinner": "^9.0.1",
     "ngx-webstorage": "4.0.1",
     "rxjs": "6.5.3",
     "sockjs-client": "1.4.0",

@@ -16,6 +16,7 @@ import { PageRibbonComponent } from './layouts/profiles/page-ribbon.component';
 import { ActiveMenuDirective } from './layouts/navbar/active-menu.directive';
 import { ErrorComponent } from './layouts/error/error.component';
 import {AvatarModule} from "ngx-avatar";
+import { NgxSpinnerModule } from "ngx-spinner";
 
 @NgModule({
   imports: [
@@ -26,7 +27,8 @@ import {AvatarModule} from "ngx-avatar";
     // jhipster-needle-angular-add-module JHipster will add new module here
     AzgzawEntityModule,
     AzgzawAppRoutingModule,
-    AvatarModule
+    AvatarModule,
+    NgxSpinnerModule
   ],
   declarations: [MainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent],
   bootstrap: [MainComponent]
