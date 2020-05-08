@@ -47,8 +47,11 @@
                         <div class="card col-12">
                             <div class="card-body">
                                 <div class="row mb-3">
-                                    <ngx-avatar facebookId="100001873174933">&nbsp;</ngx-avatar>
-                                    &nbsp;&nbsp;<strong class="font-weight-bold text-success card-title mt-3">{{citation.authorOfCitation?.login }}&nbsp;</strong>
+
+                                    <ngx-avatar class="mr-2" *ngIf="getImageUrl()"  [src]="getImageUrl()"></ngx-avatar>
+                                    <ngx-avatar  class="mr-2" *ngIf="!getImageUrl()"  bgColor="#138496"  [name]="citation.authorOfCitation?.login"></ngx-avatar>
+
+                                    <strong class="font-weight-bold text-success card-title mt-3">{{citation.authorOfCitation?.login }}&nbsp;</strong>
                                     &nbsp;&nbsp;<time class="mt-3">{{citation.dateOfCreation.fromNow()}}</time>&nbsp;&nbsp;
 
                                     <fa-icon class="mt-3"  *ngIf="citation.greenCitationPrivacy==='PUBLIC'" [icon]="'globe-africa'"></fa-icon>

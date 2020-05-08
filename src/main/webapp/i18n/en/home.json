@@ -3,12 +3,12 @@
     "title": "Welcome to Azgzaw.",
     "subtitle": "With Azgzaw, establish a spirit of cooperation and solidarity and reduce emissions of toxic gases.",
     "logged": {
-      "message": "You are logged in as user \"{{username}}\"."
+      "message": "Hello {{username}}."
     },
-    "goals": "Our goals",
+    "goals": "Our goals :",
     "link": {
-      "goal1": "Help poor people.",
-      "goal2": "support associations that support climate change around the world and CO2 emissions.",
+      "goal1": "Plant ten million tree per year.",
+      "goal2": "Reducing  Co2 Emissions  And Toxic Gases.",
       "goal3": "Save paper, plastic, leather, Minimize production and decrease the purchase and sale of products that we do not need."
     }
   }

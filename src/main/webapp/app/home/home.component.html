@@ -5,27 +5,44 @@
         <h1 class="display-4" jhiTranslate="home.title">Welcome, Azgzaw!</h1>
         <p class="lead" jhiTranslate="home.subtitle">This is your homepage</p>
 
+      <div  [ngSwitch]="isAuthenticated()">
 
-        <div [ngSwitch]="isAuthenticated()">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="toast show" role="alert" aria-live="assertive"  *ngSwitchCase="true" aria-atomic="true">
+                        <div class="toast-body">
 
-            <div class="alert alert-success" *ngSwitchCase="true">
-                  <span id="home-logged-message" *ngIf="account" jhiTranslate="home.logged.message"
-                      [translateValues]="{username: account.login}"> You are logged in as user "{{account.login}}". </span>
-              </div>
+                            <div class="alert alert-success" *ngSwitchCase="true">
+                                <h2  *ngIf="account" jhiTranslate="home.logged.message"
+                                    [translateValues]="{username: account.login}"> Hello {{account.login}}. </h2>
 
-            <div class="container" *ngSwitchCase="true">
-                <div class="row">
-                    <div class="col-sm-5 alert alert-warning">
-                        <h1 (click)="showPosts()">253 Posts</h1>
-                    </div>
-                    <div class="col-sm-1"></div>
-                    <div class="col-sm-5 alert alert-primary" >
-                        <h1 (click)="showGifts()">2654 Gifts</h1>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row"></div>
-            </div>
 
+                <div class="col-md-4" id="citation" (click)="showPosts()" >
+                    <div class="toast show" role="alert" aria-live="assertive"  *ngSwitchCase="true" aria-atomic="true">
+                        <div class="toast-body">
+                            <div class="alert alert-warning">
+                                <h1 >253 Posts</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" id="gift" (click)="showGifts()">
+                    <div class="toast show" role="alert" aria-live="assertive"  *ngSwitchCase="true" aria-atomic="true">
+                        <div class="toast-body">
+                            <div class="alert alert-primary" >
+                                <h1 >2654 Gifts</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
             <div class="alert alert-success" *ngSwitchCase="false">
                 <span jhiTranslate="global.messages.info.authenticated.prefix">If you want to </span>
@@ -37,19 +54,42 @@
             </div>
         </div>
 
-        <p jhiTranslate="home.goals">
+        <p  class="font-weight-bold" jhiTranslate="home.goals">
             Our goals :
         </p>
 
-        <ul>
-            <li><a href="#" target="_blank" rel="noopener noreferrer" jhiTranslate="home.link.goal1">JHipster homepage</a></li>
-            <li><a href="#" target="_blank" rel="noopener noreferrer" jhiTranslate="home.link.goal2">JHipster on Stack Overflow</a></li>
-            <li><a href="#" target="_blank" rel="noopener noreferrer" jhiTranslate="home.link.goal3">JHipster bug tracker</a></li>
-
-        </ul>
+        <ol  class="font-weight-bold">
+            <li><h5 class="text-success"  jhiTranslate="home.link.goal1">JHipster homepage</h5></li>
+            <li><h5 class="text-success"  jhiTranslate="home.link.goal2">JHipster homepage</h5></li>
+            <li><h5 class="text-success"  jhiTranslate="home.link.goal3">JHipster homepage</h5></li>
+        </ol>
 
     </div>
+
+
     <div class="col-md-3">
+        <div>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">List group item heading</h5>
+                        <small>3 days ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    <small>Donec id elit non mi porta.</small>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">List group item heading</h5>
+                        <small class="text-muted">3 days ago</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    <small class="text-muted">Donec id elit non mi porta.</small>
+                </a>
+                
+            </div>
+        </div>
         <span class="hipster img-fluid rounded"></span>
+
     </div>
 </div>

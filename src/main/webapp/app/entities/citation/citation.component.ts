@@ -10,8 +10,8 @@ import { ICitation } from 'app/shared/model/citation.model';
 import { ITEMS_PER_PAGE } from 'app/shared/constants/pagination.constants';
 import { CitationService } from './citation.service';
 import { CitationDeleteDialogComponent } from './citation-delete-dialog.component';
-import {AccountService} from "app/core/auth/account.service";
-import {NgxSpinnerService} from "ngx-spinner";
+import { AccountService } from 'app/core/auth/account.service';
+import { NgxSpinnerService } from 'ngx-spinner';
 
 @Component({
   selector: 'jhi-citation',
@@ -63,7 +63,7 @@ export class CitationComponent implements OnInit, OnDestroy {
           sort: this.sort()
         })
         .subscribe((res: HttpResponse<ICitation[]>) => {
-          this.paginateCitations(res.body, res.headers)
+          this.paginateCitations(res.body, res.headers);
           this.spinner.hide();
         });
       return;
@@ -74,7 +74,7 @@ export class CitationComponent implements OnInit, OnDestroy {
         size: this.itemsPerPage,
         sort: this.sort()
       })
-      .subscribe((res: HttpResponse<ICitation[]>) =>{
+      .subscribe((res: HttpResponse<ICitation[]>) => {
         this.paginateCitations(res.body, res.headers);
         this.spinner.hide();
       });
@@ -109,7 +109,6 @@ export class CitationComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-
     this.accountService.identity().subscribe(account => {
       if (account) {
         this.login = account.login;
@@ -161,10 +160,18 @@ export class CitationComponent implements OnInit, OnDestroy {
     const headersLink = headers.get('link');
     this.links = this.parseLinks.parse(headersLink ? headersLink : '');
     if (data) {
-      data.reverse()
+      data.reverse();
       for (let i = 0; i < data.length; i++) {
         this.citations.push(data[i]);
       }
     }
+  }
+
+  isAuthenticated(): boolean {
+    return this.accountService.isAuthenticated();
+  }
+
+  getImageUrl(): string {
+    return this.isAuthenticated() ? this.accountService.getImageUrl() : '';
   }
 }
