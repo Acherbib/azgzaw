@@ -2,7 +2,7 @@
 
     <div class="col-md-9">
 
-        <h1 class="display-4" jhiTranslate="home.title">Welcome, Azgzaw!</h1>
+        <h3 class="display-4" jhiTranslate="home.title">Welcome, Azgzaw!</h3>
         <p class="lead" jhiTranslate="home.subtitle">This is your homepage</p>
 
       <div  [ngSwitch]="isAuthenticated()">
@@ -10,37 +10,126 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="toast show" role="alert" aria-live="assertive"  *ngSwitchCase="true" aria-atomic="true">
-                        <div class="toast-body">
-
-                            <div class="alert alert-success" *ngSwitchCase="true">
-                                <h2  *ngIf="account" jhiTranslate="home.logged.message"
-                                    [translateValues]="{username: account.login}"> Hello {{account.login}}. </h2>
-
+                    <div class="" role="alert" aria-live="assertive"  *ngSwitchCase="true" aria-atomic="true">
+                        <div class="">
+                            <div class="alert alert-primary" *ngSwitchCase="true">
+                                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5  *ngIf="account" jhiTranslate="home.logged.message"
+                                             [translateValues]="{username: account.login}"> {{account.login}}. </h5>
+                                    </div>
+                                    <p class="mb-1">We are very proud to be part of us in our platform.</p>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4" id="citation" (click)="showPosts()" >
-                    <div class="toast show" role="alert" aria-live="assertive"  *ngSwitchCase="true" aria-atomic="true">
+                    <div class="" role="alert" aria-live="assertive"  *ngSwitchCase="true" aria-atomic="true">
                         <div class="toast-body">
-                            <div class="alert alert-warning">
-                                <h1 >253 Posts</h1>
+                            <div class="alert alert-success">
+                                <a (click)="showPosts()" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">253 Posts</h5>
+                                    </div>
+                                    <p class="mb-1">Here you can find the people who take care of our earth.</p>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4" id="gift" (click)="showGifts()">
-                    <div class="toast show" role="alert" aria-live="assertive"  *ngSwitchCase="true" aria-atomic="true">
-                        <div class="toast-body">
+                    <div class="" role="alert" aria-live="assertive"  *ngSwitchCase="true" aria-atomic="true">
+                        <div class="">
                             <div class="alert alert-primary" >
-                                <h1 >2654 Gifts</h1>
+                                <a (click)="showGifts()" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">2654 Gifts</h5>
+                                    </div>
+                                    <p class="mb-1">Here you can find a gift from your neighbor.</p>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-md-4 mt-1" id="market-place">
+                    <div class="" role="alert" aria-live="assertive"  *ngSwitchCase="true" aria-atomic="true">
+                        <div >
+                            <div class="alert alert-success" >
+                                <a (click)="showGifts()" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Bio MarketPlace</h5>
+                                    </div>
+                                    <p class="mb-1">Here you can find an organic product built in your entourage</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" id="stastic">
+                    <div class="" role="alert" aria-live="assertive"  *ngSwitchCase="true" aria-atomic="true">
+                        <div class="">
+                            <div class="alert alert-primary" >
+                                <a (click)="showGifts()" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">75 Ranked country</h5>
+                                    </div>
+                                    <p class="mb-1">Here you can see the countries most takes care of our planet</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" id="how-its-work">
+                    <div class="" role="alert" aria-live="assertive"  *ngSwitchCase="true" aria-atomic="true">
+                        <div class="">
+                            <div class="alert alert-success" >
+                                <a (click)="showGifts()" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Connect to plant</h5>
+                                    </div>
+                                    <p class="mb-1">For every 100 point we will plant a tree in your preferred area.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" id="couvoiture">
+                    <div class="" role="alert" aria-live="assertive"  *ngSwitchCase="true" aria-atomic="true">
+                        <div class="">
+                            <div class="alert alert-primary" >
+                                <a (click)="showGifts()" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Carpooling system</h5>
+                                    </div>
+                                    <p class="mb-1">Reducing Co2 Emissions And Toxic Gases.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" id="hand-in-hand">
+                    <div class="" role="alert" aria-live="assertive"  *ngSwitchCase="true" aria-atomic="true">
+                        <div class="">
+                            <div class="alert alert-success" >
+                                <a (click)="showGifts()" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <h5 class="mb-1">Hand in hand</h5>
+                                    </div>
+                                    <p class="mb-1">hand in hand to save our planet.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -54,42 +143,25 @@
             </div>
         </div>
 
-        <p  class="font-weight-bold" jhiTranslate="home.goals">
-            Our goals :
-        </p>
+        <div class="mt-5">
+            <div>
 
-        <ol  class="font-weight-bold">
-            <li><h5 class="text-success"  jhiTranslate="home.link.goal1">JHipster homepage</h5></li>
-            <li><h5 class="text-success"  jhiTranslate="home.link.goal2">JHipster homepage</h5></li>
-            <li><h5 class="text-success"  jhiTranslate="home.link.goal3">JHipster homepage</h5></li>
-        </ol>
+               <!-- <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Connect to Build your Country</h5>
+                    </div>
+                    <p class="mb-1">When you stay connected you collect points,
+                        for each hour of conection is a 100 points .</p>
+                    <p class="mb-1"> For every 100 point we will plant a tree in your preferred area.</p>
+                    <small class="text-muted"></small>
+                </a>-->
 
+            </div>
+        </div>
     </div>
 
 
-    <div class="col-md-3">
-        <div>
-            <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">List group item heading</h5>
-                        <small>3 days ago</small>
-                    </div>
-                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                    <small>Donec id elit non mi porta.</small>
-                </a>
-                <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">List group item heading</h5>
-                        <small class="text-muted">3 days ago</small>
-                    </div>
-                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-                    <small class="text-muted">Donec id elit non mi porta.</small>
-                </a>
-                
-            </div>
-        </div>
+    <div class="col-md-3 align-center mt-10">
         <span class="hipster img-fluid rounded"></span>
-
     </div>
 </div>

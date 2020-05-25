@@ -5,7 +5,7 @@
     "logged": {
       "message": "Hello {{username}}."
     },
-    "goals": "Our goals :",
+    "goals": "Our goals:",
     "link": {
       "goal1": "Plant ten million tree per year.",
       "goal2": "Reducing  Co2 Emissions  And Toxic Gases.",
